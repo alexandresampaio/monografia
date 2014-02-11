@@ -2,36 +2,37 @@
     MONOGRAFIA RUBY ON RAILS WITH MONGO DB- DRIVER - ESCOPO
 ###############################################################
 
-=> CAPA
+### => CAPA
 
-=> SUMARIO
+### => SUMARIO
 
-=> LISTA DE SIGLAS
+### => LISTA DE SIGLAS
 
-=> LISTA DE FIGURAS
+### => LISTA DE FIGURAS
 
-=> RESUMO
+### => RESUMO
 
-=> JUSTIFICATIVA
+### => JUSTIFICATIVA
 
-=> DEFINIÇÃO DE RUBY
+#### => DEFINIÇÃO DE RUBY
 	STATUS :: FECHADO
-=> DEFINIÇÃO DE RUBY GEMS
+### => DEFINIÇÃO DE RUBY GEMS
 	STATUS :: FECHADO
 
-=> DEFINIÇÃO DE RAILS
+### => DEFINIÇÃO DE RAILS
 	:: ARQUITETURA RAILS
 	:: FUNDEMENTOS DO ACTIVE RECORD
 	:: FUNDAMENTOS DO SCAFFOLD
 	:: DEFINIÇÃO DE MIGRATIONS
 	:: DEFINIÇÃO DE RAKE
+	?
 	STATUS :: ABERTO
 
-=> BANCO DE DADOS RELACIONAIS
+#### => BANCO DE DADOS RELACIONAIS
 
-=> NoSQL
+### => NoSQL
 
-=> MONGO DB
+### => MONGO DB
 	:: PORQUE MONGO DB ?
 
 ###############################################################
@@ -39,3 +40,4 @@
 		RUBY - CAPITULO 5 PROGRAMAÇÃO FUNCIONAL
 		STATUS :: CODIFICANDO
 ###############################################################
+
