@@ -1,22 +1,62 @@
-MONOGRAFIA CAPITULO 2 DE SEI LÁ QUANTOS
+MONOGRAFIA CAPITULO 3 DE SEI LÁ QUANTOS
 
 >>>> INICIO DO CAPITULO 2 <<<<
 
 
 CAPITULO 2 - ROR
-	
+
+  • Organização de aplicações web •
+  Construir aplicações web em Ruby on Rails é um pouco mais profundo do que
+  simplesmente construir páginas atras de páginas como era feito antigamente.
+  A razão para tudo isto é que ele é preparado para atender e criar aplicações
+  modernas e arrojadas(sofisticadas) e isto quer dizer que a aplicação desenvolvida
+  sobre esta plataforma não deve apenas reponder por páginas HTML mas de forma --
+  adequada e dinãmica em aplicações ricas em client-side em conjunto com outros
+  frameworks como backbone.js entre outros.
+
+  • O que são aplicações ricas em client-side?
+    •••••••
+
+  • Aplicações com backbone.js
+    •••••••
+
 	Ruby on Rails possui uma filosofia que seque dois princípios:
 
-	* DRY - Don't Repeat Yourself(Não se repita ou see duplique) *
-		Se aplicado corretamente, possibilita a reduzir a duplicação de tarefas dentro de um projeto. Réplicas ou duplicatas de qualquer tipo, dentro de uma aplicação, leva a 	dificuldade de modificação e manutenção e inconsistência, sem levar 	em conta em alguns casos a ilegibilidade do source-code. Em RoR, se pode ver este princípio em ação em quase tudo, desde as componentes reutilizáveis ​​em forma de plug-ins para a forma como as tabelas da base de dados escolhida são mapeadas.
+	• DRY - Don't Repeat Yourself(Não se repita ou see duplique) •
+		Se aplicado corretamente, possibilita a reduzir a duplicação de tarefas
+    dentro de um projeto. Réplicas ou duplicatas de qualquer tipo, dentro de
+    uma aplicação, leva a 	dificuldade de modificação e manutenção e
+    inconsistência, sem levar 	em conta em alguns casos a ilegibilidade do
+    source-code. Em RoR, se pode ver este princípio em ação em quase tudo,
+    desde as componentes reutilizáveis em forma de plug-ins para a forma
+    como as tabelas da base de dados escolhida são mapeadas.
 
-	* Convenção sobre Configuração *
-		Quando começar a trabalhar com Rails, o usuário estará olhando para os controladores  views e modelos para a base de dados escolhida. De forma a reduzir a necessidade de configuração pesada. Durante a criação do rails regras não unidirecionais foram definidas.
+	• Convenção sobre Configuração •
+		Quando um desenvolvedor seja ele experiente ou não for iniciar atividades em
+    Rails, o usuário estará sempre visinando os controllers,  views e models  entre
+    outras palavras a arquitetura MVC vista em design patterns e além desse fator
+    para a base de dados escolhida seja ela relacional ou não relacional que são os
+    NoSQL que explicaremos mais a frente. De tal forma a reduzir a necessidade de
+    configuração pesada, durante a etapa de criação do rails regras não unidirecionais
+    foram definidas.
 
-		Ruby on Rails permite a criação de regras personlizadas, contudo é sempre  uma boa idéia usar as convenções que o Rails oferece. Essas convenções deverão acelerar o desenvolvimento, manter seu código conciso e legível e o mais importante estas convenções permitem uma navegação fácil dentro de sua aplicação.
+	Ruby on Rails permite a criação de regras personlizadas, contudo é sempre  uma boa
+  idéia usar as convenções que o 	Rails oferece. Essas convenções deverão acelerar o
+  desenvolvimento, manter seu código conciso e legível e o mais importante estas
+  convenções permitem uma navegação fácil dentro de sua aplicação.
 
-	* ARQUITETURA RAILS  - ORGANIZAÇÃO DE ARQUIVOS *
+	• Rails um Meta-Framework para desenvolvimento agil •
+		Rails não foi baseado  em um único padrão de desenvolvimento, mas sim uma série de
+    padrões. Outros frameworks que faziam parte do núcleo do Rails antigamente foram
+    removidos desse núcleo afim de reduzir o acoplamento e com isso e permitir que
+    quem o esteja utilizando os substituam sem  muita dificuldade, mas continuam
+    funcionando e sendo usados em conjunto. Aqui estão alguns deles:
 
-
+		• ActionMailer
+		• ActionPack
+			– Action View
+			– Action Controller
+		• ActiveRecord
+		• ActiveSupport
 
 >>>> FIM DO CAPITULO 2 <<<<

@@ -1,0 +1,24 @@
+MONOGRAFIA CAPITULO 2 DE SEI LÁ QUANTOS
+
+>>>> INICIO DO CAPITULO 2 <<<<
+
+
+CAPITULO 2 - ROR
+	
+	Ruby on Rails possui uma filosofia que seque dois princípios:
+
+	* DRY - Don't Repeat Yourself(Não se repita ou see duplique) *
+		Se aplicado corretamente, possibilita a reduzir a duplicação de tarefas dentro de um projeto. Réplicas ou duplicatas de qualquer tipo, dentro de uma aplicação, leva a 	dificuldade de modificação e manutenção e inconsistência, sem levar 	em conta em alguns casos a ilegibilidade do source-code. Em RoR, se pode ver este princípio em ação em quase tudo, desde as componentes reutilizáveis ​​em forma de plug-ins para a forma como as tabelas da base de dados escolhida são mapeadas.
+
+	* Convenção sobre Configuração *
+		Quando começar a trabalhar com Rails, o usuário estará olhando para os controladores  views e modelos para a base de dados escolhida. De forma a reduzir a necessidade de configuração pesada. Durante a criação do rails regras não unidirecionais foram definidas.
+
+		Ruby on Rails permite a criação de regras personlizadas, contudo é sempre  uma boa idéia usar as convenções que o Rails oferece. Essas convenções deverão acelerar o desenvolvimento, manter seu código conciso e legível e o mais importante estas convenções permitem uma navegação fácil dentro de sua aplicação.
+
+	* ARQUITETURA RAILS  - ORGANIZAÇÃO DE ARQUIVOS *
+		
+
+
+
+
+>>>> FIM DO CAPITULO 2 <<<<
