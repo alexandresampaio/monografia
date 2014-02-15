@@ -1,62 +1,104 @@
-MONOGRAFIA CAPITULO 3 DE SEI LÁ QUANTOS
+MONOGRAFIA CAPITULO 2 DE SEI LÁ QUANTOS
 
 >>>> INICIO DO CAPITULO 2 <<<<
 
+CAPITULO 2
+	Ao longo de muitos anos, uma pergunta é feita por varios desenvolvedores.
+	Qual o melhor framework de desenvolvimento web já criado? Contudo esta é uma pergunta respondida
+	de diversas formas, com base em varios arqumentos e sutuações. E a resposta entretando continua a
+	mesma - Aquela que aumenta a produtividade e diminue esforços no desenvolvimento. 
+	E depois de muito estudo e debates fora concluido que um Framework que reduza códigos gigantes e por muitas vezes dificeis de se ler eu que sem margem de duvida diminuem o aprendizado são aqueles que aumenta a produtividade.
 
-CAPITULO 2 - ROR
+	Se buscarmos mais a fundo iremos nos debater com vários web frameworks que focam em produzir aplicações, sejam elas web ou não. No entanto essas pecam em dois pontos vitais produtividade e aprendizado. Um equilibrio teve de ser estabelecido entre esses fatores e foi nesse momento que Ruby surgiu precedidido do Rails como seu framework de desenvolvimento web.
 
-  • Organização de aplicações web •
-  Construir aplicações web em Ruby on Rails é um pouco mais profundo do que
-  simplesmente construir páginas atras de páginas como era feito antigamente.
-  A razão para tudo isto é que ele é preparado para atender e criar aplicações
-  modernas e arrojadas(sofisticadas) e isto quer dizer que a aplicação desenvolvida
-  sobre esta plataforma não deve apenas reponder por páginas HTML mas de forma --
-  adequada e dinãmica em aplicações ricas em client-side em conjunto com outros
-  frameworks como backbone.js entre outros.
+	* RUBY *
 
-  • O que são aplicações ricas em client-side?
-    •••••••
+	Foi desenvolvida em 1994, e apresentada ao publico em 1995 por Yukihiro Matsumoto, que é mundialmente conhecido como Matz que para criar ruby uniu partes das suas linguagens favoritas (Perl, Smalltalk, Eiffel, Ada, e Lisp) para formar uma nova linguagem que equilibra a programação funcional com a programação imperativa.. Passou a se tornar realmente reconhecida através de Dave Thomas, mais conhecido como um dos “Programadores pragmáticos”, que adotou o Ruby como uma de suas linguagens preferenciais e acabou escrevendo um dos livros mais completos sobre a linguagem, o Programming Ruby. Com isso o numero de adeptos a essa linguagem subiu muito no ocidente. Pois ela é uma das únicas linguagens nascidas fora do eixo EUA/Europa, sendo criada no Japão. 
+	Matz criou uma linguagem mais poderosa que Perl e mais orientada a objetos que python. Em Ruby tudo é objeto e possuem métodos que podem ser acessados e modificados. Tornando assim uma linguagem mais simples de ler e ser entendida, facilitando o desenvolvimento e manutenção de sistemas escritos com ela.
 
-  • Aplicações com backbone.js
-    •••••••
+	Um dos objetivos principais da linguagem é a praticidade. É possível que seja feito um algoritmo simples, sem precisar que se preocupe com as limitações da linguagem ou do interpretador. O Ruby possui algumas características para manter a sua praticidade, como, uma linguagem enxuta que quase não há necessidade de colchetes e outros caracteres; a disponibilidade de diversos métodos de geração de código em tempo real, como os "attribute accessors";
 
-	Ruby on Rails possui uma filosofia que seque dois princípios:
+	"Ruby é simples na aparência, mas é muito mais complexo no interior, tal como o corpo-humano!"
 
-	• DRY - Don't Repeat Yourself(Não se repita ou see duplique) •
-		Se aplicado corretamente, possibilita a reduzir a duplicação de tarefas
-    dentro de um projeto. Réplicas ou duplicatas de qualquer tipo, dentro de
-    uma aplicação, leva a 	dificuldade de modificação e manutenção e
-    inconsistência, sem levar 	em conta em alguns casos a ilegibilidade do
-    source-code. Em RoR, se pode ver este princípio em ação em quase tudo,
-    desde as componentes reutilizáveis em forma de plug-ins para a forma
-    como as tabelas da base de dados escolhida são mapeadas.
+	Em ruby uma forma de se instalar bibliotecas é através de Ruby Gems, com ela é possível instalar e atualizar bibliotecas com uma linha de comando, de maneira parecida com os gerenciadores de pacotes de sistemas linux ou unix; code blocks (blocos de código), ajudam o programador a passar um ou mais trechos de instruções para o método descrito em suas classes; Ruby possui o contexto de Mixins, que emula a herança múltipla, sem cair em seus respectivos problemas encontrados em outras linguagens;
 
-	• Convenção sobre Configuração •
-		Quando um desenvolvedor seja ele experiente ou não for iniciar atividades em
-    Rails, o usuário estará sempre visinando os controllers,  views e models  entre
-    outras palavras a arquitetura MVC vista em design patterns e além desse fator
-    para a base de dados escolhida seja ela relacional ou não relacional que são os
-    NoSQL que explicaremos mais a frente. De tal forma a reduzir a necessidade de
-    configuração pesada, durante a etapa de criação do rails regras não unidirecionais
-    foram definidas.
+	Em Ruby todos os tipos são classes, não há tipos primitivos, assim como todas as variáveis são objetos. Um exemplo é o conjunto de caracteres, que é uma instância da classe String, e o inteiro é da classe Fixnum e a matrix é Array.
 
-	Ruby on Rails permite a criação de regras personlizadas, contudo é sempre  uma boa
-  idéia usar as convenções que o 	Rails oferece. Essas convenções deverão acelerar o
-  desenvolvimento, manter seu código conciso e legível e o mais importante estas
-  convenções permitem uma navegação fácil dentro de sua aplicação.
+	class MeuNumero < Fixnum
+		def plus(numero)
+		    42
+	    end
+	end
 
-	• Rails um Meta-Framework para desenvolvimento agil •
-		Rails não foi baseado  em um único padrão de desenvolvimento, mas sim uma série de
-    padrões. Outros frameworks que faziam parte do núcleo do Rails antigamente foram
-    removidos desse núcleo afim de reduzir o acoplamento e com isso e permitir que
-    quem o esteja utilizando os substituam sem  muita dificuldade, mas continuam
-    funcionando e sendo usados em conjunto. Aqui estão alguns deles:
+	numero = MeuNumero.new(1)
 
-		• ActionMailer
-		• ActionPack
-			– Action View
-			– Action Controller
-		• ActiveRecord
-		• ActiveSupport
+	O operador plus ou + é um método em Ruby, ao contrario de outras linguagens. O resultado desse  método escrito na classe MeuNumero diz que qualquer numero somado com o método soma, ira retornar 42, pois o método soma foi reescrito para sempre retornar o número inteiro 42 independente do que seja passado como argumento. 
 
->>>> FIM DO CAPITULO 2 <<<<
+	Ruby possui uma ferramenta muito interessante, semelhante ao array visto em outras linguagens o ruby hashes. Um ruby hashe utiliza chaves em vez de colchetes precedido de literais. O literal deve fornecer dois objetos para cada entrada: uma para a chave, o outro para o valor. 
+
+	Por exemplo, se quizessemos mapear a dados de um usuario podemos faze-lo da sequinte forma
+
+	user_section = {
+		:name => 'xpto' ,
+		:email => 'xpto@xpto.com' ,
+		:password => 'headwind' ,
+		:nickname => 'headwind' ,
+		:prefered_language => 'Ruby On Rails'
+	}
+
+	O conceito acima é muito semelhante a forma como o MongoDB  trabalha com seus dados que será explicado mais a frente.
+
+	Ultimamente a linguagem tem sido foco da mídia especializada devido ao seu web framework feito em Ruby, o Rails desenvolvido por David Heinemeier Hansson, que também é bem pratico e produtivo.Ainda hoje, toda a responsabilidade, quanto a, implementações de novas funcionalidades, é do Matz. Todas as decisões relacionadas à linguagem tem que passar por ele. E mesmo assim a comunidade Ruby é forte o bastante pra sobreviver caso alguma coisa aconteça com o Matz. Pois há muitas pessoas que estão inteiradas com o código tanto quanto o próprio Matz. Uma das grandes diferenças das outras tecnologias open-source, é que não tem uma empresa bancando os seus custos. O projeto sobrevive de doações feitas pelos usuários satisfeitos e por empresas que conseguiram aumentar sua produtividade e performance usando apenas Ruby ou Ruby On Rails. Em uma de suas declarações Matz fala sobre o que ele esperava obter quando criou a linguagem:
+
+	"Eu conhecia muitas linguagens antes de criar o Ruby, mas nunca estava satisfeito com elas. Elas eram feias, duras, mais complexas ou mais simples do que eu esperava. Eu queria criar a minha própria linguagem que me satisfizesse como programador. Eu sabia muito sobre o público a ser alcançado: Eu mesmo. Para minha surpresa, muitos programadores do mundo todo sentiam o mesmo que 
+	eu. Eles ficaram felizes quando descobriram e programaram no Ruby. Do começo ao fim do desenvolvimento da linguagem Ruby, concentrei minhas energias para fazer uma programação rápida e fácil. Todas as características do Ruby, incluindo as características de orientação a objetos, são designadas a funcionar com programadores comuns (por exemplo, eu) que esperam que elas funcionem. A maior parte dos programadores acha que ele é elegante, fácil de usar e sentem prazer em usá-lo."
+
+	*RUBY GEMS*
+		*O que são Ruby Gems?*
+			Uma "RubyGem" ou simplesmente "Gem" são bibliotecas como em qualquer outra linguagem de programação por exemplo: Python, Java, C++, C#, C (…), expecificas  para  Ruby, que fornecem um formato padrão para aplicações. Uma Gem é escrita especialmente para 
+			facilitar o uso de determinada funcionalidade.
+
+			Cada Gem possui, em seu escopo todas as caracteristicas correspondente a sua arquitetura (via um arquivo chamado "gemspec"). Tomando como exemplo a gem 'rspec-rails' que possui um arquivo rspec-rails.gemspec que possui toda a expecificação desta desde qual o grupo resposavél por mante-la com atualizações constantes, licenças e dependencias. 
+			Gems podem ser utilizadas para estender ou modificar certas funcionalidades, geralmente são distribuídas por outros desenvolvedores Ruby mais conhecidos como rubistas, algumas delas possuem até comandos em modo texto para auxiliar e agilizar o desenvolvimento.
+
+			>> O formato da Plataforma de uma Gem é baseado na arquitetura do processador e sistema operacional propriamente dito. Esse arquivo indica a forma à qual a Gem só funcionará  sobre a mesma plataforma ao qual fora desenvolvida.
+
+		* Utilizando RubyGems em uma aplicação Ruby *
+
+			Antes de tudo é preciso saber como que o Ruby carrega arquivos em sua estrutura. O Ruby predispõe de um comando bem simples o "require 'file.rb' " ou ' require File.expand_path('caminho_do_arquivo')', com ele é possível carregar arquivo(s) diretamente ou especificando o caminho absoluto.
+
+			Um exemplo seria se o arquivo teste2.rb estivesse em um subdiretório por exemplo 'lib' no começo do arquivo deverá tem uma linha assim:
+
+								require File.expand_path('lib/teste2.rb')
+
+			Para tal quando queremos carregar alguma Gem em um projeto Ruby existe um arquivo chamado "rubygems.rb" ao qual contem todas as Gems instaladas na máquina ao qual o Ruby se encontra instalado. Logo se precisa carregar esse arquivo dentro da aplicação destino da seguinte forma:
+
+								require 'rubygems'
+								require 'BCrypt'
+
+		* Versionamento de Gems *
+
+			Versionamento é considerado por muitos a parte mais importante das RubyGems. É possível ter diversas versões na mesma máquina carregadas em paralelo, essa é considerada a parte mais vantajosa e a principal fonte de confusão.
+
+			Por exemplo: ao utilizar o comando 'gem list --local' uma lista será retornada contendo todas as Gems instaladas no momento. Essa lista pode e deve variar de máquina para máquina de acordo com as gems instaladas, para exemplificar  esse conceito seria como descrito na saida do terminal a seguir:
+
+								mongoid ( 3.0.0, 4.1.0)
+
+			Nesse trecho se carregarmos essa Gem uma mensagem de erro seria exibida, devido ao nome da Gem que não é o nome que o comando 'require' precisa, bem como a versão que se deseja carregar.
+
+			No entanto como fazer para carregar essa gem se o nome da mesma e o arquivo Ruby diferem nesse contexto? 
+
+			“Quando a convenção falha precisamos dizer explicitamente o que queremos.” (Fábio Akita, 2009).
+
+								require 'rubygems'
+								gem 'mongoid'
+								require 'mongoid'
+
+
+			O que foi feito no trecho anterior resolve o problema de nomes e carrega a versão mais atual da gem 'mongoid', caso a gem requerida seja uma versão que difere da atual, o desenvolvedor deverá especificar qual a versão da gem propriamente dita quer utilizar:
+
+								require 'rubygems'
+								gem 'mongoid', '~> 3.0.0'
+								require 'mongoid'
+
+>>>> FIM DO CAPITULO 1 <<<<
