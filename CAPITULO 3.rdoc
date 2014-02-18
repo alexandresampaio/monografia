@@ -20,12 +20,23 @@ CAPITULO 2 - ROR
   • Aplicações com backbone.js
     •••••••
 
+  RoR é um framework de aplicação web escrito sob a linguagem Ruby.
+  Criado por David Heinemeier Hansson em 2003, baseado em seu trabalho no Basecamp,
+  que é uma ferramenta de gerenciamento de projetos 37 signals. No entanto David só
+  lançou o RoR como código aberto em julho de 2004, e mais tarde em dezembro
+  de 2005 foi lançada a primeira versão do Ruby on Rails.
+
+	Assim como outros frameworks de aplicação web o RoR utiliza a arquitetura
+  MVC(model view controller), fornecendo um isolamento entre a lógica de negócio dos modelos,
+  a interface com o usuário através das views e a manipulação de todas as requisições no servidor
+  de apicação. O que contribui muito para que a manutenção do código seja bem mais fácil e flexível.
+
 	Ruby on Rails possui uma filosofia que seque dois princípios:
 
 	• DRY - Don't Repeat Yourself(Não se repita ou see duplique) •
 		Se aplicado corretamente, possibilita a reduzir a duplicação de tarefas
     dentro de um projeto. Réplicas ou duplicatas de qualquer tipo, dentro de
-    uma aplicação, leva a 	dificuldade de modificação e manutenção e
+    uma aplicação, leva a dificuldade de modificação e manutenção e
     inconsistência, sem levar 	em conta em alguns casos a ilegibilidade do
     source-code. Em RoR, se pode ver este princípio em ação em quase tudo,
     desde as componentes reutilizáveis em forma de plug-ins para a forma
@@ -34,16 +45,16 @@ CAPITULO 2 - ROR
 	• Convenção sobre Configuração •
 		Quando um desenvolvedor seja ele experiente ou não for iniciar atividades em
     Rails, o usuário estará sempre visinando os controllers,  views e models  entre
-    outras palavras a arquitetura MVC vista em design patterns e além desse fator
-    para a base de dados escolhida seja ela relacional ou não relacional que são os
-    NoSQL que explicaremos mais a frente. De tal forma a reduzir a necessidade de
-    configuração pesada, durante a etapa de criação do rails regras não unidirecionais
-    foram definidas.
+    outras palavras a arquitetura MVC amplamente vista em design patterns e além
+    desse fator importante estara diretamente conectato para a base de dados escolhida
+    seja ela relacional ou não relacional que são os NoSQL ao qual explicaremos mais
+    adiante. De tal forma a reduzir a necessidade de configuração pesada, durante a
+    etapa de criação do rails regras não unidirecionais foram definidas.
 
-	Ruby on Rails permite a criação de regras personlizadas, contudo é sempre  uma boa
-  idéia usar as convenções que o 	Rails oferece. Essas convenções deverão acelerar o
-  desenvolvimento, manter seu código conciso e legível e o mais importante estas
-  convenções permitem uma navegação fácil dentro de sua aplicação.
+	RoR permite a criação de regras personlizadas, contudo é sempre  uma boa
+  idéia usar as convenções que o própio	Rails oferece, essas convenções deverão acelerar
+  o desenvolvimento, manter um código limpo, conciso e legível e o mais importante estas
+  convenções permitem uma navegação muito mais fácil dentro da aplicação.
 
 	• Rails um Meta-Framework para desenvolvimento agil •
 		Rails não foi baseado  em um único padrão de desenvolvimento, mas sim uma série de
@@ -53,10 +64,47 @@ CAPITULO 2 - ROR
     funcionando e sendo usados em conjunto. Aqui estão alguns deles:
 
 		• ActionMailer
+      - Esta biblioteca nativa do rails é responsável por gerenciar envio de emails de dentro
+      de uma escrita em RoR. Contudo é possivel escolher entre usa-la ou se dispor de alguma
+      outra biblioteca para gerenciar envio e recebimento de correio eletrônico em rails.
+
+      "É importante um sistema que facilite a operação de envio de mensagens de e-mails porque
+      essa é uma operaão tem diversas aplicações comuns como: Enviar e -mails de confirmação de
+      cadastro; Notificações de erros ao administrador do site; Confirmação de compra de produtos
+      em lojas virtuais; Newsletters"(BAKHARIA -2007)
+
 		• ActionPack
-			– Action View
-			– Action Controller
+			– Action View & Action Controller
+          • " Action View e Action Controller são os dois principais componentes do Action Pack.
+          No Rails, todas web requisições web são tratadas pelo Action Pack, que divide o
+          trabalho em uma parte do controlador responsavél por concretizar a lógica implementada
+          e uma parte view responsável pela renderização de um modelo e exibir para o usuário.
+          Normalmente, Action Controller vai se preocupar com a comunicação com o banco de dados e
+          executar ações CRUD, quando necessário.
+
+          Action View é, então, responsável pela organização das requisições.
+          Ação Exibir modelos são escritas usando o Ruby embutido em tags misturado com HTML.
+          Para evitar sobrecarregar os modelos com código clichê, um número de classes auxiliares
+          fornecer um comportamento comum para as formas, datas e strings.
+          É também fácil para adicionar novos ajudantes para a sua aplicação à medida que evolui.
+          Algumas características do Action View estão vinculados a Active Record, mas isso não
+          significa Action View depende Active Record. Ver acção é um pacote independente que pode
+          ser usado com qualquer tipo de bibliotecas Ruby.
+
 		• ActiveRecord
+        • É um framework que implementa a persistência a banco de dados de forma transparente ao usuário.
+        Utilizando o conceito de Conventions over Configuration, o ActiveRecord adiciona envolvendo os
+        modelos com as funções excenciais para acessar o banco. ActiveRecord::Base é a classe estendida
+        para associar modelos criados com suas respectivas tabelas na base de dados escolhida.
+
 		• ActiveSupport
+        • " Active Support é um conjunto de uma série de bibliotecas compartilhadas por todos os componentes
+        gerenciados pelo Rails. Muito do que está acoplado nesse módulo está destinado a uso interno do Rails.
+        No entanto, Active Support também estende algumas das classes internas de Ruby de maneira útil e interessante."
+        (RUBY, 2009)
+
+  • Organização de arquivos em Rails
+
+
 
 >>>> FIM DO CAPITULO 2 <<<<
