@@ -3,30 +3,61 @@ MONOGRAFIA CAPITULO 2 DE SEI LÁ QUANTOS
 >>>> INICIO DO CAPITULO 2 <<<<
 
 CAPITULO 2
-	Ao longo de muitos anos, uma pergunta é feita por vários desenvolvedores.
-	Qual o melhor Framework de desenvolvimento web já criado? Contudo esta é uma pergunta respondida de diversas formas, com base em vários argumentos e situações. E a resposta entretanto continua a mesma - Aquela que aumenta a produtividade e diminui esforços no desenvolvimento. E depois de muito estudo e debate fora concluído que um Framework que reduza códigos gigantes e por muitas vezes difíceis de se ler e que sem margem de duvida diminuem o aprendizado são aqueles que aumentam a produtividade.
-
-	Se buscarmos mais a fundo iremos nos debater com vários web Framework que focam em produzir aplicações, sejam elas web ou não. No entanto essas pecam em dois pontos vitais: produtividade e aprendizado. Um equilíbrio teve de ser estabelecido entre esses fatores e foi nesse momento que Ruby surgiu precedido do Rails como seu Framework de desenvolvimento web.
+        Ao longo de muitos anos, uma pergunta é feita por vários desenvolvedores.
+	Qual o melhor Framework de desenvolvimento web já criado? Contudo esta é uma 
+	pergunta respondida de diversas formas, com base em vários argumentos e situações. 
+	E a resposta entretanto continua a mesma - Aquela que aumenta a produtividade e 
+	diminui esforços no desenvolvimento. E depois de muito estudo e debate fora concluído 
+	que um Framework que reduza códigos gigantes e por muitas vezes difíceis de se 
+	ler e que sem margem de duvida diminuem o aprendizado são aqueles que aumentam a produtividade.
+	
+		Se buscarmos mais a fundo iremos nos debater com vários web Framework que focam em 
+	produzir aplicações, sejam elas web ou não. No entanto essas pecam em dois pontos vitais: 
+	produtividade e aprendizado. Um equilíbrio teve de ser estabelecido entre esses fatores e foi 
+	nesse momento que Ruby surgiu precedido do Rails como seu Framework de desenvolvimento web.
 
 	* RUBY *
 
-	Foi desenvolvida em 1994, e apresentada ao publico em 1995 por Yukihiro Matsumoto, que é mundialmente conhecido como Matz que para criar ruby uniu partes das suas linguagens favoritas (Perl, Smalltalk, Eiffel, Ada, e Lisp) para formar uma nova linguagem que equilibra a programação funcional com a programação imperativa. Passou a se tornar realmente reconhecida através de Dave Thomas, mais conhecido como um dos “Programadores pragmáticos”, que adotou o Ruby como uma de suas linguagens preferenciais e acabou escrevendo um dos livros mais completos sobre a linguagem, o Programming Ruby. Com isso o numero de adeptos a essa linguagem subiu muito no ocidente. Pois ela é uma das únicas linguagens nascidas fora do eixo EUA/Europa, sendo criada no Japão.
-  Matz criou uma linguagem mais poderosa que Perl e mais orientada a objetos que python. Em Ruby tudo é objeto e possuem métodos que podem ser acessados e modificados. Tornando assim uma linguagem mais simples de ler e ser entendida, facilitando o desenvolvimento e manutenção de sistemas escritos com ela.
-	Um dos objetivos principais da linguagem é a praticidade. É possível que seja feito um algoritmo simples, sem precisar que se preocupe com as limitações da linguagem ou do interpretador.
-  O Ruby possui algumas características para manter a sua praticidade, como, uma linguagem enxuta que quase não há necessidade de colchetes e outros caracteres; a disponibilidade de diversos métodos de geração de
-  código em tempo real, como os "attribute accessors";
+		Foi desenvolvida em 1994, e apresentada ao publico em 1995 por Yukihiro Matsumoto, que é mundialmente 
+	conhecido como Matz que para criar ruby uniu partes das suas linguagens favoritas 
+	(Perl, Smalltalk, Eiffel, Ada, e Lisp) para formar uma nova linguagem que equilibra a programação funcional 
+	com a programação imperativa. Passou a se tornar realmente reconhecida através de Dave Thomas, mais conhecido 
+	como um dos “Programadores pragmáticos”, que adotou o Ruby como uma de suas linguagens preferenciais e acabou 
+	escrevendo um dos livros mais completos sobre a linguagem, o Programming Ruby. Com isso 
+	o numero de adeptos a essa linguagem subiu muito no ocidente. Pois ela é uma das únicas linguagens 
+	nascidas fora do eixo EUA/Europa, sendo criada no Japão.
+	
+  		Matz criou uma linguagem mais poderosa que Perl e mais orientada a objetos que python. Em Ruby tudo é 
+  	objeto e possuem métodos que podem ser acessados e modificados. Tornando assim uma linguagem mais simples 
+  	de ler e ser entendida, facilitando o desenvolvimento e manutenção de sistemas escritos com ela.
+	Um dos objetivos principais da linguagem é a praticidade. É possível que seja feito um algoritmo simples, 
+	sem precisar que se preocupe com as limitações da linguagem ou do interpretador.
+  	
+  		O Ruby possui algumas características para manter a sua praticidade, como, uma linguagem enxuta que 
+  	quase não há necessidade de colchetes e outros caracteres; a disponibilidade de diversos métodos de geração de 
+  	código em tempo real, como os "attribute accessors";
+	
 	"Ruby é simples na aparência, mas é muito mais complexo no interior, tal como o corpo-humano!"(Quem disse isso?)
-	Em ruby uma forma de se instalar bibliotecas é através de Ruby Gems, com ela é possível instalar e atualizar bibliotecas com uma linha de comando, de maneira parecida com os gerenciadores de pacotes de sistemas linux ou unix; code blocks (blocos de código), ajudam o programador a passar um ou mais trechos de instruções para o método descrito em suas classes. Ruby possui o contexto de Mixins, que emula a herança múltipla, sem cair em seus respectivos problemas encontrados em outras linguagens.
-  Ruby é classificado como dinamicamente tipado, por esse meio todos os tipos são objetos, não há tipos primitivos, assim como definições de classes. No entanto variáveis de instância que por sua vez referenciam estes objetos não possuem um tipo específico. Um exemplo clássico seria uma herança simples da classe Fixnum nativa do ruby.
+	
+		Em ruby uma forma de se instalar bibliotecas é através de Ruby Gems, com ela é possível instalar e 
+	atualizar bibliotecas com uma linha de comando, de maneira parecida com os gerenciadores de pacotes de 
+	sistemas linux ou unix; code blocks (blocos de código), ajudam o programador a passar um ou mais trechos de 
+	instruções para o método descrito em suas classes. Ruby possui o contexto de Mixins, que emula a herança 
+	múltipla, sem cair em seus respectivos problemas encontrados em outras linguagens.
+  
+  		Ruby é classificado como dinamicamente tipado, por esse meio todos os tipos são objetos, 
+  	não há tipos primitivos, assim como definições de classes. No entanto variáveis de instância que por sua 
+  	vez referenciam estes objetos não possuem um tipo específico. Um exemplo clássico seria uma herança simples 
+  	da classe Fixnum nativa do ruby.
 
 	class MeuNumero < Fixnum
 		def plus(numero)
-		    42
-	    end
+			42
+		end
 	end
 
 	numero = MeuNumero.new(1)
-  numero = nil
+  	numero = nil
 
 	O operador plus ou + é um método em Ruby, ao contrario de outras linguagens existentes. O resultado desse método escrito na classe MeuNumero diz que qualquer numero somado com o método soma, ira retornar 42, pois o método soma foi reescrito para sempre retornar o número inteiro 42 independente do que seja passado como argumento, e logo em seguida pelo fato de ruby ser dinamicamente tipado, siguinifica que podemos alterar o contexto de uma variável ou até mesmo inserção de código em tempo de execução.
 	Ruby possui uma ferramenta muito interessante, semelhante ao array visto em outras linguagens o ruby hashes. Um ruby hashe utiliza chaves em vez de colchetes precedido de literais. O literal deve fornecer dois objetos para cada entrada: uma para a chave, o outro para o valor.
