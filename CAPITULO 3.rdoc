@@ -98,12 +98,13 @@ CAPITULO 2 - ROR
         para associar modelos criados com suas respectivas tabelas na base de dados escolhida.
 
 		• ActiveSupport
-        • " Active Support é um conjunto de uma série de bibliotecas compartilhadas por todos os componentes
+        • " Active Support é composto por uma série de bibliotecas compartilhadas por todos os componentes
         gerenciados pelo Rails. Muito do que está acoplado nesse módulo está destinado a uso interno do Rails.
         No entanto, Active Support também estende algumas das classes internas de Ruby de maneira útil e interessante."
         (RUBY, 2009)
 
-  • Organização de arquivos em Rails
+
+    • Organização de arquivos em Rails
 
 
 

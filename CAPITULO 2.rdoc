@@ -82,8 +82,8 @@ CAPITULO 2
 		:prefered_language => 'Ruby On Rails'
 	}
 
-	O conceito acima é muito semelhante a forma como o MongoDB  trabalha com seus dados que será explicado mais a
-  frente.
+	O conceito acima é muito semelhante a forma como o MongoDB  manipula seus documentos um contexto que será
+  explicado mais a frente.
 
 	Ultimamente a linguagem tem sido foco da mídia especializada devido ao seu web framework feito em Ruby, o Rails
   desenvolvido por David Heinemeier Hansson, que também é bem pratico e produtivo.Ainda hoje, toda a responsabilidade,
