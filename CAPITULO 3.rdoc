@@ -98,23 +98,17 @@ CAPITULO 2 - ROR
         No entanto, Active Support também estende algumas das classes internas de Ruby de maneira útil e interessante."
         (RUBY, 2009)
 
-<<<<<<< HEAD
+    • Definição de Scaffod
 
-    • Organização de arquivos em Rails
-=======
-  • Organização de arquivos em Rails
-  
-   •Definição de Scaffod
+		    O scaffold é um comando que cria uma arquitetura de acordo com os
+	   parâmetros desejados criando automaticamente um controlador,
+	   um modelo e todas as views necessárias para interpretar todas
+	   as operações de inclusão, edição, visualização e remoção.
+	   Esse processo é muito útil por produzir um modelo que serve de
+	   referência para a compreensão do funcionamento do Rails e substituir
+	   módulos que ainda não foram desenvolvidos durante os testes nas fases iniciais do projeto.
 
-		    O scaffold é um comando que cria uma arquitetura de acordo com os 
-	   parâmetros desejados criando automaticamente um controlador, 
-	   um modelo e todas as views necessárias para interpretar todas 
-	   as operações de inclusão, edição, visualização e remoção. 
-	   Esse processo é muito útil por produzir um modelo que serve de 
-	   referência para a compreensão do funcionamento do Rails e substituir 
-	   módulos que ainda não foram desenvolvidos durante os testes nas fases iniciais do projeto. 
-
-    •Definição De Migrations
+    • Definição De Migrations
 
         O Migration pertime alterar o esquema de banco de dados ao longo do tempo de uma forma consistente e fácil.
       Ele utiliza uma DSL do ruby para que nao tenha que escrever SQL a mão, fazendo assim com que as mudanças no banco de dados
@@ -122,9 +116,9 @@ CAPITULO 2 - ROR
       Cada migration é uma nova "versão" do banco de dados. Um esquema começa vazio e a cada migration ele é modificado
       para acrescentar ou remover tabelas, colunas ou entradas necessárias.
 
+    • Definição de Rake
 
->>>>>>> 7958fb775c9195dabe2ba456daad609c555ba89e
 
-
+    • Organização de arquivos em Rails
 
 >>>> FIM DO CAPITULO 2 <<<<

@@ -4,50 +4,50 @@ MONOGRAFIA CAPITULO 2 DE SEI LÁ QUANTOS
 
 CAPITULO 2
         Ao longo de muitos anos, uma pergunta é feita por vários desenvolvedores.
-	Qual o melhor Framework de desenvolvimento web já criado? Contudo esta é uma 
-	pergunta respondida de diversas formas, com base em vários argumentos e situações. 
-	E a resposta entretanto continua a mesma - Aquela que aumenta a produtividade e 
-	diminui esforços no desenvolvimento. E depois de muito estudo e debate fora concluído 
-	que um Framework que reduza códigos gigantes e por muitas vezes difíceis de se 
+	Qual o melhor Framework de desenvolvimento web já criado? Contudo esta é uma
+	pergunta respondida de diversas formas, com base em vários argumentos e situações.
+	E a resposta entretanto continua a mesma - Aquela que aumenta a produtividade e
+	diminui esforços no desenvolvimento. E depois de muito estudo e debate fora concluído
+	que um Framework que reduza códigos gigantes e por muitas vezes difíceis de se
 	ler e que sem margem de duvida diminuem o aprendizado são aqueles que aumentam a produtividade.
-	
-		Se buscarmos mais a fundo iremos nos debater com vários web Framework que focam em 
-	produzir aplicações, sejam elas web ou não. No entanto essas pecam em dois pontos vitais: 
-	produtividade e aprendizado. Um equilíbrio teve de ser estabelecido entre esses fatores e foi 
+
+		Se buscarmos mais a fundo iremos nos debater com vários web Framework que focam em
+	produzir aplicações, sejam elas web ou não. No entanto essas pecam em dois pontos vitais:
+	produtividade e aprendizado. Um equilíbrio teve de ser estabelecido entre esses fatores e foi
 	nesse momento que Ruby surgiu precedido do Rails como seu Framework de desenvolvimento web.
 
 	* RUBY *
 
-		Foi desenvolvida em 1994, e apresentada ao publico em 1995 por Yukihiro Matsumoto, que é mundialmente 
-	conhecido como Matz que para criar ruby uniu partes das suas linguagens favoritas 
-	(Perl, Smalltalk, Eiffel, Ada, e Lisp) para formar uma nova linguagem que equilibra a programação funcional 
-	com a programação imperativa. Passou a se tornar realmente reconhecida através de Dave Thomas, mais conhecido 
-	como um dos “Programadores pragmáticos”, que adotou o Ruby como uma de suas linguagens preferenciais e acabou 
-	escrevendo um dos livros mais completos sobre a linguagem, o Programming Ruby. Com isso 
-	o numero de adeptos a essa linguagem subiu muito no ocidente. Pois ela é uma das únicas linguagens 
+		Foi desenvolvida em 1994, e apresentada ao publico em 1995 por Yukihiro Matsumoto, que é mundialmente
+	conhecido como Matz que para criar ruby uniu partes das suas linguagens favoritas
+	(Perl, Smalltalk, Eiffel, Ada, e Lisp) para formar uma nova linguagem que equilibra a programação funcional
+	com a programação imperativa. Passou a se tornar realmente reconhecida através de Dave Thomas, mais conhecido
+	como um dos “Programadores pragmáticos”, que adotou o Ruby como uma de suas linguagens preferenciais e acabou
+	escrevendo um dos livros mais completos sobre a linguagem, o Programming Ruby. Com isso
+	o numero de adeptos a essa linguagem subiu muito no ocidente. Pois ela é uma das únicas linguagens
 	nascidas fora do eixo EUA/Europa, sendo criada no Japão.
-	
-  		Matz criou uma linguagem mais poderosa que Perl e mais orientada a objetos que python. Em Ruby tudo é 
-  	objeto e possuem métodos que podem ser acessados e modificados. Tornando assim uma linguagem mais simples 
+
+  		Matz criou uma linguagem mais poderosa que Perl e mais orientada a objetos que python. Em Ruby tudo é
+  	objeto e possuem métodos que podem ser acessados e modificados. Tornando assim uma linguagem mais simples
   	de ler e ser entendida, facilitando o desenvolvimento e manutenção de sistemas escritos com ela.
-	Um dos objetivos principais da linguagem é a praticidade. É possível que seja feito um algoritmo simples, 
+	Um dos objetivos principais da linguagem é a praticidade. É possível que seja feito um algoritmo simples,
 	sem precisar que se preocupe com as limitações da linguagem ou do interpretador.
-  	
-  		O Ruby possui algumas características para manter a sua praticidade, como, uma linguagem enxuta que 
-  	quase não há necessidade de colchetes e outros caracteres; a disponibilidade de diversos métodos de geração de 
+
+  		O Ruby possui algumas características para manter a sua praticidade, como, uma linguagem enxuta que
+  	quase não há necessidade de colchetes e outros caracteres; a disponibilidade de diversos métodos de geração de
   	código em tempo real, como os "attribute accessors";
-	
+
 	"Ruby é simples na aparência, mas é muito mais complexo no interior, tal como o corpo-humano!"(Quem disse isso?)
-	
-		Em ruby uma forma de se instalar bibliotecas é através de Ruby Gems, com ela é possível instalar e 
-	atualizar bibliotecas com uma linha de comando, de maneira parecida com os gerenciadores de pacotes de 
-	sistemas linux ou unix; code blocks (blocos de código), ajudam o programador a passar um ou mais trechos de 
-	instruções para o método descrito em suas classes. Ruby possui o contexto de Mixins, que emula a herança 
+
+		Em ruby uma forma de se instalar bibliotecas é através de Ruby Gems, com ela é possível instalar e
+	atualizar bibliotecas com uma linha de comando, de maneira parecida com os gerenciadores de pacotes de
+	sistemas linux ou unix; code blocks (blocos de código), ajudam o programador a passar um ou mais trechos de
+	instruções para o método descrito em suas classes. Ruby possui o contexto de Mixins, que emula a herança
 	múltipla, sem cair em seus respectivos problemas encontrados em outras linguagens.
-  
-  		Ruby é classificado como dinamicamente tipado, por esse meio todos os tipos são objetos, 
-  	não há tipos primitivos, assim como definições de classes. No entanto variáveis de instância que por sua 
-  	vez referenciam estes objetos não possuem um tipo específico. Um exemplo clássico seria uma herança simples 
+
+  		Ruby é classificado como dinamicamente tipado, por esse meio todos os tipos são objetos,
+  	não há tipos primitivos, assim como definições de classes. No entanto variáveis de instância que por sua
+  	vez referenciam estes objetos não possuem um tipo específico. Um exemplo clássico seria uma herança simples
   	da classe Fixnum nativa do ruby.
 
 	class MeuNumero < Fixnum
@@ -71,7 +71,6 @@ CAPITULO 2
 		:prefered_language => 'Ruby On Rails'
 	}
 
-<<<<<<< HEAD
 	O conceito acima é muito semelhante a forma como o MongoDB  manipula seus documentos um contexto que será
   explicado mais a frente.
 
@@ -83,11 +82,11 @@ CAPITULO 2
   tecnologias open-source, é que não tem uma empresa bancando os seus custos. O projeto sobrevive de doações feitas pelos
   usuários satisfeitos e por empresas que conseguiram aumentar sua produtividade e performance usando apenas Ruby ou Ruby
   On Rails. Em uma de suas declarações Matz fala sobre o que ele esperava obter quando criou a linguagem:
-=======
+
 	O conceito acima é muito semelhante a forma como o MongoDB  trabalha com seus dados que será explicado mais a
   frente.
 	Ultimamente a linguagem tem sido foco da mídia especializada devido ao seu web framework feito em Ruby, o Rails desenvolvido por David Heinemeier Hansson, que também é bem pratico e produtivo. Ainda hoje, toda a responsabilidade, quanto a, implementações de novas funcionalidades, é do Matz. Todas as decisões relacionadas à linguagem tem que passar por ele. E mesmo assim a comunidade Ruby é forte o bastante pra sobreviver caso alguma coisa aconteça com o Matz. Pois há muitas pessoas que estão inteiradas com o código tanto quanto o próprio Matz. Uma das grandes diferenças das outras tecnologias open-source, é que não tem uma empresa bancando os seus custos. O projeto sobrevive de doações feitas pelos usuários satisfeitos e por empresas que conseguiram aumentar sua produtividade e performance usando apenas Ruby ou Ruby On Rails. Em uma de suas declarações Matz fala sobre o que ele esperava obter quando criou a linguagem:
->>>>>>> 7958fb775c9195dabe2ba456daad609c555ba89e
+
 
 	"Eu conhecia muitas linguagens antes de criar o Ruby, mas nunca estava satisfeito com elas. Elas eram feias, duras, mais
   complexas ou mais simples do que eu esperava. Eu queria criar a minha própria linguagem que me satisfizesse como programador.
