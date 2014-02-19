@@ -10,9 +10,8 @@ CAPITULO 2 - ROR
   simplesmente construir páginas atras de páginas como era feito antigamente.
   A razão para tudo isto é que ele é preparado para atender e criar aplicações
   modernas e arrojadas(sofisticadas) e isto quer dizer que a aplicação desenvolvida
-  sobre esta plataforma não deve apenas reponder por páginas HTML mas de forma --
-  adequada e dinãmica em aplicações ricas em client-side em conjunto com outros
-  frameworks como backbone.js entre outros.
+  sobre esta plataforma não deve apenas responder por páginas HTML mas de forma --
+  adequada e dinâmica em aplicações ricas em client-side em conjunto com outros frameworks como backbone.js entre outros.
 
   • O que são aplicações ricas em client-side?
     •••••••
@@ -20,11 +19,7 @@ CAPITULO 2 - ROR
   • Aplicações com backbone.js
     •••••••
 
-  RoR é um framework de aplicação web escrito sob a linguagem Ruby.
-  Criado por David Heinemeier Hansson em 2003, baseado em seu trabalho no Basecamp,
-  que é uma ferramenta de gerenciamento de projetos 37 signals. No entanto David só
-  lançou o RoR como código aberto em julho de 2004, e mais tarde em dezembro
-  de 2005 foi lançada a primeira versão do Ruby on Rails.
+  RoR é um framework de aplicação web escrito sob a linguagem Ruby. Criado por David Heinemeier Hansson em 2003, baseado em seu trabalho no Basecamp, que é uma ferramenta de gerenciamento de projetos 37 signals. No entanto David só lançou o RoR como código aberto em julho de 2004, e mais tarde em dezembro de 2005 foi lançada a primeira versão do Ruby on Rails.
 
 	Assim como outros frameworks de aplicação web o RoR utiliza a arquitetura
   MVC(model view controller), fornecendo um isolamento entre a lógica de negócio dos modelos,
@@ -104,6 +99,16 @@ CAPITULO 2 - ROR
         (RUBY, 2009)
 
   • Organização de arquivos em Rails
+  
+   •Scaffod
+
+		O scaffold é um comando que cria uma arquitetura de acordo com os 
+	parâmetros desejados criando automaticamente um controlador, 
+	um modelo e todas as views necessárias para interpretar todas 
+	as operações de inclusão, edição, visualização e remoção. 
+	Esse processo é muito útil por produzir um modelo que serve de 
+	referência para a compreensão do funcionamento do Rails e substituir 
+	módulos que ainda não foram desenvolvidos durante os testes nas fases iniciais do projeto. 
 
 
 
