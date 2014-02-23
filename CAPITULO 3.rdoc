@@ -100,10 +100,10 @@ CAPITULO 2 - ROR
 
     • Definição de Scaffod
 
-		    O scaffold é um comando que cria uma arquitetura de acordo com os
+		    O scaffold é o comando que cria a arquitetura base de acordo com os
 	   parâmetros desejados criando automaticamente um controlador,
-	   um modelo e todas as views necessárias para interpretar todas
-	   as operações de inclusão, edição, visualização e remoção.
+	   um modelo para a persistencia de dados e todas as views necessárias para interpretar todas
+	   as operações de inclusão, edição, visualização e remoção de dados de forma prática e ágil.
 	   Esse processo é muito útil por produzir um modelo que serve de
 	   referência para a compreensão do funcionamento do Rails e substituir
 	   módulos que ainda não foram desenvolvidos durante os testes nas fases iniciais do projeto.
