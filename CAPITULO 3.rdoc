@@ -142,9 +142,8 @@ CAPITULO 2 - ROR
       Ainda existe uma série de parametros que se pode passar para a criação de uma aplicação em rails uma delas é a opção de usar ou não o ActiveRecord
       que é nativo do rails ao utilizar "--skip-active-record" o desenvolvedor está explicitamente dizendo ao rails para criar uma aplicação
       sem persistência à uma base de dados relacional, com isso é possivel escolher alguma das base de dados NoSQL como por exemplo
-      MongoDB, CouchDB, Cassandra etc. O programador rails ainda pode se dispor de iniciar uma aplicação usando modelos de aplicação já prontos.
+      MongoDB, CouchDB, Cassandra etc. O programador rails ainda pode se dispor de iniciar uma aplicação usando modelos já prontos.
 
-      Ao término desse comando o rails cria uma estritura de arquivos base para se iniciar:
 
 
 >>>> FIM DO CAPITULO 2 <<<<
