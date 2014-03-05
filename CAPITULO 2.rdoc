@@ -82,10 +82,6 @@ CAPITULO 2
   usuários satisfeitos e por empresas que conseguiram aumentar sua produtividade e performance usando apenas Ruby ou Ruby
   On Rails. Em uma de suas declarações Matz fala sobre o que ele esperava obter quando criou a linguagem:
 
-	O conceito acima é muito semelhante a forma como o MongoDB  trabalha com seus dados que será explicado mais a
-  frente.
-	Ultimamente a linguagem tem sido foco da mídia especializada devido ao seu web framework feito em Ruby, o Rails desenvolvido por David Heinemeier Hansson, que também é bem pratico e produtivo. Ainda hoje, toda a responsabilidade, quanto a, implementações de novas funcionalidades, é do Matz. Todas as decisões relacionadas à linguagem tem que passar por ele. E mesmo assim a comunidade Ruby é forte o bastante pra sobreviver caso alguma coisa aconteça com o Matz. Pois há muitas pessoas que estão inteiradas com o código tanto quanto o próprio Matz. Uma das grandes diferenças das outras tecnologias open-source, é que não tem uma empresa bancando os seus custos. O projeto sobrevive de doações feitas pelos usuários satisfeitos e por empresas que conseguiram aumentar sua produtividade e performance usando apenas Ruby ou Ruby On Rails. Em uma de suas declarações Matz fala sobre o que ele esperava obter quando criou a linguagem:
-
 
 	"Eu conhecia muitas linguagens antes de criar o Ruby, mas nunca estava satisfeito com elas. Elas eram feias, duras, mais
   complexas ou mais simples do que eu esperava. Eu queria criar a minha própria linguagem que me satisfizesse como programador.
