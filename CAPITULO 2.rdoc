@@ -37,12 +37,11 @@ CAPITULO 2
   	quase não há necessidade de colchetes e outros caracteres; a disponibilidade de diversos métodos de geração de
   	código em tempo real, como os "attribute accessors";
 
-	"Ruby é simples na aparência, mas é muito mais complexo no interior, tal como o corpo-humano!"(Quem disse isso?)
+	"Ruby é simples na aparência, mas é muito mais complexo no interior, tal como o corpo-humano!"(Matz, falando na lista de correio Ruby-Talk, 12 Mai. 2000)
 
 		Em ruby uma forma de se instalar bibliotecas é através de Ruby Gems, com ela é possível instalar e
 	atualizar bibliotecas com uma linha de comando, de maneira parecida com os gerenciadores de pacotes de
-	sistemas linux ou unix; code blocks (blocos de código), ajudam o programador a passar um ou mais trechos de
-	instruções para o método descrito em suas classes. Ruby possui o contexto de Mixins, que emula a herança
+	sistemas linux ou unix; Ruby possui uma notação muito utíl aos desenvolvedores, blocos de código, que ajudam o programador a passar um ou mais trechos de instruções para o método descrito em suas classes. Ruby possui o contexto de Mixins, que emula a herança
 	múltipla, sem cair em seus respectivos problemas encontrados em outras linguagens.
 
   		Ruby é classificado como dinamicamente tipado, por esse meio todos os tipos são objetos,
