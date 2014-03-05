@@ -1,0 +1,23 @@
+\begin{titlepage}
+ \begin{figure}[ht]
+ \centering
+ \scalebox{0.15}{\includegraphics{figuras/logo}}
+ \end{figure}
+ \begin{center}
+   {\large BACHAREL EM SISTEMAS DE INFORMAÇÃO} \\ [3.5cm]
+   {\large ALEXANDRE DOS SANTOS SAMPAIO SILVA} \\ [1cm]
+   {\large LAÍS STELLET DA SILVA} \\ [2cm]
+   {\large TITUL0 } \\[3cm]
+   \hspace{.45\textwidth} % posicionando a minipage
+   \begin{minipage}{0.5\textwidth}
+   \begin{espacosimples}
+        Trabalho de conclusão de curso apresentado ao Instituto Federal Fluminense como requisito obrigatório para obtenção de grau em Bacharel de Sistemas de Informação.\\[1.5cm]
+        Orientador: Prof. DSC Maurício José Viana de Amorim\\
+        Co-orientador: Prof. Fernando Carvalho
+    \end{espacosimples}
+    \end{minipage}
+   \vfill
+   {\large Campos dos Goytacazes/RJ} \\
+   {\large 2014}
+ \end{center}
+\end{titlepage}

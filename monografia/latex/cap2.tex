@@ -1,0 +1,109 @@
+\chapter{TECNOLOGIAS EMPREGADAS}
+\thispagestyle{empty}
+
+Para o desenvolvimento do Atividades Complementares foi essencial o uso de algumas ferramentas as quais pudessem ser incorporadas  e tornassem possível a criação de funcionalidades para este projeto.
+
+Ao longo de muitos anos, uma pergunta é feita por vários desenvolvedores. Qual o melhor Framework de desenvolvimento web já criado? Contudo esta é uma pergunta respondida de diversas formas, com base em vários argumentos e situações. E a resposta entretanto continua a mesma - Aquela que aumenta a produtividade e diminui esforços no  desenvolvimento. E depois de muito estudo e debate fora concluído que um Framework que reduza códigos gigantes e por muitas vezes difíceis de se ler e que sem margem de duvida diminuem o aprendizado são aqueles que aumentam a produtividade. Se buscarmos mais a fundo iremos nos debater com vários web Framework que focam em produzir aplicações, sejam elas web ou não. No entanto essas pecam em dois pontos vitais: produtividade e aprendizado. Um equilíbrio teve de ser estabelecido entre esses fatores e foi nesse momento que Ruby surgiu precedido do Rails como seu Framework de desenvolvimento web.
+
+Serão apresentadas as seguintes tecnologias:
+RVM como ambiente virtual para o desenvolvimento, Ruby como linguagem de programação, Rails como web framework, Mysql como base de dados inicial, MongoDB como base de dados conclusiva e o mais importante RubyGems para auxiliar na produção do sistema, git como ferramenta de repositório de código compartilhado com menbros do projeto.
+
+Os capítulos 1 e 2 apresentam um conceito simplificado de Ruby bem como seu Framework o Rails com alguns exemplos de funcionalidades em cada uma.
+
+
+\section{RVM (Ruby Version Manager)}
+
+RVM é uma ferramenta de linha de comando que permite ao usário facilemte instalar, gerenciar e possuir varios ambiente de desenvolvimento ruby em uma só máquina com suas respectivas versões de rubygems.
+
+
+\subsection{Ruby}
+\label{Rvm}
+
+Foi desenvolvida em 1994, e apresentada ao publico em 1995 por \textbf{Yukihiro Matsumoto}, que é mundialmente	conhecido como Matz que para criar ruby uniu partes das suas linguagens favoritas 
+(\textit { Perl, Smalltalk, Eiffel, Ada, e Lisp }) para formar uma nova linguagem que equilibra a \textit{ programação funcional com a programação imperativa}. Passou a se tornar realmente reconhecida através de \textbf{ Dave Thomas }, mais conhecido como um dos \textit{“Programadores pragmáticos”}, que adotou o Ruby como uma de suas linguagens preferenciais e acabou escrevendo um dos livros mais completos sobre a linguagem, o Programming Ruby. Com isso	o número de adeptos a essa linguagem subiu muito rápido no ocidente. Ruby é uma das únicas linguagens nascidas fora do eixo EUA/Europa, sendo criada no Japão.
+
+Matz criou uma linguagem mais poderosa que Perl e mais orientada a objetos que python. Em Ruby tudo é objeto, e possue métodos que podem ser facilemte acessados e modificados. O tornando assim uma linguagem mais simples de se ler e ser compreendida, facilitando o desenvolvimento e manutenção de sistemas escritos com com essa base. Um dos objetivos principais da linguagem é a praticidade. É possível que seja feito um algoritmo simples, sem precisar que se preocupe com as limitações da linguagem ou do interpretador.
+
+O Ruby possui algumas características para manter a sua praticidade, como, uma linguagem enxuta que quase não há necessidade de colchetes e outros caracteres; a disponibilidade de diversos métodos de geração de código em tempo real, como os "attribute accessors";
+
+\begin{center}
+  \textit{"Ruby é simples na aparência, mas é muito mais complexo no interior, tal como o corpo-humano!"} - Ruby-Talk, \cite{MATZ}.
+\end{center}
+
+
+Uma forma prática de se instalar bibliotecas em ruby é através de \textbf{ \textit{ RubyGems } }, com ela é possível instalar e atualizar bibliotecas com uma única linha de comando, de maneira muito similar com os gerenciadores de pacotes de ambientes operacionais linux ou unix; Ruby possui uma notação muito utíl aos desenvolvedores, estas são chamadas de blocos de código, que ajudam o programador a passar um ou mais trechos de instruções para o método descrito em suas classes concretas. Ruby possui o contexto de Mixins, que simula herança múltipla, sem cair em seus respectivos problemas encontrados em outras linguagens. Ruby é classificado como dinamicamente tipado, por esse meio todos os tipos são objetos, não há tipos primitivos como era e ainda é feito em outras linguagens do genero como \textbf{ C++, Java(...) }, bem como suas definições de classes. No entanto variáveis de instância que por sua vez referenciam estes objetos não possuem um tipo específico. Um exemplo clássico em ruby seria uma reescrita da classe Fixnum nativa do ruby.
+
+{\singlespace
+\begin{lstlisting}[caption=Exemplo de uma \textit{Reescrita} de Classe,language=Ruby,label={test}]
+[Irb]
+[irb - prompt]
+  2.1.0 :001 > class Fixnum
+  2.1.0 :002 >  alias_method :old_add, :+
+  2.1.0 :003 >  def plus(other)
+  2.1.0 :004 >    self.old_add(other) * 2
+  2.1.0 :005 >  end
+  2.1.0 :006 > end
+
+[irb - prompt]
+  2.1.0 :007 > numero = 2 + 2
+  2.1.0 :008 > numero
+   "8"
+  2.1.0 :009 > numero = nil
+\end{lstlisting}
+}
+
+O operador \textit{plus} ou + é um método em Ruby, ao contrário de outras linguagens existentes. O resultado desse método reescrito na classe Fixnum diz que todoo e qualquer numero somado com o método soma, ira sempre executar a operação de soma em conjunto com o operador de multiplicação neste caso todo numero somado será multiplicado por dois após a operação anterior, e logo em seguida pelo fato de ruby ser dinamicamente tipado, o valor da variável \textbf{numero} é alterado para nil, o que siguinifica que podemos alterar o contexto de uma variável ou até mesmo inserção de código em tempo de execução.
+
+Ruby possui uma ferramenta muito interessante, semelhante ao array visto em outras linguagens o ruby hashes, bastante similar ao dicionario de dados do python. Um ruby hashe utiliza chaves em vez de colchetes precedido de literais. O literal deve fornecer: uma chave e um valor agregados.
+Por exemplo, se quiséssemos mapear os dados de um usuário poderíamos faze-lo da seguinte forma:
+
+{\singlespace
+\begin{lstlisting}[caption=Exemplo de um \textit{Ruby Hash},language=Ruby,label={ruby-hash}]
+    user_section = {
+      name: 'xpto' ,
+      email: 'xpto@xpto.com' ,
+      password: 'headwind' ,
+      nickname: 'headwind' ,
+      prefered_language: 'Ruby On Rails with MongoDB'
+    }
+\end{lstlisting}
+}
+
+O conceito acima é muito semelhante a forma como o MongoDB  manipula seus documentos um contexto que será explicado mais a frente.
+\\
+\\
+\\
+
+Ultimamente a linguagem tem sido foco da mídia especializada devido ao seu web framework feito em Ruby, o Rails desenvolvido por \cite{DAVIDHANSSON}. Ainda hoje, toda a responsabilidade, quanto a, implementações de novas funcionalidades, é do Matz. Todas as decisões relacionadas à linguagem tem que passar por ele antes de serem implementadas e virem à publico. E mesmo assim a comunidade Ruby é forte o suficiente pra sobreviver caso alguma coisa aconteça com o Matz. Pois  há muitas pessoas que estão conectadas ao código tanto quanto o próprio Matz. Uma das grandes diferenças das outras tecnologias open-source, é que não tem uma empresa bancando os seus custos. O projeto sobrevive de doações feitas pelos usuários satisfeitos e por empresas que conseguiram aumentar sua produtividade e performance usando apenas Ruby ou Ruby On Rails. Em uma de suas declarações Matz fala sobre o que ele esperava obter quando criou a linguagem:
+
+"Eu conhecia muitas linguagens antes de criar o Ruby, mas nunca estava satisfeito com elas. Elas eram feias, rigorósas, mais complexas ou mais simples do que eu esperava. Eu queria criar a minha própria linguagem que me satisfizesse como programador. 
+Eu sabia muito sobre o público a ser alcançado: eu mesmo. Para minha surpresa, muitos programadores do mundo todo sentiam o 
+mesmo que eu. Eles ficaram felizes quando descobriram e programaram no Ruby. Do começo ao fim do desenvolvimento da linguagem Ruby, concentrei minhas energias para fazer uma programação rápida e fácil. Todas as características do Ruby, incluindo as características de orientação a objetos, são designadas a funcionar com programadores comuns (por exemplo: eu) que esperam que
+elas funcionem. A maior parte dos programadores acha que ele é elegante, fácil de usar e sentem prazer em usá-lo."\cite{MATZ}.
+
+\subsection{RubyGems}
+\label{Ruby}
+
+Uma RubyGem ou simplesmente \textit{Gem} são bibliotecas como em qualquer outra linguagem de programação já criada, por exemplo: \textbf{ Python, Java, C++, C }, especificas  para  Ruby, que fornecem um formato padrão para aplicações. Uma Gem é escrita especialmente para facilitar o uso de determinada funcionalidade. Cada Gem possui, em seu escopo todas as características correspondente a sua arquitetura (via um arquivo chamado "gemspec"). Tomando como exemplo a gem 'rspec-rails' que possui em seu escopo  arquivo rspec-rails.gemspec que possui toda a especificação desta desde qual o grupo responsável por mante-la com atualizações constantes, licenças e dependências. Gems podem ser utilizadas para estender ou modificar certas funcionalidades, geralmente são distribuídas por outros desenvolvedores Ruby mais conhecidos como textbf{ \textit{ rubistas } }, varías delas possuem até mesmo comandos expecificos auxiliar e agilizar o desenvolvimento, além de que em Ruby rubygems podem ser integradas umas com as outras para facilitar ainda mais os ruby programadores.
+
+
+
+
+
+
+\section{Git}
+
+Git é um sistema de controle de versões distribuídas livre e de código aberto, projetado para lidar com qualquer projeto, desde o menor ao maior com rapidez e eficiência \cite{SOFTWARE-FREEDOM-CONSERVANCY}.
+
+A historia do Git está muito relacionada a criação do Linux e de Linus Torvalds, seu criador, bem como com toda comunidade de desenvolvimento Linux. Durante anos a comunidade utilizou a ferramenta \textit{BitKeeper} para guardar a modificações do projeto.
+
+Em 2005, após um problema com a proprietária deste, a comunidade decidiu criar sua própria ferramenta a partir da experiência com a anterior, houve um novo foco em: velocidade, \textit{design} simples, suporte para desenvolvimento paralelo, distribuição completa e a habilidade necessária para lidar com projetos grandes sem perda de velocidade e dados.
+
+Assim, esse novo sistema de versionamento permite que qualquer repositório seja o centro do versionamento, deixando todo \textit{log} das modificações guardados nele sem que para isso precise de uma conexão a rede ou servidor geral.
+
+
+\subsection{Git e Subversion}
+
+Diferentemente do Git, o Subversion é um sistema de controle de versões centralizado, entretanto muito utilizado atualmente, principalmente por projetos livres.
+
+Embora seja consideravelmente rápido, é extremamente desaconselhável para projetos grandes e principalmente desenvolvidos paralelamente.

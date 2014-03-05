@@ -1,0 +1,115 @@
+\chapter{TECNOLOGIAS SIMILARES}
+\thispagestyle{empty}
+
+Este capítulo visa apresentar um estudo a respeito de outras aplicações que se assemelham ao tipo de aplicação que representa o CloudOoo, isto é, aplicações web capazes de realizar conversões de documentos e arquivos de multimídia, e que ainda pudessem manipular informações destes arquivos.
+
+Este estudo foi baseado especialmente em aplicações livres e de código aberto que se encontram disponíveis para uso e colaboração tal como o CloudOoo, dado o pequeno número dessas aplicações também foram estudadas páginas que ofereciam o serviço de conversão on-line.
+
+Entretanto cabe observar que dentre todas aplicações estudados não foi encontrada em nenhuma delas a funcionalidade de extração ou inserção de dados disponíveis no CloudOoo.
+
+
+\section{inout.io}
+
+O InOut é o serviço web que mais se aproximou de ser uma tecnologia similar ao CloudOoo. Ele foi desenvolvido exclusivamente para lidar com arquivos e suas conversões.
+
+Este serviço é capaz de converter arquivos dos formatos:
+\begin{itemize}
+    \item{Documentos: PDF, Microsoft Office, OpenDocument, Open Office, Rich Text Format, Comma separated file;}
+    \item{Vídeos: MPEG, Quicktime, Microsoft AVI, Windows Media, Microsoft Advanced Streamin, Theora, Flash, Matroska, Blue-Ray tracks,  FLIC, SGI, DL Animation;}
+    \item{Áudio: Wave, MP3, MPEG, MIDI, Raw, Windows Media, MPEG 4 audiostream, Dolby Digital, Apple Audio Interchange, Free Lossless audio, Real, Vorbis, Matroska;}
+    \item{Imagens: JPEG, GIF, PNG, TIFF, Windows Bitmap, Windows Metafile, Adobe Illustrator vector, Encapsulated post script vector, Post script, Adobe Photoshop, Targa, Zsoft paintbrush, Mac Pict.}
+\end{itemize}
+
+
+Para os formatos de:
+\begin{itemize}
+    \item{Documentos: PDF, Microsoft World, Open Document Textfile, Open Office Writer, Rich Text Format;}
+    \item{Vídeos: MPEG, Flash;}
+    \item{Áudio: Wave, MP3.}
+    \item{Imagens: JPEG, PNG, GIF.}
+\end{itemize}
+
+Através de uma breve analise às listas de conversões é possível notar que embora reconheça muitos padrões, o InOut tem preferência pela saída de arquivos em formatos livres de suas conversões.
+
+Para comunicação entre seu serviço e qualquer aplicação que queira requisitá-lo, existe uma extensa documentação na página \url{https://api.inout.io/InOut-API Documentation.html}, esta documentação é especialmente desenvolvida para outros desenvolvedores.
+
+Nessa documentação é recomendado o uso de RESTful e JSON para realizar a comunicação com o serviço, entretanto a linguagem a se utilizar fica por conta de cliente.
+
+No código \ref{inout} é possível notar um exemplo de uso do InOut em que é requerido todos os padrão de conversão para seu uso através do JSON:
+
+{\singlespace
+\begin{lstlisting}[caption=Requisição de perfis do InOut,language=bash,label={inout}]
+
+$ curl -u key:secret https://api.inout.io/profiles/
+
+
+{"ok": true, "result": [
+   {"id": "IMAGE_TO_JPEG"},
+   {"id": "IMAGE_TO_PNG"},
+   {"id": "IMAGE_TO_GIF"},
+   // ...
+]}
+\end{lstlisting}
+}
+
+Demais exemplos de uso do InOut podem ser encontrados na página da documentação citada anteriormente.
+
+
+\section{ServPDF}
+
+É um serviço web capaz de converter documentos, sejam eles de formatos abertos ou proprietários pela Microsoft.
+
+Ele permite que qualquer documento possa ser convertido para PDF, e que qualquer PDF possa ser convertido em Postscript ou imagens.
+
+É uma ferramenta extremamente simples baseada no Microsoft Office e modificada para atender ao LibreOffice.
+
+
+\section{Conversões Online}
+
+Fora esses serviços a gama de projetos livres para conversão de arquivos e documentos em geral é extremamente escassa. Existem muitas versões \textit{desktop} e também versões de serviço on-line, neste caso os serviços são hospedados em páginas que ficam disponíveis gratuitamente para usuários.
+
+A desvantagem desses serviços em relação ao CloudOoo é de que normalmente seus arquivos são limitados a um tamanho específico pelos proprietários da página, enquanto para um usuário que hospeda um CloudOoo é possível modificar esse limite de acordo com a máquina qual o mesmo será instalado, podendo este limite ser bem maior, entretanto dependendo do usuário para instalá-lo.
+
+Assim é possível concluir que para um usuário final que não possua conhecimentos avançados de serviços web pode ser bem mais agradável utilizar essas páginas. As próximas subseções mostram alguns exemplos interessantes para seu uso.
+
+\subsection{youconvertit.com}
+
+O You Convert It é uma das páginas disponíveis na web para conversão de documentos, imagens, vídeos e áudio on-line. É uma das páginas mais aconselháveis pois possui o limite de arquivos no tamanha de até 1GB.
+
+\subsection{convertfiles.com}
+
+Assim como o You Convert It, o Convert.Files é capaz de converter desde documentos a arquivos de multimídia, entretanto com um limite bem menor de apenas 150MB por arquivo. Nele existe a vantagem de que o usuário possa mandar os arquivos convertidos para seus celulares ou aparelhos moveis em geral.
+
+\subsection{zamzar.com}
+
+Similar aos exemplos anteriores o Zamzar é capaz de realizar a conversão entre qualquer arquivo, entretanto seu tamanho limite para arquivos é de 100MB e até 5 conversões diárias, apesar disso é um dos serviços mais populares para conversão on-line.
+
+
+\section{Comparação entres CloudOoo e seus similares}
+
+Na tabela \ref{funsim} com uma comparação entre as funcionalidades dos similares com o próprio CloudOoo:
+\begin{table}[!h]
+\caption{Comparação entre funcionalidades de ferramentas similares ao CloudOoo.}
+\label{funsim}
+\begin{tabular}{|r|c|c|c|c|p{1.5cm}|p{1.5cm}|}
+\hline
+Funcionalidade & CloudOoo & InOut & ServPDF & YouConvertIt & Convert. Files & Zamzar \\
+\hline
+Servidor de serviços & X & X & X & - & - & - \\
+\hline
+Converte documentos & X & X & X & X & X & X \\
+\hline
+Converte Imagens & X & X & - & X & X & X \\
+\hline
+Converte Áudio & X & X & - & X & X & X \\
+\hline
+Converte Vídeos & X & X & - & X & X & X \\
+\hline
+Apresenta metadados & X & - & X & - & - & - \\
+\hline
+Modifica metadados & X & - & - & - & - & - \\
+\hline
+\end{tabular} 
+\end{table}
+
+Após essa comparação é possível ressaltar a importância do CloudOoo como única ferramenta livre capaz de converter e manipular dados de diferentes tipos de arquivos, além de dispor de uma interface cliente-servidor.

@@ -1,0 +1,60 @@
+\chapter{INTRODUÇÃO}
+\thispagestyle{empty}
+
+Inicialmente quando a internet não passava de um experimento militar restrito para proteger o Governo de ataques inimigos \cite{TESLA}, o conceito de computação em nuvem não existia. Sob este cenário diversos usuários foram levados a se habituar com uma vasta diversidade de aplicações a nível \textit{desktop} para suprir suas necessidades diárias.
+
+Atualmente a internet sofreu tantas modificações que seu uso se tornou constate e praticamente dependente para qualquer tarefa, como por exemplo transformar um documento qualquer em um arquivo PDF para transporte. Isto se deu por sua evolução de comunicação e pela demonstração de um mundo de inúmeras possibilidades ainda não exploradas.
+
+Assim, há aproximadamente 4 anos, a empresa francesa Nexedi SA e o Núcleo de Pesquisas em Sistemas de Informações(NSI) do Instituto Federal Fluminense(IFF), iniciaram o desenvolvimento de uma ferramenta Web de código aberto para substituir a ferramenta OpenOffice Daemon (OOOD), originalmente desenvolvida apenas pela Nexedi.
+
+A OOOD, cujo desenvolvimento foi iniciado em 2006, tinha por objetivo a conversão de documentos do tipo Office, visando principalmente a realização de formatos privados para abertos. Com o uso freqüente desta ferramenta chamados ambientes de produção, isto é, em ambientes finais idealizados para demandas reais da ferramenta, esta demonstrou certa instabilidade. Está instabilidade deu-se em erros aparentemente não justificáveis e exceções inadequadamente tratadas.
+
+Os problemas identificados variavam desde problemas com a preparação do servidor da ferramenta, como perdas de requisições e estouros de memória, até erros de aplicação, como \textit{deadlock} no OpenOffice.Org e em processos.
+
+Somados esses problemas as novas demandas da aplicação, provou-se inviável reescreve ou fazer sua manutenção, dessa forma foi dado o desenvolvimento de uma nova ferramenta que além de fazer estas conversões pudesse ser capaz de manipular estes documentos para demais atividades, tais como a ``granularição'', utilidade necessária para o projeto Biblioteca Digital, do NSI.
+
+Em 2010, a OOOD 2.0 foi concluída e apresentada como uma versão extremamente mais estável e que implementava grande parte das tarefas necessárias aos principais projetos que a utilizavam. 
+
+Nesta nova versão foram criados controladores de memória e processos para ponderar o uso do sistema pela ferramenta, dessa forma seria possível conter e mesmo reiniciar processos que pudessem vir a causar gargalos em suas operações. Os controles de memória trabalhavam com base em variáveis de ambiente definidas na instalação da ferramenta, enquanto os controladores de processos trabalham em cima de um tempo média de execução que um processo pode levar, pois caso contrário a ferramenta subentende que esta aplicação não está realizando a tarefa que a foi passada.
+
+Além da estabilidade a nova versão da ferramenta possibilitava a inserção e extração de informações de documentos do tipo Office, conforme parte do proposto inicial, essas questões, bem como as conversões ficaram a critério do uso da aplicação OpenOffice.Org.
+
+Dado o sucesso nesta transição da ferramenta, demais funcionalidades foram almejadas, entre elas a ``granularição'', anteriormente citada, e também a conversão de outros tipos de arquivos, entre os quais PDF que não era ainda bem atendido pela ferramenta OpenOffice.Org e que precisaria do uso de uma nova ferramenta.
+
+Também eram desejáveis as conversões entre arquivos de vídeo, áudio e imagens, bem como a manipulação destes para inserção e extração de informações.
+
+Assim este trabalho visa apresentar uma ferramenta nova, cujo inclusive o nome veio a ser modificado para CloudOoo, que fosse estável e capaz de converter e manipular, documentos Office, documentos PDF, áudio, vídeo e imagens e ainda ``granularizar'' documentos em geral.
+
+
+\section{Objetivos}
+
+Este trabalho pretende contribuir com novas funcionalidade para ferramenta de extração e inserção de dados e conversão de arquivos em nuvem chamada CloudOoo.
+
+Além disso, visa criar uma forma de documentação técnica e manual para futuros usuários que venham a se interessar pelo uso e mesmo pela contribuição nesta ferramenta.
+
+Sendo assim o projeto apresenta características das principais ferramentas envolvidas no desenvolvimento e atuação do mesmo, bem como sua estrutura através dessas.
+
+Demonstrar as mudanças e melhorias no CloudOoo desde sua versão anterior, OOOD 2.0.
+
+
+\section{Justificativa}
+
+Optou-se por colaborar com a manutenção e expansão desta ferramenta de software livre e aberto visando gerar benefícios para sociedade.
+
+Através deste trabalho a ferramenta teve ampliadas suas funcionalidades possibilitando o tratamento de arquivos diversos, entre eles áudios, vídeos, imagens e documentos PDF.
+
+Além disso esta colaboração visou a manutenção da ferramenta a fim de garantir sua estabilidade, tendo em vista seus problemas detectados anteriormente. 
+
+\section{Organização do Trabalho}
+
+Este trabalho se divide em seis capítulos, sendo este primeiro um capítulo introdutório e explicativo sobre o conteúdo do trabalho e de suas intenções.
+
+O segundo capítulo deste trabalho cita e explica sobre o uso das principais tecnologias que estão por trás do funcionamento do CloudOoo, focando em seu uso específico para este, e portanto não abrangendo demais funcionalidades de cada uma dessas.
+
+No terceiro capítulo é apresentada a estrutura sobre a qual o CloudOoo vem sendo desenvolvido desde de sua versão anterior, promovendo apenas  atualizações.
+
+Ao quarto capítulo são apresentadas tecnologias consideradas semelhantes ao CloudOoo, sendo estas no entanto demonstrações mais semelhantes a sua versão anterior e mais especificamente a documentos ou apenas a conversões de arquivos.
+
+O quinto capítulo foca sobre um breve estudo de caso do desenvolvimento desta ferramenta, avaliando sua forma de instalação em suas plataformas mais comuns e sobre seu uso, levando em conta uma breve comparação com estudos anteriores do mesmo.
+
+Por fim no sexto capítulo são apresentadas as conclusões deste trabalho com base no quanto cresceu e visando sobre propostas futuras de mudanças para a melhoria desta ferramenta.

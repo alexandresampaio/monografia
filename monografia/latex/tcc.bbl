@@ -1,0 +1,175 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.53 }
+
+\bibitem[Alecrim 2011]{ALECRIM-ODF}
+\abntrefinfo{Alecrim}{ALECRIM}{2011}
+{ALECRIM, E. \emph{OpenDocument Format}. 2011.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.infowester\-.com\-/odf\-.php$>$}{http://www.infowester.com/odf.php}.
+  Acesso em: 15/05/2012.}
+
+\bibitem[Brown 2009]{WSGI}
+\abntrefinfo{Brown}{BROWN}{2009}
+{BROWN, T. \emph{An Introduction to the Python Web Server Gateway Interface
+  (WSGI)}. 2009.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ivory\-.idyll\-.org\-/articles\-/wsgi-intro\-/what-is-wsgi\-.html$>$}{http://ivory.idyll.org/articles/wsgi-intro/what-is-wsgi.html}.
+  Acesso em: 15/05/2012.}
+
+\bibitem[Chacon 2009]{SOFTWARE-FREEDOM-CONSERVANCY}
+\abntrefinfo{Chacon}{CHACON}{2009}
+{CHACON, S. \emph{Pro Git}. São Paulo: Apress, 2009.}
+
+\bibitem[FFMPEG.Org 2012]{FFMPEG}
+\abntrefinfo{FFMPEG.Org}{FFMPEG.ORG}{2012}
+{FFMPEG.ORG. \emph{Ffmpeg Documetation}. 2012.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/ffmpeg\-.org\-/ffmpeg\-.html$>$}{http://ffmpeg.org/ffmpeg.html}.
+  Acesso em: 15/05/2012.}
+
+\bibitem[Foundation 2011]{XIPH-THEORA}
+\abntrefinfo{Foundation}{FOUNDATION}{2011}
+{FOUNDATION, X. \emph{Theora Specification}. [S.l.]: Xiph.Org Foundation,
+  2011.}
+
+\bibitem[FreeDesktop.Org 2011]{JOHNSON}
+\abntrefinfo{FreeDesktop.Org}{FREEDESKTOP.ORG}{2011}
+{FREEDESKTOP.ORG. \emph{Poppler}. 2011.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/poppler\-.freedesktop\-.org\-/$>$}{http://poppler.freedesktop.org/}.
+  Acesso em: 15/05/2012.}
+
+\bibitem[Glyph Cog 2011]{GLYPH-COG}
+\abntrefinfo{Glyph Cog}{GLYPH COG}{2011}
+{GLYPH COG. \emph{XPdf}. 2011.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.glyphandcog\-.com\-/Xpdf\-.html$>$}{http://www.glyphandcog.com/Xpdf.html}.
+  Acesso em: 15/05/2012.}
+
+\bibitem[Hansson 2006]{DAVIDHANSSON}
+\abntrefinfo{Hansson}{HANSSON}{2006}
+{HANSSON, D.~H. \emph{Criador do Rails}. 2006.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/eu\-.dbpedia\-.org\-/page\-/David\underline{\
+  }Heinemeier\underline{\ }Hansson, https:\-/\-/github\-.com\-/dhh,
+  http:\-/\-/david\-.heinemeierhansson\-.com\-/about\-.html$>$}{http://eu.dbpedia.org/page/David_Heinemeier_Hansson,
+  https://github.com/dhh, http://david.heinemeierhansson.com/about.html}.
+  Acesso em: 04/03/2014.}
+
+\bibitem[ImageMagick Studio 2012]{IMAGEMAGICK-STUDIO}
+\abntrefinfo{ImageMagick Studio}{IMAGEMAGICK STUDIO}{2012}
+{IMAGEMAGICK STUDIO. \emph{ImageMagick: Convert, Edit or Compose Bitmap
+  Images}. 2012.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.imagemagick\-.org\-/script\-/index\-.php$>$}{http://www.imagemagick.org/script/index.php}.
+  Acesso em: 15/05/2012.}
+
+\bibitem[Matz 2000]{MATZ}
+\abntrefinfo{Matz}{MATZ}{2000}
+{MATZ. \emph{Ruby-Creator}. 2000.
+Dispon{\'\i}vel em: $<$https:\-/\-/www\-.ruby-lang\-.org\-/pt\-/about\-/$>$.}
+
+\bibitem[Parker e Jr 2010]{LibreOffice}
+\abntrefinfo{Parker e Jr}{PARKER; JR}{2010}
+{PARKER, H.; JR, R. F. \emph{Getting Started with OpenOffice.org}. São Paulo:
+  LibreOffice, 2010.}
+
+\bibitem[Pirnau 2011]{PIRNAU}
+\abntrefinfo{Pirnau}{PIRNAU}{2011}
+{PIRNAU, M. P. C. A. M. B.~G. The soap protocol used for building and testing
+  web services.
+\emph{Proceedings of the World Congress on Engineering}, v.~1, p. 475--480,
+  july 2011.}
+
+\bibitem[Python.Org 2008]{MINETTO-PYUNO}
+\abntrefinfo{Python.Org}{PYTHON.ORG}{2008}
+{PYTHON.ORG. \emph{Python Uno}. 2008.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.python\-.org\-.br\-/wiki\-/PythonUno$>$}{http://www.python.org.br/wiki/PythonUno}.
+  Acesso em: 15/05/2012.}
+
+\bibitem[Quin 2010]{W3C-XML}
+\abntrefinfo{Quin}{QUIN}{2010}
+{QUIN, L.~R. \emph{What is XML?} 2010.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.w3\-.org\-/standards\-/xml\-/core$>$}{http://www.w3.org/standards/xml/core}.
+  Acesso em: 15/05/2012.}
+
+\bibitem[Roelofs 1999]{PNG-BOOK}
+\abntrefinfo{Roelofs}{ROELOFS}{1999}
+{ROELOFS, G. \emph{PNG The Definitive Guide}. United States of America:
+  OREILLY, 1999.}
+
+\bibitem[Scripting News 2011]{XMLRPC}
+\abntrefinfo{Scripting News}{SCRIPTING NEWS}{2011}
+{SCRIPTING NEWS. \emph{What is XML-RPC?} 2011.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/xmlrpc\-.scripting\-.com\-/$>$}{http://xmlrpc.scripting.com/}.
+  Acesso em: 15/05/2012.}
+
+\bibitem[Silva 2010]{SILVA}
+\abntrefinfo{Silva}{SILVA}{2010}
+{SILVA, J. \emph{5 anos de ODF}. 2010.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/homembit\-.com\-/2010\-/05\-/5-anos-de-odf-2\-.html$>$}{http://homembit.com/2010/05/5-anos-de-odf-2.html}.
+  Acesso em: 15/05/2012.}
+
+\bibitem[Steward 2011]{STEWARD}
+\abntrefinfo{Steward}{STEWARD}{2011}
+{STEWARD, S. \emph{PDFtk the pdf toolkit}. 2011.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.pdflabs\-.com\-/tools\-/pdftk-the-pdf-toolkit\-/$>$}{http://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/}.
+  Acesso em: 15/05/2012.}
+
+\bibitem[Tesla 1994]{TESLA}
+\abntrefinfo{Tesla}{TESLA}{1994}
+{TESLA, B.~M. Graphical treasures on the internet.
+\emph{Computer Graphics World}, n.~34, november 1994.}
+
+\bibitem[Thomas 2007]{PYUNO}
+\abntrefinfo{Thomas}{THOMAS}{2007}
+{THOMAS, R. \emph{Python-Uno Bridge}. 2007.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.openoffice\-.org\-/udk\-/python\-/python-bridge\-.html$>$}{http://www.openoffice.org/udk/python/python-bridge.html}.
+  Acesso em: 15/05/2012.}
+
+\bibitem[Udell 2000]{UDELL}
+\abntrefinfo{Udell}{UDELL}{2000}
+{UDELL, J. \emph{Zope Is Python's Killer App'}. 2000.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/web\-.archive\-.org\-/web\-/20000302033606\-/http:\-/\-/www\-.byte\-.com\-/feature\-/BYT20000201S0004$>$}{http://web.archive.org/web/20000302033606/http://www.byte.com/feature/BYT20000201S0004}.
+  Acesso em: 15/05/2012.}
+
+\bibitem[Wikipedia 2012]{WIKIPEDIA-MATROSKA}
+\abntrefinfo{Wikipedia}{WIKIPEDIA}{2012}
+{WIKIPEDIA. \emph{Matroska}. 2012.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/pt\-.wikipedia\-.org\-/wiki\-/Matroska$>$}{http://pt.wikipedia.org/wiki/Matroska}.
+  Acesso em: 15/05/2012.}
+
+\bibitem[Xiph.Org Foundation 2012]{XIPH}
+\abntrefinfo{Xiph.Org Foundation}{XIPH.ORG FOUNDATION}{2012}
+{XIPH.ORG FOUNDATION. \emph{What is Vorbis?} 2012.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.vorbis\-.com\-/faq\-/$>$}{http://www.vorbis.com/faq/}.
+  Acesso em: 15/05/2012.}
+
+\bibitem[Zhang 2011]{FFMPEG-SCALABLE}
+\abntrefinfo{Zhang}{ZHANG}{2011}
+{ZHANG, B. Design and implementation of a scalable system architecture for
+  embedded multimedia terminal.
+\emph{International Conference on Electrical and Control Engineering}, n.
+  6057581, p. 618--621, 2011.}
+
+\bibitem[Zope Foundation 2012]{ZOPE2}
+\abntrefinfo{Zope Foundation}{ZOPE FOUNDATION}{2012}
+{ZOPE FOUNDATION. \emph{Zope2}. 2012.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/pypi\-.python\-.org\-/pypi\-/Zope2$>$}{http://pypi.python.org/pypi/Zope2}.
+  Acesso em: 15/05/2012.}
+
+\end{thebibliography}

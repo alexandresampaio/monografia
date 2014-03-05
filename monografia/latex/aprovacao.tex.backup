@@ -1,0 +1,21 @@
+\begin{folhadeaprovacao}
+    \setlength{\ABNTsignthickness}{0.4pt}
+    \setlength{\ABNTsignwidth}{15cm}
+    \setlength{\ABNTsignskip}{0.9cm}
+    \begin{center}
+        {\large ALEXANDRE DOS SANTOS SAMPAIO SILVA} \\ [4cm]
+        {\large LAÍS STELLET DA SILVA} \\ [2cm]
+        {\large ??? }\\ [2cm]
+        \hspace{.45\textwidth} % posicionando a minipage
+        \begin{minipage}{0.5\textwidth}
+        \begin{espacosimples}
+        Trabalho de conclusão de curso apresentado ao Instituto Federal Fluminense como requisito obrigatório para obtenção de grau em Bacharel de Sistemas de Informação.\\\\
+        \end{espacosimples}
+        \end{minipage}
+    \end{center}
+    Aprovada em 22 de novembro de 2012 \\\\
+    Banca avaliadora:
+    \assinatura{Prof. Rogério Atem Carvalho (Orientador) \\ Doutor em Ciências de Engenharia / IFF Campus Campos \\ Instituto Federal de Educação, Ciência e Tecnologia Fluminense / Campus Campos Centro}
+    \assinatura{Prof. Fernando Luiz de Carvalho Silva (Co-Orientador) \\ Mestre em Engenharia de Produção / UENF \\ Instituto Federal de Educação, Ciência e Tecnologia Fluminense / Campus Campos Centro}
+    \assinatura{Prof. Fábio Duncan de Souza \\ Mestre em Pesquisa Operacional e Inteligência Computacional / UCAM Campos \\ Instituto Federal de Educação, Ciência e Tecnologia Fluminense / Campus Campos Centro}
+\end{folhadeaprovacao}
