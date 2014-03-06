@@ -1,36 +1,13 @@
 \select@language {brazilian}
-\contentsline {chapter}{\numberline {1}INTRODU\IeC {\c C}\IeC {\~A}O}{11}{chapter.listoffigures.1}
-\contentsline {section}{\numberline {1.1}Objetivos}{11}{section.listoffigures.1.1}
-\contentsline {section}{\numberline {1.2}Justificativa}{11}{section.listoffigures.1.2}
-\contentsline {section}{\numberline {1.3}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{11}{section.listoffigures.1.3}
-\contentsline {chapter}{\numberline {2}TECNOLOGIAS EMPREGADAS}{12}{chapter.listoffigures.2}
-\contentsline {section}{\numberline {2.1}RVM (Ruby Version Manager)}{12}{section.listoffigures.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Ruby}{13}{subsection.listoffigures.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}RubyGems}{15}{subsection.listoffigures.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Zope}{16}{subsection.listoffigures.2.1.3}
-\contentsline {subsubsection}{\numberline {2.1.3.1}Zope Interfaces}{17}{subsubsection.listoffigures.2.1.3.1}
-\contentsline {section}{\numberline {2.2}XML}{17}{section.listoffigures.2.2}
-\contentsline {section}{\numberline {2.3}Formato Aberto}{17}{section.listoffigures.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Formatos abertos de Documentos}{18}{subsection.listoffigures.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.1.1}Formatos de documentos ODF}{18}{subsubsection.listoffigures.2.3.1.1}
-\contentsline {subsubsection}{\numberline {2.3.1.2}Estrutura de documentos ODF}{20}{subsubsection.listoffigures.2.3.1.2}
-\contentsline {subsection}{\numberline {2.3.2}Formatos de Imagens}{20}{subsection.listoffigures.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.2.1}Estrutura do PNG}{21}{subsubsection.listoffigures.2.3.2.1}
-\contentsline {subsubsection}{\numberline {2.3.2.2}Exif}{21}{subsubsection.listoffigures.2.3.2.2}
-\contentsline {subsection}{\numberline {2.3.3}Formatos de \IeC {\'A}udio}{21}{subsection.listoffigures.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Formatos de V\IeC {\'\i }deo}{22}{subsection.listoffigures.2.3.4}
-\contentsline {section}{\numberline {2.4}LibreOffice}{22}{section.listoffigures.2.4}
-\contentsline {subsection}{\numberline {2.4.1}UNO}{23}{subsection.listoffigures.2.4.1}
-\contentsline {subsubsection}{\numberline {2.4.1.1}PyUNO}{23}{subsubsection.listoffigures.2.4.1.1}
-\contentsline {section}{\numberline {2.5}ImageMagick}{24}{section.listoffigures.2.5}
-\contentsline {section}{\numberline {2.6}XPDF}{24}{section.listoffigures.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Poppler}{25}{subsection.listoffigures.2.6.1}
-\contentsline {section}{\numberline {2.7}PDFTk}{25}{section.listoffigures.2.7}
-\contentsline {section}{\numberline {2.8}FFMPEG}{25}{section.listoffigures.2.8}
-\contentsline {section}{\numberline {2.9}SERVI\IeC {\c C}OS WEB}{26}{section.listoffigures.2.9}
-\contentsline {section}{\numberline {2.10}XML-RPC}{26}{section.listoffigures.2.10}
-\contentsline {section}{\numberline {2.11}WSGI}{26}{section.listoffigures.2.11}
-\contentsline {subsection}{\numberline {2.11.1}Paster}{27}{subsection.listoffigures.2.11.1}
-\contentsline {section}{\numberline {2.12}Git}{27}{section.listoffigures.2.12}
-\contentsline {subsection}{\numberline {2.12.1}Git e Subversion}{27}{subsection.listoffigures.2.12.1}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}{29}{subsection.listoffigures.2.12.1}
+\contentsline {chapter}{\numberline {1}INTRODU\IeC {\c C}\IeC {\~A}O}{10}{chapter.listoffigures.1}
+\contentsline {section}{\numberline {1.1}Objetivos}{10}{section.listoffigures.1.1}
+\contentsline {section}{\numberline {1.2}Justificativa}{10}{section.listoffigures.1.2}
+\contentsline {section}{\numberline {1.3}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{10}{section.listoffigures.1.3}
+\contentsline {chapter}{\numberline {2}TECNOLOGIAS EMPREGADAS}{11}{chapter.listoffigures.2}
+\contentsline {section}{\numberline {2.1}RVM (Ruby Version Manager)}{11}{section.listoffigures.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Ruby}{12}{subsection.listoffigures.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}RubyGems}{14}{subsection.listoffigures.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Como Ruby carrega RubyGems}{14}{subsection.listoffigures.2.1.3}
+\contentsline {section}{\numberline {2.2}Git}{15}{section.listoffigures.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Git e Subversion}{16}{subsection.listoffigures.2.2.1}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}{17}{subsection.listoffigures.2.2.1}
