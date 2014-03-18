@@ -16,8 +16,6 @@ CAPITULO 2 - ROR
   • O que são aplicações ricas em client-side?
     •••••••
 
-  • Ruby On Rails 
-
   RoR é um framework de aplicação web escrito sob a linguagem Ruby. Criado por David Heinemeier Hansson em 2003, baseado em seu trabalho no Basecamp, que é uma ferramenta de gerenciamento de projetos 37 signals. No entanto David só lançou o RoR como código aberto em julho de 2004, e mais tarde em dezembro de 2005 foi lançada a primeira versão do Ruby on Rails.
 
 	Assim como outros frameworks de aplicação web o RoR utiliza a arquitetura

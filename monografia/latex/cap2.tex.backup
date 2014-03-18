@@ -8,8 +8,6 @@ Ao longo de muitos anos, uma pergunta é feita por vários desenvolvedores. Qual
 Serão apresentadas as seguintes tecnologias:
 RVM como ambiente virtual para o desenvolvimento, Ruby como linguagem de programação, Rails como web framework, Mysql como base de dados inicial, MongoDB como base de dados conclusiva e o mais importante RubyGems para auxiliar na produção do sistema, git como ferramenta de repositório de código compartilhado com menbros do projeto.
 
-Os capítulos 1 e 2 apresentam um conceito simplificado de Ruby bem como seu Framework o Rails com alguns exemplos de funcionalidades em cada uma.
-
 
 \section{RVM (Ruby Version Manager)}
 
@@ -85,23 +83,166 @@ Uma RubyGem ou simplesmente \textit{Gem} é uma biblioteca como em qualquer outr
 \subsection{Como Ruby carrega RubyGems}
 \label{Ruby}
 
-Antes de tudo é preciso saber como que o Ruby carrega arquivos em sua estrutura. O Ruby 1.9.3 predispõe de um comando bem simples o require "arquivo.rb", com ele é possível carregar arquivo(s) diretamente ou especificando o caminho absoluto. Contudo na versão mais atual do ruby a 2.1.0 este comando require pode ser substitutuido por load "arquivo.rb".
+Antes de tudo é  muito útil saber como o Ruby carrega arquivos de dependência. O Ruby seja na verão 1.9.3 ou mais recente predispõem de um comando bem simples o require "arquivo" com ele é possível carregar arquivo(s) diretamente ou especificando o caminho absoluto. Contudo existe ainda uma outra forma pouco usada o load "arquivo.rb". A única diferença é que com load deve ser colocado a estenção do arquivo e além disso se ao tentar executar o require novamente essa operação será negada pois este carrega uma vez esse arquivo, já o load permite carregar varias vezes. Load é muito útil quando se está testando um arquivo que está sofrendo alterações constantes. Existe ainda uma outra forma de se carregar arquivos é o require File.expand\_path("./../spec\_helper")                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 
 {\singlespace
-\begin{lstlisting}[caption=Exemplo de require e load \textit{Ruby 1.9.3/2.1.0},language=Ruby,label={test}]
+\begin{lstlisting}[caption=Exemplo de require e load Ruby 1.9.3 - 2.1.0,language=Ruby,label={test}]
 [Irb]
 [irb - prompt - 1.9.3]
-  1.9.3 :001 > require File.expand_path('lib/fixnum.rb')
+  1.9.3 :001 > require 'lib/fixnum'
+    true
+  1.9.3 :002 >
+
+[irb - prompt - 1.9.3 - Full-Path]
+  1.9.3 :001 > File.expand\_path("./../spec_helper")
     true
   1.9.3 :002 >
 
 [irb - prompt - 2.1.0]
-  2.1.0 :001 > load File.expand_path('lib/fixnum.rb')
+  2.1.0 :001 > load 'lib/fixnum.rb'
     true
   2.1.0 :002 >
 \end{lstlisting}
 }
 
+Como pode ser visto o comando  require pode carregar arquivos usando caminhos relativos. Porém também pode ser usado caminhos absolutos. Para tal quando se deseja carregar alguma dependência em um projeto Ruby existe um arquivo chamado \textbf{"rubygems.rb"} localizado em \textbf{~/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0} ao qual contem toda a
+expecificação de Gems como carregalás na versão decorrente do ruby instalado. Logo se precisa carregar esse arquivo toda vez que se deseja utilizar alguma gem:
+
+{\singlespace
+\begin{lstlisting}[caption=Exemplo de require 'rubygems',language=Ruby,label={require}]
+  require 'rubygems'
+  require 'BCrypt'
+\end{lstlisting}
+}
+
+\subsection{Versionamento de Gems}
+Versionamento é considerado por muitos a parte mais importante das RubyGems. É possível ter diversas versões na mesma máquina carregadas em
+paralelo, essa é considerada a parte mais vantajosa e a principal fonte de confusão. Por exemplo: ao utilizar o comando 'gem list --local' 
+uma lista será retornada contendo todas as Gems instaladas no momento. Essa lista pode e deve variar de máquina para máquina de acordo com 
+as gems instaladas, para exemplificar  esse conceito seria como descrito na saída do terminal a seguir:
+
+{\singlespace
+\begin{lstlisting}[caption=Exemplo de versionamento de gems,language=Ruby,label={versionamento}]
+  >> mongoid ( 3.0.0, 4.1.0)
+\end{lstlisting}
+}
+
+Nesse trecho se carregarmos essa Gem uma mensagem de erro seria exibida, devido ao nome da Gem que não é o nome que o comando 'require' precisa, bem como a versão que se deseja carregar.
+No entanto como fazer para carregar essa gem se o nome da mesma e o arquivo Ruby diferem nesse contexto? “Quando a convenção falha precisamos dizer explicitamente o que queremos.” 
+(Fábio Akita, 2009).
+
+{\singlespace
+\begin{lstlisting}[caption=Exemplo de versionamento de gems,language=Ruby,label={versionamento}]
+  >> require 'rubygems'
+  >> gem 'mongoid'
+  >> require 'mongoid'
+\end{lstlisting}
+}
+
+O que foi feito no trecho anterior resolve o problema de nomes e carrega a versão mais atual da gem 'mongoid', caso a gem requerida seja 
+uma versão que difere da atual, o desenvolvedor deverá especificar qual a versão da gem propriamente dita quer utilizar:
+
+
+{\singlespace
+\begin{lstlisting}[caption=Exemplo de versionamento de gems,language=Ruby,label={versionamento}]
+  require 'rubygems'
+  gem 'mongoid', '~> 3.0.0'
+  require 'mongoid'
+\end{lstlisting}
+}
+
+\section{Organização de aplicações web}
+
+Construir aplicações web em Ruby on Rails é um pouco mais profundo do que simplesmente construir páginas atras de páginas como era feito antigamente.
+A razão para tudo isto é que ele é preparado para atender e criar aplicações modernas e arrojadas(sofisticadas) e isto quer dizer que a aplicação desenvolvida
+sobre esta plataforma não deve apenas responder por páginas HTML mas de forma adequada e dinâmica em aplicações ricas em client-side em conjunto com outros 
+frameworks como backbone.js entre outros.
+
+\subsection{Aplicações ricas em client-side}
+Antes de pensarmos em client-side deve-se ter em mente um conceito de aplicações web. Olhando o modelo server-side - MVC tradicional - Model, View e Controller, 
+sendo todos executados no lado do servidor, gerando todo o html em conjunto com suas respectivas actions(requisições), para serem visualizadas pelo usuário em um web-browser
+
+\begin{figure}[ht]
+    \centering
+    \scalebox{0.4}{\includegraphics{figuras/server_side_mvc}}
+    \caption{Modelo MVC básico}
+    \label{submeter}
+\end{figure}
+
+Foi se criado um formato um pouco mais rebuscado, mais evoluido e nesse formato tem-se aplicações onde o html é gerado no lado do servidor, mas foi criada uma técnica conhecida
+por muitos como ajax, para atualizar partes de páginas ou até mesmo funcionalidades implementadas para melhorar o desempenho do usuário evitando um reload completos
+da página a cada iteração. Contudo ainda neste ponto parte do MVC é executado no lado do servidor e apenas a parte das Views são executadas no lado do cliente. Este modo eram
+chamado de hibrido por muitos.
+
+\begin{figure}[ht]
+    \centering
+    \scalebox{0.4}{\includegraphics{figuras/hibrid_mode_mvc}}
+    \caption{Modelo MVC hibrido}
+    \label{submeter}
+\end{figure}
+
+Depois de muito se estudar o conceito de modelo MVC - Standard e MVC - hybrid um terceiro modelo surgiu e é nesse que as aplicações client-side executam atualmente e neste a arquitetura
+MVC é toda executada em client-side (Lado do clientte ). O Model passa ter entretanto duas atribuições de responsabilidade, a de fornecer toda a API bem como as validações executadas no
+lado do servidor, e outra que é executada no lado do cliente que também oferece validações sobre a estrutura do modelo exibido.
+\\\\\\
+\begin{figure}[ht]
+    \centering
+    \scalebox{0.4}{\includegraphics{figuras/client_side_mvc}}
+    \caption{Modelo MVC Client-Side}
+    \label{submeter}
+\end{figure}
+
+Desenvolver aplicações voltadas para client-side possuem algumas vantagens importantes como:
+\begin{itemize}
+    \item{ \textbf{Melhor desempenho para o usuário:}
+      sendo esta uma das principais vantagens no que diz respeito ao desempenho de cada browser, não ter que precisar 
+      fazer requisições a todo momento, na hora de fazer dowload, ou atualizar a página completa a cada iteração do 
+      usuario com esta. Aplicações feitas em client-side funcionam tao bem quanto aplicações feitas para desktop.
+    }
+    \item{ \textbf{Melhor desempenho na transferência de dados:}
+      Há também um ganho considerável na taxa de transmissão dos dados, ao invés de carregar o cenário da página html completa
+      a cada interação do usuário, na arquitetura client-side todo o cenário é transferido na primeira solitação e as requisições 
+      seguintes são responsáveis por trafegar apenas os dados consolidados entre o cliente e o servidor, normalmente no formato JSON. 
+    }
+    
+    \item{ \textbf{Facilidade de manutenção:}
+      com aplicações em client-side a API forncecida pelo servidor possibilita a facilidade de manutenção de forma independente ao usuário,
+      de tal forma que o cliente não perceberá quando a página sofrer atualizações em tempo não real.
+    }
+    
+    \item{ \textbf{Redução de carga no lado do Servidor:}
+      O sistema completo passa a ser enviado ao usuário final através de arquivos html, css e javascript que podem ser comprimidos 
+      e distribuídos através de CDN's com faclidade. Uma vez baixados esses arquivos são mantidos em cache no browser da preferência do usuário. 
+      O servidor tem a responsabilidade apenas de fornecer uma API, enviar e receber os dados no formato JSON. Dessa forma todo o processamento 
+      é responsável por particionar dos dados e  a geração de templates fica exclusivamente no lado cliente e não mais no servidor, liberando recursos. 
+    }
+\end{itemize}
+
+\section{Ruby On rails}
+
+RoR é um web framework escrito sob a linguagem Ruby. Criado por \cite{DAVIDHANSSON} em 2003, baseado em seu trabalho no Basecamp, que é 
+uma ferramenta de gerenciamento de projetos 37 signals. No entanto David só lançou o RoR como código aberto em julho de 2004, e mais tarde em dezembro de 
+2005 foi lançada a primeira versão do Ruby on Rails.
+
+Assim como outros frameworks de aplicação web o RoR utiliza a arquitetura  MVC(model view controller), fornecendo um isolamento entre a lógica de negócio 
+dos modelos, a interface com o usuário através das views e a manipulação de todas as requisições no servidor de apicação. O que contribui muito para que a manutenção do código seja bem mais fácil e flexível.
+
+Ruby on Rails possui uma filosofia que seque dois princípios:
+\begin{itemize}
+ \item {DRY}
+ \item {CoC}
+\end{itemize}
+
+\subsection{DRY}
+Don't Repeat Yourself(Não se repita). Se aplicado corretamente, possibilita a reduzir a duplicação de tarefas dentro de um projeto. Réplicas ou duplicatas de qualquer
+tipo, dentro de uma aplicação, leva a dificuldade de modificação e manutenção e inconsistência, sem levar em conta em alguns casos a ilegibilidade do source-code. 
+Em RoR, se pode ver este princípio em ação em quase tudo, desde as componentes reutilizáveis em forma de plug-ins para a forma como as tabelas da base de dados escolhida são mapeadas.
+
+\subsection{CoC}
+
+\textit{Convenção sobre Configuração} ou \textit{programação por convenção} vem do termo em inglês \textbf{(Convention over Configuration - CoC)}, uma prática de desenvolvimento de software que visa diminuir o nnumero obsoleto de decisões que os desenvolvedores precisam tomar ao longo de seus projetos. Estabelecendo simplicidade sem preder flexibilidade.
+Quando um desenvolvedor seja ele experiente ou não for iniciar atividades em Rails, o usuário estará sempre na maior parte do tempo interagindo com os controllers, views e models entre outras palavras a arquitetura MVC amplamente vista em design patterns e além desse fator importante estara diretamente conectato para a base de dados escolhida seja ela 
+relacional ou não relacional como no caso dos NoSQL. De tal forma a reduzir a necessidade de configuração pesada.
 
 \section{Git}
 
@@ -112,10 +253,3 @@ A historia do Git está muito relacionada a criação do Linux e de Linus Torval
 Em 2005, após um problema com a proprietária deste, a comunidade decidiu criar sua própria ferramenta a partir da experiência com a anterior, houve um novo foco em: velocidade, \textit{design} simples, suporte para desenvolvimento paralelo, distribuição completa e a habilidade necessária para lidar com projetos grandes sem perda de velocidade e dados.
 
 Assim, esse novo sistema de versionamento permite que qualquer repositório seja o centro do versionamento, deixando todo \textit{log} das modificações guardados nele sem que para isso precise de uma conexão a rede ou servidor geral.
-
-
-\subsection{Git e Subversion}
-
-Diferentemente do Git, o Subversion é um sistema de controle de versões centralizado, entretanto muito utilizado atualmente, principalmente por projetos livres.
-
-Embora seja consideravelmente rápido, é extremamente desaconselhável para projetos grandes e principalmente desenvolvidos paralelamente.

@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.2.19)  5 MAR 2014 23:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.3.8)  18 MAR 2014 15:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tcc.tex
 (./tcc.tex
 LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 3 languages loaded.
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texmf/tex/latex/abntex/abnt.cls
 (/usr/share/texmf/tex/latex/abntex/cvs-id.def)
 Document Class: abnt 2006/09/09 v1.32 Classe abnt (NBR6024, NBR6027, NBR6028, N
@@ -708,6 +708,18 @@ LaTeX Warning: Label `Ruby' multiply defined.
 
 LaTeX Warning: Label `test' multiply defined.
 
+
+LaTeX Warning: Label `versionamento' multiply defined.
+
+
+LaTeX Warning: Label `versionamento' multiply defined.
+
+
+LaTeX Warning: Label `submeter' multiply defined.
+
+
+LaTeX Warning: Label `submeter' multiply defined.
+
 ))
 \openout1 = `tcc.aux'.
 
@@ -820,7 +832,7 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count133
 \openout2 = `capa.aux'.
 
-(./capa.tex <figuras/logo.jpg, id=51, 1366.10374pt x 253.94875pt>
+(./capa.tex <figuras/logo.jpg, id=71, 1366.10374pt x 253.94875pt>
 File: figuras/logo.jpg Graphic file (type jpg)
 
 <use figuras/logo.jpg>
@@ -852,38 +864,43 @@ Overfull \hbox (22.89937pt too wide) in paragraph at lines 4--5
  [][] 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 18
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 17
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 18
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 17
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 18
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 17
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 23.
+(babel)             in language append on input line 22.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 23.
+(babel)             in language append on input line 22.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 \end{titlepage}
+l.22 \end{titlepage}
                      [1
 
 
@@ -906,14 +923,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--18
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 20.
+(babel)             in language append on input line 19.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 20.
+(babel)             in language append on input line 19.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 \end{folhadeaprovacao}
+l.19 \end{folhadeaprovacao}
                             [2
 
 
@@ -1086,67 +1103,67 @@ Cap\'{\i }tulo 2.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 14.
+(babel)             in language append on input line 12.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 19.
+(babel)             in language append on input line 17.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 24.
+(babel)             in language append on input line 22.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 24.
+(babel)             in language append on input line 22.
 [11
 
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 34.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 32.
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--37
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--37
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
 
  []
 
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 38.
+nput line 36.
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 40.
+(babel)             in language append on input line 38.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 40.
+(babel)             in language append on input line 38.
  [12]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 44.
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 77.
+(babel)             in language append on input line 75.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 77.
+(babel)             in language append on input line 75.
 [13]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 80.
+(babel)             in language append on input line 78.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 85.
+(babel)             in language append on input line 83.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 89.
+(babel)             in language append on input line 87.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 89.
+(babel)             in language append on input line 87.
  [14] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
@@ -1154,20 +1171,98 @@ File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 121.
+(babel)             in language append on input line 118.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 128.
+(babel)             in language append on input line 125.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 128.
+(babel)             in language append on input line 125.
  [15]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 132.
+(babel)             in language append on input line 154.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 161.
+
+<figuras/server_side_mvc.png, id=212, 226.8475pt x 367.3725pt>
+File: figuras/server_side_mvc.png Graphic file (type png)
+
+<use figuras/server_side_mvc.png>
+Package pdftex.def Info: figuras/server_side_mvc.png used on input line 167.
+(pdftex.def)             Requested size: 226.84694pt x 367.37158pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 176.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 176.
+ [16]
+<figuras/hibrid_mode_mvc.png, id=228, 226.8475pt x 431.6125pt>
+File: figuras/hibrid_mode_mvc.png Graphic file (type png)
+
+<use figuras/hibrid_mode_mvc.png>
+Package pdftex.def Info: figuras/hibrid_mode_mvc.png used on input line 179.
+(pdftex.def)             Requested size: 226.84694pt x 431.61143pt.
+
+<figuras/client_side_mvc.png, id=229, 224.84pt x 458.71375pt>
+File: figuras/client_side_mvc.png Graphic file (type png)
+
+<use figuras/client_side_mvc.png>
+Package pdftex.def Info: figuras/client_side_mvc.png used on input line 190.
+(pdftex.def)             Requested size: 224.83945pt x 458.71263pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--194
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 196.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 196.
+[17 <./figuras/server_side_mvc.png> <./figuras/hibrid_mode_mvc.png>]
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 197.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 221.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 226.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 226.
+ [18 <./figuras/client_side_mvc.png>]
+Overfull \hbox (5.18887pt too wide) in paragraph at lines 227--229
+[]\T1/ptm/m/n/12 Assim como ou-tros fra-meworks de apli-ca-ção web o RoR uti-li
+za a ar-qui-te-tura MVC(model
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 236.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 241.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 248.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 248.
+[19]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 249.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 76.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 76.
- [16] (./tcc.bbl
+ [20] (./tcc.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 3.
 )
@@ -1180,7 +1275,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 82.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 82.
-[17
+[21
 
 
 ]
@@ -1191,7 +1286,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 Package rerunfilecheck Info: File `tcc.out' has not changed.
-(rerunfilecheck)             Checksum: B78BBFFDB00DB37157758A4D8E03F2B4;1057.
+(rerunfilecheck)             Checksum: 0B3CEEEE01B6E183EF09CF0EE2F7FBEA;1550.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1199,23 +1294,23 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  ) 
 Here is how much of TeX's memory you used:
- 10340 strings out of 495007
- 153196 string characters out of 6180696
- 325883 words of memory out of 5000000
- 13210 multiletter control sequences out of 15000+600000
- 55649 words of font info for 88 fonts, out of 8000000 for 9000
- 16 hyphenation exceptions out of 8191
- 36i,7n,41p,1365b,1596s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 10397 strings out of 493307
+ 154610 string characters out of 6139906
+ 330080 words of memory out of 5000000
+ 13473 multiletter control sequences out of 15000+600000
+ 56762 words of font info for 90 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 36i,8n,41p,1365b,1596s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tcc.pdf (18 pages, 128111 bytes).
+Output written on tcc.pdf (22 pages, 228846 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
- 206 compressed objects within 3 object streams
- 69 named destinations out of 1000 (max. 500000)
- 102 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 308 PDF objects out of 1000 (max. 8388607)
+ 268 compressed objects within 3 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

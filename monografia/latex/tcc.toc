@@ -8,6 +8,11 @@
 \contentsline {subsection}{\numberline {2.1.1}Ruby}{12}{subsection.listoffigures.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}RubyGems}{14}{subsection.listoffigures.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Como Ruby carrega RubyGems}{14}{subsection.listoffigures.2.1.3}
-\contentsline {section}{\numberline {2.2}Git}{15}{section.listoffigures.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Git e Subversion}{16}{subsection.listoffigures.2.2.1}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}{17}{subsection.listoffigures.2.2.1}
+\contentsline {subsection}{\numberline {2.1.4}Versionamento de Gems}{15}{subsection.listoffigures.2.1.4}
+\contentsline {section}{\numberline {2.2}Organiza\IeC {\c c}\IeC {\~a}o de aplica\IeC {\c c}\IeC {\~o}es web}{16}{section.listoffigures.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Aplica\IeC {\c c}\IeC {\~o}es ricas em client-side}{16}{subsection.listoffigures.2.2.1}
+\contentsline {section}{\numberline {2.3}Ruby On rails}{19}{section.listoffigures.2.3}
+\contentsline {subsection}{\numberline {2.3.1}DRY}{19}{subsection.listoffigures.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}CoC}{19}{subsection.listoffigures.2.3.2}
+\contentsline {section}{\numberline {2.4}Git}{20}{section.listoffigures.2.4}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}{21}{section.listoffigures.2.4}
