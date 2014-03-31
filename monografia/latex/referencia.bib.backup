@@ -1,11 +1,3 @@
-@Book{ GUIDO,
-	title = "An introduction to Python",
-	author = "Guido Van Rossum",
-	publisher = "Network Theory Limited",
-	address = "United Kingdom",
-	year = "2003"
-}
-
 @Misc{ MATZ,
   author = "Matz",
   title = "Ruby-Creator",
@@ -15,6 +7,15 @@
 	urlaccessdate = {04/03/2014}
 }
 
+@Misc{ TECTARGET,
+  author = "Tectarget",
+  title = "object-relational mapping (ORM)",
+  year = "2008",
+  url = {http://searchwindevelopment.techtarget.com/definition/object-relational-mapping},
+  urlaccessdate = {29/03/2014}
+}
+
+
 @Misc{ DAVIDHANSSON,
   author = "David Heinemeier Hansson",
   title = "Criador do Rails",
@@ -23,13 +24,31 @@
   urlaccessdate = {04/03/2014}
 }
 
+RUBY
+, Sam; THOMAS, Dave; HANS
+S
+ON, David.
+Agile Web Development With
+Rails
+.
+3 ed. Raleigh:
+The Pragmatic Bookshelf
+, 2009
 
-@Misc{ BAKHARIA,
-  title = "Use Case - A Single Module",
-  organization = "Zope Foundation",
-  year = "2009",
-  url = {http://www.buildout.org/docs/usecase_singlemod.html},
-	urlaccessdate = {20/05/2012}
+@book{ PRAGMATIC,
+  title = "Agile Web Development With Rails 4.",
+  author = {"Sam Ruby", "Dave Thomas", "David Heinemeier Hansson"},
+  publisher = "The Facets",
+  address = "North Carolina, NC",
+  year = "2014"
+}
+
+@book{ BAKHARIA,
+  title = "Design Ruby on Rails Power: The Comprehensive Guide.",
+  author = "Aneesha Bakharia",
+  publisher = "Thomson Course Technology",
+  address = "Boston, MA",
+  year = "2007"
 }
 
 @Misc{ GADNER-SUBPROCESS,

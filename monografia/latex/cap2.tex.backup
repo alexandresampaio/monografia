@@ -255,7 +255,13 @@ ORM possibilita aos desenvolvedores experientes ou novatos à manter a uma persp
 De acordo com \cite{BAKHARIA}, o \textbf{Active Record} cria uma abstração de \textit{OODB} - \\ (Orientação a Objeto em Banco de dados) onde o rails cria um mapeamento relacional entre tabelas e classes do modelo ao qual estas pertencem. Sendo que o Active Record também fornece uma série de métodos nas próprias classes para trabalhar com a manipulação de dados, como por exemplo criar, salvar, atualizar, deletar, entre outras palavras todas operações para gerenciar o CRUD do modelo descrito.
 Ao contrário de outras bibliotecas complexas o Active Record não necessita de configurações desse nível, além de ser capaz de se dispor da capacidade de propor mapeamentos objeto relacional com base em convenções de nomenclatura de tabelas e nome dos campos o que ajuda a justificar a importância do conceito chave de desenvolvimento a idéia de \textit{ Convention Over Configuration(Convenção Preferível à Configuração) } o que a mesma afirma que com esse pretexto o Active record torna o Ruby On Rails uma das ferramentas de desenvolvimento web mais ágil para a produção de sistemas com banco de dados.
 
+Na Prática todo e qualquer modelo criado pelo gerador de componentes do rails o mesmo estende a classe nativa \textbf{ActiveRecord::Base} responsável por abstrair uma entidade contida na base de dados, assim como cada objeto representa uma linha do banco de dados como menciona \cite{PRAGMATICRUBY}.
+
 \subsection{Action View}
+Segundo \cite{BAKHARIA}, Action View é um dos componentes responsável apenas por gerar a interação entre a aplicação e o usuário. Um Controller pode ter várias actions( métodos ), e para cada action dependendo da situação uma view para esta que automáticamente é reconhecida e exibida.
+Um action view também é conhecida como template. Esse template pode reproduzir vários elementos, não só o html, mas também outros tipos como XML, JavaScript, PDF.
+
+
 
 \subsection{Action Mailer}
 ActionMailer é um componente nativo do rails que permite que a aplicação desenvolvida possa enviar correio-eletrônico. 
