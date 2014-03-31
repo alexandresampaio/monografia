@@ -227,7 +227,7 @@ uma ferramenta de gerenciamento de projetos 37 signals. No entanto David só lan
 Assim como outros frameworks de aplicação web o RoR utiliza a arquitetura  MVC(model view controller), fornecendo um isolamento entre a lógica de negócio 
 dos modelos, a interface com o usuário através das views e a manipulação de todas as requisições no servidor de apicação. O que contribui muito para que a manutenção do código seja bem mais fácil e flexível.
 
-Ruby on Rails possui uma filosofia que seque dois princípios:
+Ruby on Rails possui uma filosofia que segue dois princípios:
 \begin{itemize}
  \item {DRY}
  \item {CoC}
@@ -245,6 +245,38 @@ Quando um desenvolvedor seja ele experiente ou não for iniciar atividades em Ra
 relacional ou não relacional como no caso dos NoSQL. De tal forma a reduzir a necessidade de configuração pesada.
 
 RoR permite a criação de regras personlizadas, contudo é sempre  uma boa idéia usar as convenções que o própio	Rails oferece, essas convenções deverão acelerar o desenvolvimento, manter um código limpo, conciso e legível e o mais importante estas convenções permitem uma navegação muito mais fácil dentro da aplicação.
+Rails não foi baseado  em um único padrão de desenvolvimento, mas sim uma série de padrões. Outros frameworks que faziam parte do núcleo do Rails antigamente foram removidos desse núcleo afim de reduzir o acoplamento e com isso e permitir que quem o esteja utilizando os substituam sem  muita dificuldade, mas continuam funcionando e sendo usados em conjunto. Aqui estão alguns deles:
+
+\subsection{Active Record}
+Para se entender este item sendo este um dos mais importantes para se construir uma aplicação em Rails é necessário compreender um dos fundamentos mais criteriosos em orientação a objetos
+o conceito de ORM(Object-Ralational Mapping) que pode ser traduzido como Mapeamento Objeto Relacional e segundo \cite{TECTARGET}, trata-se de uma forma rapida e prática de relacionar e endereçar, e manipular objetos sem que seja, necessário se preocupar com a forma ao qual estes se comunicam e se relacionam entre si.
+ORM possibilita aos desenvolvedores experientes ou novatos à manter a uma perspectiva consistente dos objetos no percurso do projeto, mesmo que haja alteraçãoes no código ou até mesmo na base de dados em questão.
+
+De acordo com \cite{BAKHARIA}, o \textbf{Active Record} cria uma abstração de \textit{OODB} - \\ (Orientação a Objeto em Banco de dados) onde o rails cria um mapeamento relacional entre tabelas e classes do modelo ao qual estas pertencem. Sendo que o Active Record também fornece uma série de métodos nas próprias classes para trabalhar com a manipulação de dados, como por exemplo criar, salvar, atualizar, deletar, entre outras palavras todas operações para gerenciar o CRUD do modelo descrito.
+Ao contrário de outras bibliotecas complexas o Active Record não necessita de configurações desse nível, além de ser capaz de se dispor da capacidade de propor mapeamentos objeto relacional com base em convenções de nomenclatura de tabelas e nome dos campos o que ajuda a justificar a importância do conceito chave de desenvolvimento a idéia de \textit{ Convention Over Configuration(Convenção Preferível à Configuração) } o que a mesma afirma que com esse pretexto o Active record torna o Ruby On Rails uma das ferramentas de desenvolvimento web mais ágil para a produção de sistemas com banco de dados.
+
+Na Prática todo e qualquer modelo criado pelo gerador de componentes do rails o mesmo estende a classe nativa \textbf{ActiveRecord::Base} responsável por abstrair uma entidade contida na base de dados, assim como cada objeto representa uma linha do banco de dados como menciona \cite{PRAGMATIC}.
+
+
+ serão abstrações d
+e uma entidade contida no banco de dados,
+assim, os objetos dessas classes correspondem a linhas das tabelas, como explica
+RUBY
+(2009)
+\subsection{Action View}
+
+\subsection{Action Mailer}
+ActionMailer é um componente nativo do rails que permite que a aplicação desenvolvida possa enviar correio-eletrônico. 
+\\
+"É importante um sistema que facilite a operação de envio de mensagens de e-mails porque
+essa é uma operaão tem diversas aplicações comuns como: Enviar e -mails de confirmação de
+cadastro; Notificações de erros ao administrador do site; Confirmação de compra de produtos
+em lojas virtuais; Newsletters".\cite{BAKHARIA}
+\\
+\noindent A classe Mailer do Rails possui métodos para diferentes formas de enviar mensagens de acordo com o que a aplicação necessita. O formato de saida dessa mensagem
+e descrito em sua ActionView de forma muito similar com as actions views gerenciadas pelos erb.
+
+\subsection{Action Controller}
 
 \section{Git}
 

@@ -5,6 +5,11 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.53 }
 
+\bibitem[Bakharia 2007]{BAKHARIA}
+\abntrefinfo{Bakharia}{BAKHARIA}{2007}
+{BAKHARIA, A. \emph{Design Ruby on Rails Power: The Comprehensive Guide.}
+  Boston, MA: Thomson Course Technology, 2007.}
+
 \bibitem[Chacon 2009]{SOFTWARE-FREEDOM-CONSERVANCY}
 \abntrefinfo{Chacon}{CHACON}{2009}
 {CHACON, S. \emph{Pro Git}. São Paulo: Apress, 2009.}
@@ -23,5 +28,17 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Matz}{MATZ}{2000}
 {MATZ. \emph{Ruby-Creator}. 2000.
 Dispon{\'\i}vel em: $<$https:\-/\-/www\-.ruby-lang\-.org\-/pt\-/about\-/$>$.}
+
+\bibitem[Ruby" "Dave~Thomas" 2014]{PRAGMATIC}
+\abntrefinfo{Ruby" "Dave~Thomas"}{RUBY" "DAVE~THOMAS"}{2014}
+{RUBY" "DAVE~THOMAS", D. H.~H. S. \emph{Agile Web Development With Rails 4.}
+  North Carolina, NC: The Facets, 2014.}
+
+\bibitem[Tectarget 2008]{TECTARGET}
+\abntrefinfo{Tectarget}{TECTARGET}{2008}
+{TECTARGET. \emph{object-relational mapping (ORM)}. 2008.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/searchwindevelopment\-.techtarget\-.com\-/definition\-/object-relational-mapping$>$}{http://searchwindevelopment.techtarget.com/definition/object-relational-mapping}.
+  Acesso em: 29/03/2014.}
 
 \end{thebibliography}

@@ -22,7 +22,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: referencia.bib
-You're missing a field name---line 14 of file referencia.bib
+You're missing a field name---line 6 of file referencia.bib
  :   url = {https://www.ruby-lang.org/pt/about/}, 
  :                                                {http://pt.wikipedia.org/wiki/Yukihiro_Matsumoto},
 I'm skipping whatever remains of this entry
@@ -37,45 +37,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 5 entries,
+You've used 8 entries,
             6522 wiz_defined-function locations,
-            1196 strings with 9743 characters,
-and the built_in function-call counts, 9891 in all, are:
-= -- 1567
-> -- 45
-< -- 282
-+ -- 341
-- -- 15
-* -- 433
-:= -- 1021
-add.period$ -- 12
-call.type$ -- 6
-change.case$ -- 24
-chr.to.int$ -- 4
-cite$ -- 3
-duplicate$ -- 1319
-empty$ -- 286
-format.name$ -- 69
-if$ -- 1974
+            1217 strings with 10155 characters,
+and the built_in function-call counts, 15381 in all, are:
+= -- 2335
+> -- 90
+< -- 442
++ -- 516
+- -- 30
+* -- 703
+:= -- 1604
+add.period$ -- 23
+call.type$ -- 9
+change.case$ -- 42
+chr.to.int$ -- 7
+cite$ -- 6
+duplicate$ -- 2051
+empty$ -- 466
+format.name$ -- 138
+if$ -- 3053
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 72
-newline$ -- 22
-num.names$ -- 15
-pop$ -- 120
+missing$ -- 126
+newline$ -- 35
+num.names$ -- 30
+pop$ -- 193
 preamble$ -- 1
-purify$ -- 15
+purify$ -- 24
 quote$ -- 0
-skip$ -- 1464
+skip$ -- 2203
 stack$ -- 1
-substring$ -- 387
-swap$ -- 315
-text.length$ -- 3
+substring$ -- 597
+swap$ -- 513
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 23
+while$ -- 43
 width$ -- 0
-write$ -- 51
+write$ -- 94
 (There was 1 error message)

@@ -14,5 +14,9 @@
 \contentsline {section}{\numberline {2.3}Ruby On rails}{19}{section.listoffigures.2.3}
 \contentsline {subsection}{\numberline {2.3.1}DRY}{19}{subsection.listoffigures.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}CoC}{19}{subsection.listoffigures.2.3.2}
-\contentsline {section}{\numberline {2.4}Git}{20}{section.listoffigures.2.4}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}{21}{section.listoffigures.2.4}
+\contentsline {subsection}{\numberline {2.3.3}Active Record}{20}{subsection.listoffigures.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Action View}{21}{subsection.listoffigures.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Action Mailer}{21}{subsection.listoffigures.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Action Controller}{21}{subsection.listoffigures.2.3.6}
+\contentsline {section}{\numberline {2.4}Git}{21}{section.listoffigures.2.4}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}{22}{section.listoffigures.2.4}
