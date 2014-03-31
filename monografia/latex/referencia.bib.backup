@@ -24,20 +24,9 @@
   urlaccessdate = {04/03/2014}
 }
 
-RUBY
-, Sam; THOMAS, Dave; HANS
-S
-ON, David.
-Agile Web Development With
-Rails
-.
-3 ed. Raleigh:
-The Pragmatic Bookshelf
-, 2009
-
-@book{ PRAGMATIC,
+@book{ PRAGMATICRUBY,
   title = "Agile Web Development With Rails 4.",
-  author = {"Sam Ruby", "Dave Thomas", "David Heinemeier Hansson"},
+  author = "Sam Ruby",
   publisher = "The Facets",
   address = "North Carolina, NC",
   year = "2014"
@@ -49,6 +38,14 @@ The Pragmatic Bookshelf
   publisher = "Thomson Course Technology",
   address = "Boston, MA",
   year = "2007"
+}
+
+@Misc{ ORSINI,
+  title = "Working with python subprocess",
+  author = "James Gadner",
+  year = "2009",
+  url = {http://jimmyg.org/blog/2009/working-with-python-subprocess.html},
+	urlaccessdate = {20/05/2012}
 }
 
 @Misc{ GADNER-SUBPROCESS,

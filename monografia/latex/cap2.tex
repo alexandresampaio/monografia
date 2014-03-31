@@ -257,13 +257,21 @@ Ao contrário de outras bibliotecas complexas o Active Record não necessita de 
 
 Na Prática todo e qualquer modelo criado pelo gerador de componentes do rails o mesmo estende a classe nativa \textbf{ActiveRecord::Base} responsável por abstrair uma entidade contida na base de dados, assim como cada objeto representa uma linha do banco de dados como menciona \cite{PRAGMATICRUBY}.
 
+\subsection{Action Controller}
+Segundo \cite{ORSINI}, em qualquer aplicação feita em rails, um controller é uma especialização da classe \textbf{Action Controller} que oferece uma série de conjunto de regras de negócio para a aplicação
+Geralmente cada controller responde ao modelo ao qual encontra-se alocado, podendo este ser o que muitos chamam de \textbf{Controller Virtual}. Um Controller Virtual também é chamado de controller genérico, 
+que não necessáriamente está associado à um modelo.
+
 \subsection{Action View}
 Segundo \cite{BAKHARIA}, Action View é um dos componentes responsável apenas por gerar a interação entre a aplicação e o usuário. Um Controller pode ter várias actions( métodos ), e para cada action dependendo da situação uma view para esta que automáticamente é reconhecida e exibida.
 Um action view também é conhecida como template. Esse template pode reproduzir vários elementos, não só o html, mas também outros tipos como XML, JavaScript, PDF.
 O template nada mais é do que uma renderização de código ruby com Html e possivelmente Javascript.
 
-\subsection{Action Controller}
 
+\subsection{Action Support}
+"Active Support é composto por uma série de bibliotecas compartilhadas por todos os componentes gerenciados pelo Rails. 
+Muito do que está acoplado nesse módulo está destinado a uso interno do Rails.
+No entanto, Active Support também estende algumas das classes internas de Ruby de maneira útil e interessante."\cite{PRAGMATICRUBY}.
 
 \subsection{Action Mailer}
 ActionMailer é um componente nativo do rails que permite que a aplicação desenvolvida possa enviar correio-eletrônico. 
@@ -276,6 +284,20 @@ em lojas virtuais; Newsletters".\cite{BAKHARIA}
 \noindent A classe Mailer do Rails possui métodos para diferentes formas de enviar mensagens de acordo com o que a aplicação necessita. O formato de saida dessa mensagem
 e descrito em sua ActionView de forma muito similar com as actions views gerenciadas pelos erb.
 
+\subsection{Scaffolding}
+Rails possui uma ferramenta de desenvolvimento ágil conhecida como scaffold, e essa ferramenta possibilita a criação do Model de acordo com os parâmetros expecificados.
+Este comando possibilita a criação de todo o CRUD, controller, model e views deste modelo dito no ato da criação. Em uma aplicação rails dependende do que se deseja e dependendo 
+da não complexidade o scaffold se faz uma boa escolha e para utiliza-lo basta usar:
+
+{\singlespace
+\begin{lstlisting}[caption=Exemplo de uso de scaffold, language=Ruby,label={scaffold}]
+  >> rails g scaffold user username:string address:string birth_date:date
+\end{lstlisting}
+}
+
+Em uma aplicação rails é sempre bom fazer uso de CoC, e nessas convenções o rails tem uma nomenclatura no que diz respeito a \textbf{controllers e models}, toda vez que um controller é criado
+este sempre estará no plurar, já o model sempre irá se colocar no singular. Isto quando for utilizado o comando Scaffold. A introdução deste comando rails g possibilita ao desenvolvedor uma série de outros comandos
+uma vez que pode ser abreviado, o nome por extenso para este comando é \textbf{generate}. O generate é o gerador de elementos do rails, com ele é possivel realizar outras 
 
 
 \section{Git}

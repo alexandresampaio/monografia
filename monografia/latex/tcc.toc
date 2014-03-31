@@ -15,8 +15,10 @@
 \contentsline {subsection}{\numberline {2.3.1}DRY}{19}{subsection.listoffigures.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}CoC}{19}{subsection.listoffigures.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Active Record}{20}{subsection.listoffigures.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Action View}{21}{subsection.listoffigures.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Action Controller}{21}{subsection.listoffigures.2.3.5}
-\contentsline {subsection}{\numberline {2.3.6}Action Mailer}{21}{subsection.listoffigures.2.3.6}
-\contentsline {section}{\numberline {2.4}Git}{21}{section.listoffigures.2.4}
+\contentsline {subsection}{\numberline {2.3.4}Action Controller}{21}{subsection.listoffigures.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Action View}{21}{subsection.listoffigures.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Action Support}{21}{subsection.listoffigures.2.3.6}
+\contentsline {subsection}{\numberline {2.3.7}Action Mailer}{21}{subsection.listoffigures.2.3.7}
+\contentsline {subsection}{\numberline {2.3.8}Scaffolding}{22}{subsection.listoffigures.2.3.8}
+\contentsline {section}{\numberline {2.4}Git}{22}{section.listoffigures.2.4}
 \contentsline {chapter}{REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}{23}{section.listoffigures.2.4}
