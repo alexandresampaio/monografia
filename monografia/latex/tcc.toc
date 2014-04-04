@@ -13,18 +13,18 @@
 \contentsline {subsection}{\numberline {2.2.1}Aplica\IeC {\c c}\IeC {\~o}es ricas em client-side}{17}{subsection.listoffigures.2.2.1}
 \contentsline {section}{\numberline {2.3}Ruby On rails}{20}{section.listoffigures.2.3}
 \contentsline {subsection}{\numberline {2.3.1}DRY}{20}{subsection.listoffigures.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}CoC}{20}{subsection.listoffigures.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}CoC}{21}{subsection.listoffigures.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Active Record}{21}{subsection.listoffigures.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Action Controller}{22}{subsection.listoffigures.2.3.4}
 \contentsline {subsection}{\numberline {2.3.5}Action View}{22}{subsection.listoffigures.2.3.5}
 \contentsline {subsection}{\numberline {2.3.6}Action Support}{22}{subsection.listoffigures.2.3.6}
-\contentsline {subsection}{\numberline {2.3.7}Action Mailer}{22}{subsection.listoffigures.2.3.7}
-\contentsline {subsection}{\numberline {2.3.8}Scaffolding}{23}{subsection.listoffigures.2.3.8}
-\contentsline {subsection}{\numberline {2.3.9}Rake}{23}{subsection.listoffigures.2.3.9}
-\contentsline {subsection}{\numberline {2.3.10}Migrations}{24}{subsection.listoffigures.2.3.10}
-\contentsline {subsection}{\numberline {2.3.11}Organiza\IeC {\c c}\IeC {\~a}o de arquivos em Rails}{24}{subsection.listoffigures.2.3.11}
+\contentsline {subsection}{\numberline {2.3.7}Action Mailer}{23}{subsection.listoffigures.2.3.7}
+\contentsline {subsection}{\numberline {2.3.8}Rake}{23}{subsection.listoffigures.2.3.8}
+\contentsline {subsection}{\numberline {2.3.9}Migrations}{23}{subsection.listoffigures.2.3.9}
+\contentsline {subsection}{\numberline {2.3.10}Organiza\IeC {\c c}\IeC {\~a}o de arquivos em Rails}{23}{subsection.listoffigures.2.3.10}
+\contentsline {subsection}{\numberline {2.3.11}Scaffolding}{25}{subsection.listoffigures.2.3.11}
 \contentsline {subsection}{\numberline {2.3.12}Comunidade Rails}{25}{subsection.listoffigures.2.3.12}
-\contentsline {section}{\numberline {2.4}Git}{25}{section.listoffigures.2.4}
+\contentsline {section}{\numberline {2.4}Git}{26}{section.listoffigures.2.4}
 \contentsline {chapter}{\numberline {3}SGBDS}{27}{chapter.listoffigures.3}
 \contentsline {section}{\numberline {3.1}Porque Utilizar?}{27}{section.listoffigures.3.1}
 \contentsline {section}{\numberline {3.2}Banco de Dados Relacionais}{27}{section.listoffigures.3.2}

@@ -192,6 +192,17 @@ lado do servidor, e outra que é executada no lado do cliente que também oferec
     \label{submeter}
 \end{figure}
 
+Em resumo o Modelo MVC pode ser descrito como uma série de requisições solicitadas pelo Browser e interpretadas pelo servidor que possui uma via
+de mão dupla.
+
+\begin{figure}[ht]
+    \centering
+    \scalebox{0.4}{\includegraphics{figuras/mvc_complete}}
+    \caption{Modelo MVC}
+    \label{submeter}
+\end{figure}
+
+
 Desenvolver aplicações voltadas para client-side possuem algumas vantagens importantes como:
 \begin{itemize}
     \item{ \textbf{Melhor desempenho para o usuário:}
@@ -284,31 +295,6 @@ em lojas virtuais; Newsletters".\cite{BAKHARIA}
 \noindent A classe Mailer do Rails possui métodos para diferentes formas de enviar mensagens de acordo com o que a aplicação necessita. O formato de saida dessa mensagem
 e descrito em sua ActionView de forma muito similar com as actions views gerenciadas pelos erb.
 
-\subsection{Scaffolding}
-Rails possui uma ferramenta de desenvolvimento ágil conhecida como scaffold, e essa ferramenta possibilita a criação do Model de acordo com os parâmetros expecificados.
-Este comando possibilita a criação de todo o CRUD, controller, model e views deste modelo dito no ato da criação. Em uma aplicação rails dependende do que se deseja e dependendo 
-da não complexidade o scaffold se faz uma boa escolha e para utiliza-lo basta usar:
-
-{\singlespace
-\begin{lstlisting}[caption=Exemplo de uso de scaffold, language=Ruby,label={scaffold}]
-  >> rails g scaffold user username:string address:string birth_date:date
-\end{lstlisting}
-}
-
-Em uma aplicação rails é sempre bom fazer uso de CoC, e nessas convenções o rails tem uma nomenclatura no que diz respeito a \textbf{controllers e models}, toda vez que um controller é criado
-este sempre estará no plurar, já o model correspondente irá sempre estar no singular. Isto quando for utilizado o comando scaffold que no ato irá gerar uma série de outros arquivos além do controller, 
-do model e das views responsáveis por gerenciar o modelo descrito. 
-\begin{figure}[ht]
-    \centering
-    \scalebox{0.4}{\includegraphics{figuras/scaffold_generator}}
-    \caption{Parte dos arquivos criados após o scaffold.}
-    \label{submeter}
-\end{figure}
-\\
-
-A introdução deste comando \textit{rails g} possibilita ao desenvolvedor uma série de outros comandos
-uma vez que pode ser abreviado, o nome por extenso para este comando é \textbf{generate}. O generate é o gerador de elementos do rails, com ele é possivel realizar outras 
-
 \subsection{Rake}
 
 Rake é conhecido como Ruby Make, um utilitário autônomo Ruby que substitui o utilitário Unix 'make'
@@ -350,6 +336,32 @@ executavel da aplicação desenvolvida e por ultimo RoR possui um ambiente - \te
 sem a necessidade de sofrer alterações como normalmente é feito em desenvolvimento. Ainda existe uma série de parametros que se pode passar para a criação de uma aplicação em rails uma delas é a opção de usar ou não o ActiveRecord
 que é nativo do rails ao utilizar "\textbf{--skip-active-record}" o desenvolvedor está explicitamente dizendo ao rails para criar uma aplicação sem persistência à uma base de dados relacional, com isso é possivel escolher alguma das
 base de dados NoSQL como por exemplo MongoDB, CouchDB, Cassandra etc.
+\\
+\\
+\subsection{Scaffolding}
+Rails possui uma ferramenta de desenvolvimento ágil conhecida como scaffold, e essa ferramenta possibilita a criação do Model de acordo com os parâmetros expecificados.
+Este comando possibilita a criação de todo o CRUD, controller, model e views deste modelo dito no ato da criação. Em uma aplicação rails dependende do que se deseja e dependendo 
+da não complexidade o scaffold se faz uma boa escolha e para utiliza-lo basta usar:
+
+{\singlespace
+\begin{lstlisting}[caption=Exemplo de uso de scaffold, language=Ruby,label={scaffold}]
+  >> rails g scaffold user username:string address:string birth_date:date
+\end{lstlisting}
+}
+
+Em uma aplicação rails é sempre bom fazer uso de CoC, e nessas convenções o rails tem uma nomenclatura no que diz respeito a \textbf{controllers e models}, toda vez que um controller é criado
+este sempre estará no plurar, já o model correspondente irá sempre estar no singular. Isto quando for utilizado o comando scaffold que no ato irá gerar uma série de outros arquivos além do controller, 
+do model e das views responsáveis por gerenciar o modelo descrito.
+\\
+\begin{figure}[ht]
+    \centering
+    \scalebox{0.4}{\includegraphics{figuras/scaffold_generator}}
+    \caption{Parte dos arquivos criados após o scaffold.}
+    \label{submeter}
+\end{figure}
+\\
+A introdução deste comando \textit{rails g} possibilita ao desenvolvedor uma série de outros comandos
+uma vez que pode ser abreviado, o nome por extenso para este comando é \textbf{generate}. O generate é o gerador de elementos do rails, com ele é possivel realizar outras 
 
 \subsection{Comunidade Rails}
 

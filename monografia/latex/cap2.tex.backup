@@ -309,18 +309,19 @@ do model e das views responsáveis por gerenciar o modelo descrito.
 A introdução deste comando \textit{rails g} possibilita ao desenvolvedor uma série de outros comandos
 uma vez que pode ser abreviado, o nome por extenso para este comando é \textbf{generate}. O generate é o gerador de elementos do rails, com ele é possivel realizar outras 
 
-\subsection{Migrations}
-O Migration pertime alterar o esquema de banco de dados ao longo do tempo de uma forma consistente e fácil.
-Ele utiliza uma DSL do ruby para que nao tenha que escrever SQL a mão, fazendo assim com que as mudanças no banco de dados
-seja independente. Cada migration é uma nova "versão" do banco de dados. Um esquema começa vazio e a cada migration ele é modificado
-para acrescentar ou remover tabelas, colunas ou entradas necessárias.
-
 \subsection{Rake}
+
 Rake é conhecido como Ruby Make, um utilitário autônomo Ruby que substitui o utilitário Unix 'make'
 e usa um "Rakefile' e arquivos com extensão .rake para criar uma lista de tarefas. No Rails, Rake é
 usado para tarefas comuns de administração, especialmente os mais sofisticados que constroem fora de si.
 Pode-se obter uma lista de tarefas Rake disponíveis simplesmente digitando rake - tasks.
 Cada tarefa tem uma descrição, o que deve ajudar a encontrar funções expecificas para o que se deseja
+
+\subsection{Migrations}
+O Migration pertime alterar o esquema de banco de dados ao longo do tempo de uma forma consistente e fácil.
+Ele utiliza uma DSL do ruby para que nao tenha que escrever SQL a mão, fazendo assim com que as mudanças no banco de dados
+seja independente. Cada migration é uma nova "versão" do banco de dados. Um esquema começa vazio e a cada migration ele é modificado
+para acrescentar ou remover tabelas, colunas ou entradas necessárias.
 
 \subsection{Organização de arquivos em Rails}
 RoR se dispõe de ferramentas de desenvolvimento rápido e sem muito esforço. Para se iniciar uma nova aplicação em rails
@@ -351,6 +352,11 @@ que é nativo do rails ao utilizar "\textbf{--skip-active-record}" o desenvolved
 base de dados NoSQL como por exemplo MongoDB, CouchDB, Cassandra etc.
 
 \subsection{Comunidade Rails}
+
+``A comunidade rubista/rails é hoje uma das mais ativas e unidas do Brasil. Cerca de dos eventos que acontecem anualmente
+ao redor do mundo com o único propósito de difundir conhecimento e unir os desenvolvedores. Um exemplo dessa força é o Ruby Conf, maior evento 
+de Ruby da America Latina, com presença dos maiores nomes nacionais e internacionais de Ruby on Rails, e a presença de uma track dedicada ao 
+Ruby na QCon São Paulo.''\cite{CAELUM}.
 
 \section{Git}
 Git é um sistema de controle de versões distribuídas livre e de código aberto, projetado para lidar com qualquer projeto, desde o menor ao maior com rapidez e eficiência \cite{SOFTWARE-FREEDOM-CONSERVANCY}.
