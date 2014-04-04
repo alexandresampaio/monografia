@@ -20,13 +20,14 @@
 \contentsline {subsection}{\numberline {2.3.6}Action Support}{22}{subsection.listoffigures.2.3.6}
 \contentsline {subsection}{\numberline {2.3.7}Action Mailer}{22}{subsection.listoffigures.2.3.7}
 \contentsline {subsection}{\numberline {2.3.8}Scaffolding}{23}{subsection.listoffigures.2.3.8}
-\contentsline {subsection}{\numberline {2.3.9}Migrations}{23}{subsection.listoffigures.2.3.9}
-\contentsline {subsection}{\numberline {2.3.10}Rake}{24}{subsection.listoffigures.2.3.10}
+\contentsline {subsection}{\numberline {2.3.9}Rake}{23}{subsection.listoffigures.2.3.9}
+\contentsline {subsection}{\numberline {2.3.10}Migrations}{24}{subsection.listoffigures.2.3.10}
 \contentsline {subsection}{\numberline {2.3.11}Organiza\IeC {\c c}\IeC {\~a}o de arquivos em Rails}{24}{subsection.listoffigures.2.3.11}
+\contentsline {subsection}{\numberline {2.3.12}Comunidade Rails}{25}{subsection.listoffigures.2.3.12}
 \contentsline {section}{\numberline {2.4}Git}{25}{section.listoffigures.2.4}
-\contentsline {chapter}{\numberline {3}SGBDS}{26}{chapter.listoffigures.3}
-\contentsline {section}{\numberline {3.1}Porque Utilizar?}{26}{section.listoffigures.3.1}
-\contentsline {section}{\numberline {3.2}Banco de Dados Relacionais}{26}{section.listoffigures.3.2}
-\contentsline {section}{\numberline {3.3}NoSQL}{26}{section.listoffigures.3.3}
-\contentsline {section}{\numberline {3.4}Comparativo entre SGBDS Relacionais e N\IeC {\~a}o Relacionais}{26}{section.listoffigures.3.4}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}{27}{section.listoffigures.3.4}
+\contentsline {chapter}{\numberline {3}SGBDS}{27}{chapter.listoffigures.3}
+\contentsline {section}{\numberline {3.1}Porque Utilizar?}{27}{section.listoffigures.3.1}
+\contentsline {section}{\numberline {3.2}Banco de Dados Relacionais}{27}{section.listoffigures.3.2}
+\contentsline {section}{\numberline {3.3}NoSQL}{27}{section.listoffigures.3.3}
+\contentsline {section}{\numberline {3.4}Comparativo entre SGBDS Relacionais e N\IeC {\~a}o Relacionais}{27}{section.listoffigures.3.4}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}{28}{section.listoffigures.3.4}

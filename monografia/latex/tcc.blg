@@ -27,6 +27,7 @@ You're missing a field name---line 6 of file referencia.bib
  :   url = {https://www.ruby-lang.org/pt/about/}, 
  :                                                {http://pt.wikipedia.org/wiki/Yukihiro_Matsumoto},
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "CAELUM"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -40,7 +41,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 9 entries,
             6522 wiz_defined-function locations,
-            1223 strings with 10177 characters,
+            1225 strings with 10189 characters,
 and the built_in function-call counts, 15992 in all, are:
 = -- 2378
 > -- 105
