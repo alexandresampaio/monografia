@@ -21,7 +21,7 @@
 \contentsline {subsection}{\numberline {2.3.7}Action Mailer}{22}{subsection.listoffigures.2.3.7}
 \contentsline {subsection}{\numberline {2.3.8}Scaffolding}{23}{subsection.listoffigures.2.3.8}
 \contentsline {subsection}{\numberline {2.3.9}Migrations}{23}{subsection.listoffigures.2.3.9}
-\contentsline {subsection}{\numberline {2.3.10}Rake}{23}{subsection.listoffigures.2.3.10}
+\contentsline {subsection}{\numberline {2.3.10}Rake}{24}{subsection.listoffigures.2.3.10}
 \contentsline {subsection}{\numberline {2.3.11}Organiza\IeC {\c c}\IeC {\~a}o de arquivos em Rails}{24}{subsection.listoffigures.2.3.11}
 \contentsline {section}{\numberline {2.4}Git}{25}{section.listoffigures.2.4}
 \contentsline {chapter}{\numberline {3}SGBDS}{26}{chapter.listoffigures.3}

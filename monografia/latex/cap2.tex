@@ -296,7 +296,17 @@ da não complexidade o scaffold se faz uma boa escolha e para utiliza-lo basta u
 }
 
 Em uma aplicação rails é sempre bom fazer uso de CoC, e nessas convenções o rails tem uma nomenclatura no que diz respeito a \textbf{controllers e models}, toda vez que um controller é criado
-este sempre estará no plurar, já o model sempre irá se colocar no singular. Isto quando for utilizado o comando Scaffold. A introdução deste comando rails g possibilita ao desenvolvedor uma série de outros comandos
+este sempre estará no plurar, já o model correspondente irá sempre estar no singular. Isto quando for utilizado o comando scaffold que no ato irá gerar uma série de outros arquivos além do controller, 
+do model e das views responsáveis por gerenciar o modelo descrito. 
+\begin{figure}[ht]
+    \centering
+    \scalebox{0.4}{\includegraphics{figuras/scaffold_generator}}
+    \caption{Parte dos arquivos criados após o scaffold.}
+    \label{submeter}
+\end{figure}
+\\
+
+A introdução deste comando \textit{rails g} possibilita ao desenvolvedor uma série de outros comandos
 uma vez que pode ser abreviado, o nome por extenso para este comando é \textbf{generate}. O generate é o gerador de elementos do rails, com ele é possivel realizar outras 
 
 \subsection{Migrations}
