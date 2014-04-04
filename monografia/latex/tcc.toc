@@ -1,24 +1,32 @@
 \select@language {brazilian}
-\contentsline {chapter}{\numberline {1}INTRODU\IeC {\c C}\IeC {\~A}O}{10}{chapter.listoffigures.1}
-\contentsline {section}{\numberline {1.1}Objetivos}{10}{section.listoffigures.1.1}
-\contentsline {section}{\numberline {1.2}Justificativa}{10}{section.listoffigures.1.2}
-\contentsline {section}{\numberline {1.3}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{10}{section.listoffigures.1.3}
-\contentsline {chapter}{\numberline {2}TECNOLOGIAS EMPREGADAS}{11}{chapter.listoffigures.2}
-\contentsline {section}{\numberline {2.1}RVM (Ruby Version Manager)}{11}{section.listoffigures.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Ruby}{12}{subsection.listoffigures.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}RubyGems}{14}{subsection.listoffigures.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Como Ruby carrega RubyGems}{14}{subsection.listoffigures.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Versionamento de Gems}{15}{subsection.listoffigures.2.1.4}
-\contentsline {section}{\numberline {2.2}Organiza\IeC {\c c}\IeC {\~a}o de aplica\IeC {\c c}\IeC {\~o}es web}{16}{section.listoffigures.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Aplica\IeC {\c c}\IeC {\~o}es ricas em client-side}{16}{subsection.listoffigures.2.2.1}
-\contentsline {section}{\numberline {2.3}Ruby On rails}{19}{section.listoffigures.2.3}
-\contentsline {subsection}{\numberline {2.3.1}DRY}{19}{subsection.listoffigures.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}CoC}{19}{subsection.listoffigures.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Active Record}{20}{subsection.listoffigures.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Action Controller}{21}{subsection.listoffigures.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Action View}{21}{subsection.listoffigures.2.3.5}
-\contentsline {subsection}{\numberline {2.3.6}Action Support}{21}{subsection.listoffigures.2.3.6}
-\contentsline {subsection}{\numberline {2.3.7}Action Mailer}{21}{subsection.listoffigures.2.3.7}
-\contentsline {subsection}{\numberline {2.3.8}Scaffolding}{22}{subsection.listoffigures.2.3.8}
-\contentsline {section}{\numberline {2.4}Git}{22}{section.listoffigures.2.4}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}{23}{section.listoffigures.2.4}
+\contentsline {chapter}{\numberline {1}INTRODU\IeC {\c C}\IeC {\~A}O}{11}{chapter.listoffigures.1}
+\contentsline {section}{\numberline {1.1}Objetivos}{11}{section.listoffigures.1.1}
+\contentsline {section}{\numberline {1.2}Justificativa}{11}{section.listoffigures.1.2}
+\contentsline {section}{\numberline {1.3}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{11}{section.listoffigures.1.3}
+\contentsline {chapter}{\numberline {2}TECNOLOGIAS EMPREGADAS}{12}{chapter.listoffigures.2}
+\contentsline {section}{\numberline {2.1}RVM (Ruby Version Manager)}{12}{section.listoffigures.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Ruby}{13}{subsection.listoffigures.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}RubyGems}{15}{subsection.listoffigures.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Como Ruby carrega RubyGems}{15}{subsection.listoffigures.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Versionamento de Gems}{16}{subsection.listoffigures.2.1.4}
+\contentsline {section}{\numberline {2.2}Organiza\IeC {\c c}\IeC {\~a}o de aplica\IeC {\c c}\IeC {\~o}es web}{17}{section.listoffigures.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Aplica\IeC {\c c}\IeC {\~o}es ricas em client-side}{17}{subsection.listoffigures.2.2.1}
+\contentsline {section}{\numberline {2.3}Ruby On rails}{20}{section.listoffigures.2.3}
+\contentsline {subsection}{\numberline {2.3.1}DRY}{20}{subsection.listoffigures.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}CoC}{20}{subsection.listoffigures.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Active Record}{21}{subsection.listoffigures.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Action Controller}{22}{subsection.listoffigures.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Action View}{22}{subsection.listoffigures.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Action Support}{22}{subsection.listoffigures.2.3.6}
+\contentsline {subsection}{\numberline {2.3.7}Action Mailer}{22}{subsection.listoffigures.2.3.7}
+\contentsline {subsection}{\numberline {2.3.8}Scaffolding}{23}{subsection.listoffigures.2.3.8}
+\contentsline {subsection}{\numberline {2.3.9}Migrations}{23}{subsection.listoffigures.2.3.9}
+\contentsline {subsection}{\numberline {2.3.10}Rake}{23}{subsection.listoffigures.2.3.10}
+\contentsline {subsection}{\numberline {2.3.11}Organiza\IeC {\c c}\IeC {\~a}o de arquivos em Rails}{24}{subsection.listoffigures.2.3.11}
+\contentsline {section}{\numberline {2.4}Git}{25}{section.listoffigures.2.4}
+\contentsline {chapter}{\numberline {3}SGBDS}{26}{chapter.listoffigures.3}
+\contentsline {section}{\numberline {3.1}Porque Utilizar?}{26}{section.listoffigures.3.1}
+\contentsline {section}{\numberline {3.2}Banco de Dados Relacionais}{26}{section.listoffigures.3.2}
+\contentsline {section}{\numberline {3.3}NoSQL}{26}{section.listoffigures.3.3}
+\contentsline {section}{\numberline {3.4}Comparativo entre SGBDS Relacionais e N\IeC {\~a}o Relacionais}{26}{section.listoffigures.3.4}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}{27}{section.listoffigures.3.4}

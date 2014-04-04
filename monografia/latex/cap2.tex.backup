@@ -295,12 +295,52 @@ da não complexidade o scaffold se faz uma boa escolha e para utiliza-lo basta u
 \end{lstlisting}
 }
 
-Em uma aplicação rails é sempre bom fazer uso de CoC, e nessas convenções o rails tem uma nomenclatura no que diz respeito a \textbf{controllers e models}, toda vez que 
-A introdução deste comando \textit{rails g scaffold}
+Em uma aplicação rails é sempre bom fazer uso de CoC, e nessas convenções o rails tem uma nomenclatura no que diz respeito a \textbf{controllers e models}, toda vez que um controller é criado
+este sempre estará no plurar, já o model sempre irá se colocar no singular. Isto quando for utilizado o comando Scaffold. A introdução deste comando rails g possibilita ao desenvolvedor uma série de outros comandos
+uma vez que pode ser abreviado, o nome por extenso para este comando é \textbf{generate}. O generate é o gerador de elementos do rails, com ele é possivel realizar outras 
+
+\subsection{Migrations}
+O Migration pertime alterar o esquema de banco de dados ao longo do tempo de uma forma consistente e fácil.
+Ele utiliza uma DSL do ruby para que nao tenha que escrever SQL a mão, fazendo assim com que as mudanças no banco de dados
+seja independente. Cada migration é uma nova "versão" do banco de dados. Um esquema começa vazio e a cada migration ele é modificado
+para acrescentar ou remover tabelas, colunas ou entradas necessárias.
+
+\subsection{Rake}
+Rake é conhecido como Ruby Make, um utilitário autônomo Ruby que substitui o utilitário Unix 'make'
+e usa um "Rakefile' e arquivos com extensão .rake para criar uma lista de tarefas. No Rails, Rake é
+usado para tarefas comuns de administração, especialmente os mais sofisticados que constroem fora de si.
+Pode-se obter uma lista de tarefas Rake disponíveis simplesmente digitando rake - tasks.
+Cada tarefa tem uma descrição, o que deve ajudar a encontrar funções expecificas para o que se deseja
+
+\subsection{Organização de arquivos em Rails}
+RoR se dispõe de ferramentas de desenvolvimento rápido e sem muito esforço. Para se iniciar uma nova aplicação em rails
+bastaria usar o comando inicial:
+
+{\singlespace
+\begin{lstlisting}[caption=Exemplo de uso de scaffold, language=Ruby,label={scaffold}]
+  >> rails new my_new_rails_app [ -d  ] { options }
+\end{lstlisting}
+}
+
+ é o comando inicial para toda nova aplicação a ser desenvolvida sob este framework ágil, onde existe a possibilidade
+de passar parametros para a criação da mesma; O -d siguinifica qual a base de dados a ser utilizada ou quais devem ser utilizadas uma vez que RoR possui três ambientes de integração: development responsável apenas pela etapa de desenvolvimento, este recarrega as classes sempre que uma nova action é requisitada, portanto uma nová cópia da classe é obtida, incluido qualquer alteração recente na mesma. test - o próprio nome similar ao nosso português já indica que este é um ambiente onde se pode criar os testes contidos
+na aplicação que see tornarão a documentação executavel da aplicação desenvolvida e por ultimo RoR possui um ambiente - production - onde o RoR carrega a classe apenas uma única vez, é onde a aplicação irá rodar em produção constante em um servidor de aplicação,
+sem a necessidade de sofrer alterações como normalmente é feito em desenvolvimento. Ainda existe uma série de parametros que se pode passar para a criação de uma aplicação em rails uma delas é a opção de usar ou não o ActiveRecord
+que é nativo do rails ao utilizar "--skip-active-record" o desenvolvedor está explicitamente dizendo ao rails para criar uma aplicação sem persistência à uma base de dados relacional, com isso é possivel escolher alguma das base de dados NoSQL como por exemplo
+MongoDB, CouchDB, Cassandra etc. O programador rails ainda pode se dispor de iniciar uma aplicação usando modelos já prontos.
+
+
+\begin{figure}[ht]
+    \centering
+    \scalebox{0.4}{\includegraphics{figuras/rails_app}}
+    \caption{Estrutura de arquivos}
+    \label{submeter}
+\end{figure}
+
+
 
 
 \section{Git}
-
 Git é um sistema de controle de versões distribuídas livre e de código aberto, projetado para lidar com qualquer projeto, desde o menor ao maior com rapidez e eficiência \cite{SOFTWARE-FREEDOM-CONSERVANCY}.
 
 A historia do Git está muito relacionada a criação do Linux e de Linus Torvalds, seu criador, bem como com toda comunidade de desenvolvimento Linux. Durante anos a comunidade utilizou a ferramenta \textit{BitKeeper} para guardar a modificações do projeto.

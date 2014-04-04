@@ -1,0 +1,8 @@
+\chapter{SGBDS}
+\thispagestyle{empty}
+
+\section{Banco de Dados Relacionais}
+Construir aplicações web em Ruby on Rails é um pouco mais profundo do que simplesmente construir páginas atras de páginas como era feito antigamente.
+A razão para tudo isto é que ele é preparado para atender e criar aplicações modernas e arrojadas(sofisticadas) e isto quer dizer que a aplicação desenvolvida
+sobre esta plataforma não deve apenas responder por páginas HTML mas de forma adequada e dinâmica em aplicações ricas em client-side em conjunto com outros 
+frameworks como backbone.js entre outros.
