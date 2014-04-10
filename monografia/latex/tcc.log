@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.2)  9 APR 2014 20:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.2)  9 APR 2014 21:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1362,7 +1362,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 5.
 
-LaTeX Warning: Citation `CUNHA' on page 27 undefined on input line 20.
+LaTeX Warning: Citation `CUNHA' on page 27 undefined on input line 19.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 23.
@@ -1456,7 +1456,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tcc.pdf (31 pages, 478308 bytes).
+Output written on tcc.pdf (31 pages, 478394 bytes).
 PDF statistics:
  493 PDF objects out of 1000 (max. 8388607)
  438 compressed objects within 5 object streams
