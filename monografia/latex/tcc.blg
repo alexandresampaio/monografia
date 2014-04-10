@@ -12,6 +12,7 @@ A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: cap1.aux
 A level-1 auxiliary file: cap2.aux
 A level-1 auxiliary file: cap3.aux
+A level-1 auxiliary file: cap4.aux
 The style file: abnt-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -28,6 +29,7 @@ You're missing a field name---line 6 of file referencia.bib
  :                                                {http://pt.wikipedia.org/wiki/Yukihiro_Matsumoto},
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "CAELUM"
+Warning--I didn't find a database entry for "CUNHA"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -39,45 +41,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 9 entries,
+You've used 10 entries,
             6522 wiz_defined-function locations,
-            1225 strings with 10189 characters,
-and the built_in function-call counts, 15992 in all, are:
-= -- 2378
-> -- 105
-< -- 442
-+ -- 521
-- -- 35
-* -- 739
-:= -- 1691
-add.period$ -- 26
-call.type$ -- 10
-change.case$ -- 48
-chr.to.int$ -- 8
-cite$ -- 7
-duplicate$ -- 2087
-empty$ -- 526
-format.name$ -- 161
-if$ -- 3200
+            1235 strings with 10374 characters,
+and the built_in function-call counts, 21778 in all, are:
+= -- 3324
+> -- 120
+< -- 668
++ -- 752
+- -- 40
+* -- 1003
+:= -- 2232
+add.period$ -- 31
+call.type$ -- 11
+change.case$ -- 54
+chr.to.int$ -- 9
+cite$ -- 8
+duplicate$ -- 3011
+empty$ -- 586
+format.name$ -- 184
+if$ -- 4249
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 145
-newline$ -- 39
-num.names$ -- 35
-pop$ -- 217
+missing$ -- 161
+newline$ -- 44
+num.names$ -- 40
+pop$ -- 242
 preamble$ -- 1
-purify$ -- 27
+purify$ -- 30
 quote$ -- 0
-skip$ -- 2239
+skip$ -- 3170
 stack$ -- 1
-substring$ -- 614
-swap$ -- 527
-text.length$ -- 5
+substring$ -- 856
+swap$ -- 763
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 49
+while$ -- 57
 width$ -- 0
-write$ -- 108
+write$ -- 123
 (There was 1 error message)

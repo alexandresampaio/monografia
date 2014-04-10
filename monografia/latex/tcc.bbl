@@ -14,6 +14,13 @@
 \abntrefinfo{Chacon}{CHACON}{2009}
 {CHACON, S. \emph{Pro Git}. São Paulo: Apress, 2009.}
 
+\bibitem[Codd 1970]{CODD}
+\abntrefinfo{Codd}{CODD}{1970}
+{CODD, E.~F. \emph{Criador dos SGBDs}. 1970.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/pt\-.slideshare\-.net\-/Celio12\-/comparativo-tecnico-entre-tecnologias-de-banco-de-dados-relacional-nosql-newsql$>$}{http://pt.slideshare.net/Celio12/comparativo-tecnico-entre-tecnologias-de-banco-de-dados-relacional-nosql-newsql}.
+  Acesso em: 10/04/2014.}
+
 \bibitem[Hansson 2006]{DAVIDHANSSON}
 \abntrefinfo{Hansson}{HANSSON}{2006}
 {HANSSON, D.~H. \emph{Criador do Rails}. 2006.
