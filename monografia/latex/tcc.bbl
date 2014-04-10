@@ -16,10 +16,17 @@
 
 \bibitem[Codd 1970]{CODD}
 \abntrefinfo{Codd}{CODD}{1970}
-{CODD, E.~F. \emph{Criador dos SGBDs}. 1970.
+{CODD, D. E.~F. \emph{Criador dos SGBDs}. 1970.
 Dispon{\'\i}vel em:
   \htmladdnormallink{$<$http:\-/\-/pt\-.slideshare\-.net\-/Celio12\-/comparativo-tecnico-entre-tecnologias-de-banco-de-dados-relacional-nosql-newsql$>$}{http://pt.slideshare.net/Celio12/comparativo-tecnico-entre-tecnologias-de-banco-de-dados-relacional-nosql-newsql}.
   Acesso em: 10/04/2014.}
+
+\bibitem[CUNHA 2011]{CUNHA}
+\abntrefinfo{CUNHA}{CUNHA}{2011}
+{CUNHA, T. M. d.~A. Escalabilidade de sistemas com banco de dados nosql: um
+  estudo de caso comparativo com mongodb e mysql.
+\emph{85 f. Trabalho de Conclusão de Curso (Ciência da Computação) –
+  Centro Universitário da Bahia – Estácio, Salvador.}, 2011.}
 
 \bibitem[Hansson 2006]{DAVIDHANSSON}
 \abntrefinfo{Hansson}{HANSSON}{2006}

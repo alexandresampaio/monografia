@@ -15,6 +15,14 @@
   urlaccessdate = {29/03/2014}
 }
 
+@Misc{ CODD,
+  author = "Edgar Frank Codd",
+  title = "Criador dos SGBDs",
+  year = "1970",
+  url = {http://pt.slideshare.net/Celio12/comparativo-tecnico-entre-tecnologias-de-banco-de-dados-relacional-nosql-newsql},
+  urlaccessdate = {10/04/2014}
+}
+
 
 @Misc{ DAVIDHANSSON,
   author = "David Heinemeier Hansson",
@@ -40,12 +48,12 @@
   year = "2007"
 }
 
-@Misc{ ORSINI,
-  title = "Working with python subprocess",
-  author = "James Gadner",
-  year = "2009",
-  url = {http://jimmyg.org/blog/2009/working-with-python-subprocess.html},
-	urlaccessdate = {20/05/2012}
+@book{ ORSINI,
+  title = "Rails Cook Book",
+  author = "Rob Orsini",
+  publisher = "O'Reilly Media",
+  address = "Boston, MA",
+  year = "2007"
 }
 
 @Misc{ GADNER-SUBPROCESS,
