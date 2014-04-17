@@ -1,6 +1,6 @@
 \chapter{Banco de Dados - SGBDS x NoSQL}
 \thispagestyle{empty}
-Este capitulo procura estabelecer além de uma breve introdução um comparativo entre banco de dados relacionais e os NoSQL.
+Este capitulo procura estabelecer além de uma breve introdução terminológica, um comparativo entre banco de dados relacionais e os NoSQL.
 
 \section{Breve Histórico}
 Atualmente o mundo enfrenta uma quantidade siguinificativa, mediante a demanda de dados trafegados simultaneamente pela rede. Desde o surgimento do modelo
@@ -17,13 +17,48 @@ e intuitiva e eficiente, que possa atender a uma demanda cada vez maior de dados
 Tendo em vista, o surgimento dessas novas aplicações, fez com que a indústria de de desenvolvimento de software apresentasse novas idéias expecificas para estas
 duas situações concistentes e existentes devido às limitações dos sistemas de armazenamento de dados relacionais. As novas aplicações web exploram conteúdo em 
 abrangencia na Web 2.0 e diante dos problemas encontrados, foram desenvolvidas novas soluções proprietárias, que diferem do paradigma relacional, 
-as quais foram todas reunidas sob a nomenclatura \textit{NoSQL (Not Only SQL)}. \cite{CUNHA}.
+as quais foram todas reunidas sob a nomenclatura \textit{NoSQL (Not Only SQL)}.\cite{CUNHA}.
 
 
 \section{SGBDs Relacionais}
-Um das grandes características do modelo de dados relacionais são as restrições de integridade
+Existe uma ampla diferença entre Dados, Informação e Conhecimento.
+\begin{itemize}
+  \item{ \textbf{ Dado: } Qualquer fato, instrução formalizada para uso da comunicação, um código para uma obra-prima de objetos, ou seja é a informação não tratada.
+  
+    \centering{ \textit{"Dados são itens referentes a uma descrição primária de objetos, eventos, atividades e transações 
+    que são gravados, classificados e armazenados, mas não chegam a ser organizados de forma a transmitir 
+    algum significado específico."}\cite{MCLEAN_WETHERBE}.}
+  }
 
-\subsection{ACID}
+  \item{ \textbf{ Informação: } É a coleção de tudo aquilo que faz sentido e possui valor constitucional e siguinificante aquelas às quais pode se tirar algum proveito para determinado propósito.
+  
+    \centering{ \textit{"Informação é todo conjunto de dados organizados de forma a terem sentido e valor para seu destinatário. 
+      Este interpreta o significado, tira conclusões e faz deduções a partir deles"}\cite{MCLEAN_WETHERBE}. } 
+  }
+  
+  \item{ \textbf{ Conhecimento: } Assim como conhecimentto É a coleção de tudo aquilo que faz sentido e possui valor constitucional e siguinificante 
+  aquelas às quais pode se tirar algum proveito para determinado propósito, conhecimento é a junção de todos os dados e informações processados afim de transmitir
+  a compreensão, experiência, aprendizado acumulativo e alguma técnica, quando aplicada a determinada situação ou atividade que dependa de tal conhecimento. 
+  
+    \centering{ \textit{"Conhecimento consiste de dados e informações organizados e processados para
+    transmitir compreensão, experiência, aprendizado acumulado e técnica, quando se aplicam a determinado problema ou atividade"}\cite{MCLEAN_WETHERBE}. } 
+  }
+\end{itemize}
+
+Um das grandes e principais características do modelo de dados relacionais são as restrições de integridade:
+
+
+
+\section{ACID}
+  \begin{itemize}
+    \item{ A - Atomicidade:
+      Todas as operações da trançações serão executadas por completo, caso contrario não será executada em momento algum.
+    }
+    
+    \item{ C - Concistência:
+      
+    }
+  \end{itemize}
 
 \section{NoSQL}
 

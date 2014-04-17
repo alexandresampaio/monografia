@@ -16,7 +16,7 @@
 }
 
 @Misc{ CODD,
-  author = "Edgar Frank Codd",
+  author = "Dr Edgar Frank Codd",
   title = "Criador dos SGBDs",
   year = "1970",
   url = {http://pt.slideshare.net/Celio12/comparativo-tecnico-entre-tecnologias-de-banco-de-dados-relacional-nosql-newsql},
@@ -32,6 +32,22 @@
   urlaccessdate = {04/03/2014}
 }
 
+@article{ CUNHA,
+  title = "Escalabilidade de Sistemas com Banco de Dados NoSQL: um Estudo de Caso Comparativo com MongoDB e MySQL.",
+  author = "CUNHA, T. M. de A.",
+  year = "2011",
+  journal = "85 f. Trabalho de Conclusão de Curso (Ciência da Computação) – Centro Universitário da Bahia – Estácio,
+Salvador."
+}
+
+@book{ MCLEAN_WETHERBE,
+  title = "Tecnologia da Informação para Gestão: Transformando negócios na economia digital. 3ª ed",
+  author = "EPHRAIM MCLEAN",
+  year = "2004",
+  journal = "Porto Alegre: Bookman"
+}
+ 
+ 
 @book{ PRAGMATICRUBY,
   title = "Agile Web Development With Rails 4.",
   author = "Sam Ruby",

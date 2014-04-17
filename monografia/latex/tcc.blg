@@ -28,7 +28,6 @@ You're missing a field name---line 6 of file referencia.bib
  :   url = {https://www.ruby-lang.org/pt/about/}, 
  :                                                {http://pt.wikipedia.org/wiki/Yukihiro_Matsumoto},
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "CAELUM"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -40,45 +39,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 11 entries,
+You've used 14 entries,
             6522 wiz_defined-function locations,
-            1239 strings with 10625 characters,
-and the built_in function-call counts, 22301 in all, are:
-= -- 3350
-> -- 135
-< -- 668
-+ -- 757
-- -- 45
-* -- 1037
-:= -- 2311
-add.period$ -- 34
-call.type$ -- 12
-change.case$ -- 61
-chr.to.int$ -- 10
-cite$ -- 9
-duplicate$ -- 3042
-empty$ -- 633
-format.name$ -- 207
-if$ -- 4365
+            1254 strings with 10982 characters,
+and the built_in function-call counts, 25140 in all, are:
+= -- 3686
+> -- 180
+< -- 697
++ -- 801
+- -- 60
+* -- 1175
+:= -- 2631
+add.period$ -- 45
+call.type$ -- 15
+change.case$ -- 79
+chr.to.int$ -- 13
+cite$ -- 12
+duplicate$ -- 3338
+empty$ -- 813
+format.name$ -- 276
+if$ -- 5012
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 178
-newline$ -- 49
-num.names$ -- 45
-pop$ -- 263
+missing$ -- 232
+newline$ -- 62
+num.names$ -- 60
+pop$ -- 334
 preamble$ -- 1
-purify$ -- 33
+purify$ -- 42
 quote$ -- 0
-skip$ -- 3201
+skip$ -- 3506
 stack$ -- 1
-substring$ -- 873
-swap$ -- 773
-text.length$ -- 7
+substring$ -- 957
+swap$ -- 841
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 63
+while$ -- 82
 width$ -- 0
-write$ -- 137
+write$ -- 180
 (There was 1 error message)

@@ -5,10 +5,21 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.53 }
 
+\bibitem[Akita 2009]{AKITA}
+\abntrefinfo{Akita}{AKITA}{2009}
+{AKITA, F. \emph{Entendendo Melhor sobre Ruby Gems}. 2009.
+Dispon{\'\i}vel em: $<$https:\-/\-/www\-.akitaonrails\-.com$>$. Acesso em:
+  10/04/2014.}
+
 \bibitem[Bakharia 2007]{BAKHARIA}
 \abntrefinfo{Bakharia}{BAKHARIA}{2007}
 {BAKHARIA, A. \emph{Design Ruby on Rails Power: The Comprehensive Guide.}
   Boston, MA: Thomson Course Technology, 2007.}
+
+\bibitem[CAELUM 2014]{CAELUM}
+\abntrefinfo{CAELUM}{CAELUM}{2014}
+{CAELUM. \emph{Desenvolvimento Ágil para Web Com Ruby On Rails 4 - RR-71}.
+  www.caelum.com.br/online: Caelum Cursos Online, 2014.}
 
 \bibitem[Chacon 2009]{SOFTWARE-FREEDOM-CONSERVANCY}
 \abntrefinfo{Chacon}{CHACON}{2009}
@@ -42,6 +53,12 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Matz}{MATZ}{2000}
 {MATZ. \emph{Ruby-Creator}. 2000.
 Dispon{\'\i}vel em: $<$https:\-/\-/www\-.ruby-lang\-.org\-/pt\-/about\-/$>$.}
+
+\bibitem[MCLEAN 2004]{MCLEAN_WETHERBE}
+\abntrefinfo{MCLEAN}{MCLEAN}{2004}
+{MCLEAN, E. \emph{Tecnologia da Informação para Gestão: Transformando
+  negócios na economia digital. 3ª ed}. Porto Alegre: Bookman Companhia Ed,
+  2004.}
 
 \bibitem[Orsini 2007]{ORSINI}
 \abntrefinfo{Orsini}{ORSINI}{2007}
