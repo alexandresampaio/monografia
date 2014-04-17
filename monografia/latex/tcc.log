@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.2)  17 APR 2014 12:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.2)  17 APR 2014 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1359,28 +1359,33 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 5.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 23.
+(babel)             in language append on input line 22.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 26.
+(babel)             in language append on input line 25.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 26.
+(babel)             in language append on input line 25.
 [27
 
 
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 49.
+(babel)             in language append on input line 52.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 60.
+(babel)             in language append on input line 61.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 62.
+(babel)             in language append on input line 61.
+ [28]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 63.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 65.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 77.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 77.
- [28]
+ [29]
 \openout2 = `cap4.aux'.
 
  (./cap4.tex
@@ -1400,7 +1405,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 78.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 78.
- [29
+ [30
 
 
 
@@ -1417,7 +1422,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 82.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 82.
-[30
+[31
 
 
 ]
@@ -1428,7 +1433,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 Package rerunfilecheck Info: File `tcc.out' has not changed.
-(rerunfilecheck)             Checksum: 3037BF1566B6DBFDF2AD1DFD08F89218;3533.
+(rerunfilecheck)             Checksum: 9C102BF8565A91E6C40E67F03E37558A;3533.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1436,8 +1441,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  ) 
 Here is how much of TeX's memory you used:
- 10513 strings out of 495007
- 157149 string characters out of 6180697
+ 10514 strings out of 495007
+ 157156 string characters out of 6180697
  325117 words of memory out of 5000000
  13286 multiletter control sequences out of 15000+600000
  59610 words of font info for 92 fonts, out of 8000000 for 9000
@@ -1449,10 +1454,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tcc.pdf (31 pages, 482326 bytes).
+Output written on tcc.pdf (32 pages, 483210 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
- 460 compressed objects within 5 object streams
- 136 named destinations out of 1000 (max. 500000)
+ 519 PDF objects out of 1000 (max. 8388607)
+ 463 compressed objects within 5 object streams
+ 137 named destinations out of 1000 (max. 500000)
  340 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -14,6 +14,12 @@ certas limitações quanto a escalabilidade e performance. A escalabilidade de u
 e intuitiva e eficiente, que possa atender a uma demanda cada vez maior de dados. A performance do software que faz uso de um SGBDs, por sua vez, faz referência
 à estimativa do tempo de resposta das requisições efetuadas pelo usuário que faz uso de determinado sistema.
 
+Tendo em vista, o surgimento dessas novas aplicações, fez com que a indústria de de desenvolvimento de software apresentasse novas idéias expecificas para estas
+duas situações concistentes e existentes devido às limitações dos sistemas de armazenamento de dados relacionais. As novas aplicações web exploram conteúdo em 
+abrangencia na Web 2.0 e diante dos problemas encontrados, foram desenvolvidas novas soluções proprietárias, que diferem do paradigma relacional, 
+as quais foram todas reunidas sob a nomenclatura \textit{NoSQL (Not Only SQL)}.\cite{CUNHA}.
+
+\section{SGBDs Relacionais}
 Existe uma ampla diferença entre Dados, Informação e Conhecimento.
 \begin{itemize}
   \item{ \textbf{ Dado: } Qualquer fato, instrução formalizada para uso da comunicação, um código para uma obra-prima de objetos, ou seja é a informação não tratada.
@@ -35,20 +41,13 @@ Existe uma ampla diferença entre Dados, Informação e Conhecimento.
   }
 \end{itemize}
 
-Tendo em vista, o surgimento dessas novas aplicações, fez com que a indústria de de desenvolvimento de software apresentasse novas idéias expecificas para estas
-duas situações concistentes e existentes devido às limitações dos sistemas de armazenamento de dados relacionais. As novas aplicações web exploram conteúdo em 
-abrangencia na Web 2.0 e diante dos problemas encontrados, foram desenvolvidas novas soluções proprietárias, que diferem do paradigma relacional, 
-as quais foram todas reunidas sob a nomenclatura \textit{NoSQL (Not Only SQL)}.\cite{CUNHA}.
-
-
-
-
-\section{SGBDs Relacionais}
-
-
 Em uma base de dados todo e qualquer dado obtido através de um sistema é armazenado e a partir dessa informação contida pode-se obter conhecimento através do processamento
-dos dados 
+dessa coleção de dados e informação.
+
 Um das grandes e principais características do modelo de dados relacionais são as restrições de integridade:
+
+O termo integridade em banco de dados é amplamente utilizado com o seguinte siguinificado: (presisão, correção e validação) e com isso vem o grande problema de muitos sistemas, assegurar que 
+os dados contidos nas tabelas se mantenham precisos, validos e corretos. Logo que 
 
 
 
