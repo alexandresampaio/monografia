@@ -1,4 +1,4 @@
-\chapter{Banco de Dados - SGBDS x NoSQL}
+\chapter{Banco de Dados - SGBDs x NoSQL}
 \thispagestyle{empty}
 Este capitulo procura estabelecer além de uma breve introdução terminológica, um comparativo entre banco de dados relacionais e os NoSQL.
 
@@ -14,13 +14,6 @@ certas limitações quanto a escalabilidade e performance. A escalabilidade de u
 e intuitiva e eficiente, que possa atender a uma demanda cada vez maior de dados. A performance do software que faz uso de um SGBDs, por sua vez, faz referência
 à estimativa do tempo de resposta das requisições efetuadas pelo usuário que faz uso de determinado sistema.
 
-Tendo em vista, o surgimento dessas novas aplicações, fez com que a indústria de de desenvolvimento de software apresentasse novas idéias expecificas para estas
-duas situações concistentes e existentes devido às limitações dos sistemas de armazenamento de dados relacionais. As novas aplicações web exploram conteúdo em 
-abrangencia na Web 2.0 e diante dos problemas encontrados, foram desenvolvidas novas soluções proprietárias, que diferem do paradigma relacional, 
-as quais foram todas reunidas sob a nomenclatura \textit{NoSQL (Not Only SQL)}.\cite{CUNHA}.
-
-
-\section{SGBDs Relacionais}
 Existe uma ampla diferença entre Dados, Informação e Conhecimento.
 \begin{itemize}
   \item{ \textbf{ Dado: } Qualquer fato, instrução formalizada para uso da comunicação, um código para uma obra-prima de objetos, ou seja é a informação não tratada.
@@ -36,13 +29,25 @@ Existe uma ampla diferença entre Dados, Informação e Conhecimento.
       Este interpreta o significado, tira conclusões e faz deduções a partir deles"}\cite{MCLEAN_WETHERBE}. } 
   }
   
-  \item{ \textbf{ Conhecimento: } É a coleção de tudo aquilo que faz sentido e possui valor constitucional e siguinificante aquelas às quais pode se tirar algum proveito para determinado propósito.
-  
-    \centering{ \textit{"Conhecimento consiste de dados e informações organizados e processados para
-    transmitir compreensão, experiência, aprendizado acumulado e técnica, quando se aplicam a determinado problema ou atividade"}\cite{MCLEAN_WETHERBE}. } 
+  \item{ \textbf{ Conhecimento: } Segundo \cite{MCLEAN_WETHERBE}, assim como conhecimentto É a coleção de tudo aquilo que faz sentido e possui valor constitucional e siguinificante 
+    aquelas às quais pode se tirar algum proveito para determinado propósito, conhecimento é a junção de todos os dados e informações processados afim de transmitir
+    a compreensão, experiência, aprendizado acumulativo e alguma técnica, quando aplicada a determinada situação ou atividade que dependa de tal conhecimento. 
   }
 \end{itemize}
 
+Tendo em vista, o surgimento dessas novas aplicações, fez com que a indústria de de desenvolvimento de software apresentasse novas idéias expecificas para estas
+duas situações concistentes e existentes devido às limitações dos sistemas de armazenamento de dados relacionais. As novas aplicações web exploram conteúdo em 
+abrangencia na Web 2.0 e diante dos problemas encontrados, foram desenvolvidas novas soluções proprietárias, que diferem do paradigma relacional, 
+as quais foram todas reunidas sob a nomenclatura \textit{NoSQL (Not Only SQL)}.\cite{CUNHA}.
+
+
+
+
+\section{SGBDs Relacionais}
+
+
+Em uma base de dados todo e qualquer dado obtido através de um sistema é armazenado e a partir dessa informação contida pode-se obter conhecimento através do processamento
+dos dados 
 Um das grandes e principais características do modelo de dados relacionais são as restrições de integridade:
 
 

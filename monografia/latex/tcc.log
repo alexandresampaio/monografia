@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.2)  17 APR 2014 11:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.2)  17 APR 2014 12:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1370,11 +1370,11 @@ Package babel Info: Redefining portuges shorthand "|
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 52.
+(babel)             in language append on input line 49.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 63.
+(babel)             in language append on input line 60.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 65.
+(babel)             in language append on input line 62.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 77.
@@ -1436,10 +1436,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  ) 
 Here is how much of TeX's memory you used:
- 10514 strings out of 495007
- 157165 string characters out of 6180697
+ 10513 strings out of 495007
+ 157149 string characters out of 6180697
  325117 words of memory out of 5000000
- 13287 multiletter control sequences out of 15000+600000
+ 13286 multiletter control sequences out of 15000+600000
  59610 words of font info for 92 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  36i,8n,41p,1365b,1596s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1449,7 +1449,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tcc.pdf (31 pages, 482451 bytes).
+Output written on tcc.pdf (31 pages, 482326 bytes).
 PDF statistics:
  515 PDF objects out of 1000 (max. 8388607)
  460 compressed objects within 5 object streams
