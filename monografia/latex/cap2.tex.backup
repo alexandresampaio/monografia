@@ -128,8 +128,9 @@ as gems instaladas, para exemplificar  esse conceito seria como descrito na saí
 }
 
 Nesse trecho se carregarmos essa Gem uma mensagem de erro seria exibida, devido ao nome da Gem que não é o nome que o comando 'require' precisa, bem como a versão que se deseja carregar.
-No entanto como fazer para carregar essa gem se o nome da mesma e o arquivo Ruby diferem nesse contexto? “Quando a convenção falha precisamos dizer explicitamente o que queremos.” 
-(Fábio Akita, 2009).
+No entanto como fazer para carregar essa gem se o nome da mesma e o arquivo Ruby diferem nesse contexto? 
+
+"Quando a convenção falha precisamos dizer explicitamente o que queremos."\cite{AKITA}.
 
 {\singlespace
 \begin{lstlisting}[caption=Exemplo de versionamento de gems,language=Ruby,label={versionamento}]
@@ -191,6 +192,17 @@ lado do servidor, e outra que é executada no lado do cliente que também oferec
     \caption{Modelo MVC Client-Side}
     \label{submeter}
 \end{figure}
+
+Em resumo o Modelo MVC pode ser descrito como uma série de requisições solicitadas pelo Browser e interpretadas pelo servidor que possui uma via
+de mão dupla.
+
+\begin{figure}[ht]
+    \centering
+    \scalebox{0.4}{\includegraphics{figuras/mvc_complete}}
+    \caption{Modelo MVC}
+    \label{submeter}
+\end{figure}
+
 
 Desenvolver aplicações voltadas para client-side possuem algumas vantagens importantes como:
 \begin{itemize}
@@ -284,31 +296,6 @@ em lojas virtuais; Newsletters".\cite{BAKHARIA}
 \noindent A classe Mailer do Rails possui métodos para diferentes formas de enviar mensagens de acordo com o que a aplicação necessita. O formato de saida dessa mensagem
 e descrito em sua ActionView de forma muito similar com as actions views gerenciadas pelos erb.
 
-\subsection{Scaffolding}
-Rails possui uma ferramenta de desenvolvimento ágil conhecida como scaffold, e essa ferramenta possibilita a criação do Model de acordo com os parâmetros expecificados.
-Este comando possibilita a criação de todo o CRUD, controller, model e views deste modelo dito no ato da criação. Em uma aplicação rails dependende do que se deseja e dependendo 
-da não complexidade o scaffold se faz uma boa escolha e para utiliza-lo basta usar:
-
-{\singlespace
-\begin{lstlisting}[caption=Exemplo de uso de scaffold, language=Ruby,label={scaffold}]
-  >> rails g scaffold user username:string address:string birth_date:date
-\end{lstlisting}
-}
-
-Em uma aplicação rails é sempre bom fazer uso de CoC, e nessas convenções o rails tem uma nomenclatura no que diz respeito a \textbf{controllers e models}, toda vez que um controller é criado
-este sempre estará no plurar, já o model correspondente irá sempre estar no singular. Isto quando for utilizado o comando scaffold que no ato irá gerar uma série de outros arquivos além do controller, 
-do model e das views responsáveis por gerenciar o modelo descrito. 
-\begin{figure}[ht]
-    \centering
-    \scalebox{0.4}{\includegraphics{figuras/scaffold_generator}}
-    \caption{Parte dos arquivos criados após o scaffold.}
-    \label{submeter}
-\end{figure}
-\\
-
-A introdução deste comando \textit{rails g} possibilita ao desenvolvedor uma série de outros comandos
-uma vez que pode ser abreviado, o nome por extenso para este comando é \textbf{generate}. O generate é o gerador de elementos do rails, com ele é possivel realizar outras 
-
 \subsection{Rake}
 
 Rake é conhecido como Ruby Make, um utilitário autônomo Ruby que substitui o utilitário Unix 'make'
@@ -350,13 +337,39 @@ executavel da aplicação desenvolvida e por ultimo RoR possui um ambiente - \te
 sem a necessidade de sofrer alterações como normalmente é feito em desenvolvimento. Ainda existe uma série de parametros que se pode passar para a criação de uma aplicação em rails uma delas é a opção de usar ou não o ActiveRecord
 que é nativo do rails ao utilizar "\textbf{--skip-active-record}" o desenvolvedor está explicitamente dizendo ao rails para criar uma aplicação sem persistência à uma base de dados relacional, com isso é possivel escolher alguma das
 base de dados NoSQL como por exemplo MongoDB, CouchDB, Cassandra etc.
+\\
+\\
+\subsection{Scaffolding}
+Rails possui uma ferramenta de desenvolvimento ágil conhecida como scaffold, e essa ferramenta possibilita a criação do Model de acordo com os parâmetros expecificados.
+Este comando possibilita a criação de todo o CRUD, controller, model e views deste modelo dito no ato da criação. Em uma aplicação rails dependende do que se deseja e dependendo 
+da não complexidade o scaffold se faz uma boa escolha e para utiliza-lo basta usar:
+
+{\singlespace
+\begin{lstlisting}[caption=Exemplo de uso de scaffold, language=Ruby,label={scaffold}]
+  >> rails g scaffold user username:string address:string birth_date:date
+\end{lstlisting}
+}
+
+Em uma aplicação rails é sempre bom fazer uso de CoC, e nessas convenções o rails tem uma nomenclatura no que diz respeito a \textbf{controllers e models}, toda vez que um controller é criado
+este sempre estará no plurar, já o model correspondente irá sempre estar no singular. Isto quando for utilizado o comando scaffold que no ato irá gerar uma série de outros arquivos além do controller, 
+do model e das views responsáveis por gerenciar o modelo descrito.
+\\
+\begin{figure}[ht]
+    \centering
+    \scalebox{0.4}{\includegraphics{figuras/scaffold_generator}}
+    \caption{Parte dos arquivos criados após o scaffold.}
+    \label{submeter}
+\end{figure}
+\\
+A introdução deste comando \textit{rails g} possibilita ao desenvolvedor uma série de outros comandos
+uma vez que pode ser abreviado, o nome por extenso para este comando é \textbf{generate}. O generate é o gerador de elementos do rails, com ele é possivel realizar outras 
 
 \subsection{Comunidade Rails}
 
-``A comunidade rubista/rails é hoje uma das mais ativas e unidas do Brasil. Cerca de dos eventos que acontecem anualmente
+"A comunidade rubista/rails é hoje uma das mais ativas e unidas do Brasil. Cerca de 10 dos eventos que acontecem anualmente
 ao redor do mundo com o único propósito de difundir conhecimento e unir os desenvolvedores. Um exemplo dessa força é o Ruby Conf, maior evento 
 de Ruby da America Latina, com presença dos maiores nomes nacionais e internacionais de Ruby on Rails, e a presença de uma track dedicada ao 
-Ruby na QCon São Paulo.''\cite{CAELUM}.
+Ruby na QCon São Paulo."\cite{CAELUM}.
 
 \section{Git}
 Git é um sistema de controle de versões distribuídas livre e de código aberto, projetado para lidar com qualquer projeto, desde o menor ao maior com rapidez e eficiência \cite{SOFTWARE-FREEDOM-CONSERVANCY}.
@@ -366,3 +379,6 @@ A historia do Git está muito relacionada a criação do Linux e de Linus Torval
 Em 2005, após um problema com a proprietária deste, a comunidade decidiu criar sua própria ferramenta a partir da experiência com a anterior, houve um novo foco em: velocidade, \textit{design} simples, suporte para desenvolvimento paralelo, distribuição completa e a habilidade necessária para lidar com projetos grandes sem perda de velocidade e dados.
 
 Assim, esse novo sistema de versionamento permite que qualquer repositório seja o centro do versionamento, deixando todo \textit{log} das modificações guardados nele sem que para isso precise de uma conexão a rede ou servidor geral.
+
+Para a realização deste projeto foi escolhida uma ferramenta de uso privado conhecida como \textbf{ bitbucket.org } similar a mais conhecida entre os desenvoldores o \textbf{GitHub}. Esta permite que apenas integrantes do projeto possam opinar
+bem como realizar alterações de modo mais integro e seguro para aplicações de nível não público.

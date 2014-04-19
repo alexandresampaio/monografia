@@ -16,6 +16,13 @@ Dispon{\'\i}vel em: $<$https:\-/\-/www\-.akitaonrails\-.com$>$. Acesso em:
 {BAKHARIA, A. \emph{Design Ruby on Rails Power: The Comprehensive Guide.}
   Boston, MA: Thomson Course Technology, 2007.}
 
+\bibitem[Brewer 2000]{BREWER}
+\abntrefinfo{Brewer}{BREWER}{2000}
+{BREWER, E. \emph{Teorema de CAP}. 2000.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/blog\-.caelum\-.com\-.br\-/nosql-do-teorema-cap-para-paccl\-/$>$}{http://blog.caelum.com.br/nosql-do-teorema-cap-para-paccl/}.
+  Acesso em: 19/04/2014.}
+
 \bibitem[CAELUM 2014]{CAELUM}
 \abntrefinfo{CAELUM}{CAELUM}{2014}
 {CAELUM. \emph{Desenvolvimento Ágil para Web Com Ruby On Rails 4 - RR-71}.

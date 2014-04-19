@@ -42,14 +42,17 @@ Existe uma ampla diferença entre Dados, Informação e Conhecimento.
 \end{itemize}
 
 Em uma base de dados todo e qualquer dado obtido através de um sistema é armazenado e a partir dessa informação contida pode-se obter conhecimento através do processamento
-dessa coleção de dados e informação.
+dessa coleção de dados e informação. Uma das grandes e principais características do modelo de dados relacionais são as restrições de integridade:
 
-Um das grandes e principais características do modelo de dados relacionais são as restrições de integridade:
+O termo integridade em banco de dados é amplamente utilizado com o seguinte siguinificado: (presisão, correção e validação) e com isso vem o grande problema de muitos sistemas, 
+assegurar que os dados contidos nas tabelas se mantenham precisos, validos e corretos. Visto que se o objetivo do controle de acesso à base de dados é o de evitar que pessoas e/ou programas 
+não autorizados leiam e/ou atualizem ou até mesmo realizem exclusões na base de dados, então é objetivo dos mecanismos que zelam pela integridade semântica do BD garantir que somente 
+atualizações permitidas sejam executadas na base de dados.
 
-O termo integridade em banco de dados é amplamente utilizado com o seguinte siguinificado: (presisão, correção e validação) e com isso vem o grande problema de muitos sistemas, assegurar que 
-os dados contidos nas tabelas se mantenham precisos, validos e corretos. Logo que 
-
-
+\section{Teorema de CAP}
+A famosa palestra do Drº Erich Brewer professor da Universidade da Califórnia apresentada no simpósio sobre princípios da computação distribuída \textbf{ (Principles of Distributed Computing PODC) } 
+apresentada em 2000, introduz a afirmativa do teorema e explica que qualque sistema distribuído stateful é preciso escolher entre consistência forte (C – Consistency), alta disponibilidade (A – availability) e tolerância a particionamento dos dados na rede(P – Network Partition Tolerance)
+Essa afirmação foi mais tarde no ano de 2002 comprovada por \textbf{ Seth Gilbert e Nancy Lynch } se tornando conhecida como teorema de Brewer ou teorema de CAP. \cite{BREWER}.
 
 \section{ACID}
   \begin{itemize}
