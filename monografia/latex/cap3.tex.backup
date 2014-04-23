@@ -50,20 +50,33 @@ não autorizados leiam e/ou atualizem ou até mesmo realizem exclusões na base 
 atualizações permitidas sejam executadas na base de dados.
 
 \section{Teorema de CAP}
-A famosa palestra do Drº Erich Brewer professor da Universidade da Califórnia apresentada no simpósio sobre princípios da computação distribuída \textbf{ (Principles of Distributed Computing PODC) } 
-apresentada em 2000, introduz a afirmativa do teorema e explica que qualque sistema distribuído stateful é preciso escolher entre consistência forte (C – Consistency), alta disponibilidade (A – availability) e tolerância a particionamento dos dados na rede(P – Network Partition Tolerance)
-Essa afirmação foi mais tarde no ano de 2002 comprovada por \textbf{ Seth Gilbert e Nancy Lynch } se tornando conhecida como teorema de Brewer ou teorema de CAP. \cite{BREWER}.
+A famosa palestra do Drº Erich Brewer professor da Universidade da Califórnia apresentada no simpósio sobre princípios da computação distribuída \textbf{ (Principles of Distributed Computing - PODC) } 
+apresentada em 2000, introduz a afirmativa do teorema e explica que qualquer em sistema distribuído estável é preciso escolher entre consistência forte (C – Consistency), alta disponibilidade (A – availability) e tolerância a particionamento dos dados na rede(P – Network Partition Tolerance)
+Essa afirmação mais tarde no ano de 2002 foi comprovada por \textbf{ Seth Gilbert e Nancy Lynch } se tornando conhecida como teorema de Brewer ou teorema de CAP. \cite{BREWER}.
 
-\section{ACID}
-  \begin{itemize}
-    \item{ A - Atomicidade:
-      Todas as operações da trançações serão executadas por completo, caso contrario não será executada em momento algum.
-    }
-    
-    \item{ C - Concistência:
-      
-    }
-  \end{itemize}
+\begin{figure}[ht]
+    \centering
+    \scalebox{0.4}{\includegraphics{figuras/CAP_Diagram}}
+    \caption{Diagrama do Teorema de CAP(Brewer)}
+    \label{submeter}
+\end{figure}
+
+
+\subsection{ C – Consistência }
+É considerada como a característica que transcreve as duas condicionais de um sistema, como o sistema fica consistente após e
+uma operação e se ele fica consistente. Uma base de dados consistênte distribuida é dita como fortemente consistente ou 
+como tendo fraca consistência. Os sistemas com uma forte consistência, implementam as 
+características ACID (Atomicidade, Consistência, Isolamento e Durabilidade), sendo estas 
+implementadas na maior parte das bases de dados relacionais. Na outra extremidade, de fraca 
+consistência, temos as bases de dados BASE (Basic Availability, Soft-State, Eventual 
+Consistency).
+
+\subsection{ A – Disponibilidade }
+A disponibilidade que, segundo Browne (2009), deve garantir que um sistema esteja sempre fornecendo acesso e funcionalidades a seus usuários, 
+é uma propriedade indispensável para sistemas de empresas que precisam disponibilizar seus serviços continuamente, por exemplo, empresas como
+a Google ou a Microsoft.
+
+\subsection{ P – Tolerância ao Particionamento }
 
 \section{NoSQL}
 

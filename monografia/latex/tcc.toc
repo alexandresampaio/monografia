@@ -29,13 +29,14 @@
 \contentsline {section}{\numberline {3.1}Breve Hist\IeC {\'o}rico}{27}{section.listoffigures.3.1}
 \contentsline {section}{\numberline {3.2}SGBDs Relacionais}{28}{section.listoffigures.3.2}
 \contentsline {section}{\numberline {3.3}Teorema de CAP}{28}{section.listoffigures.3.3}
-\contentsline {subsection}{\numberline {3.3.1}C \IeC {\textendash } Consist\IeC {\^e}ncia }{29}{subsection.listoffigures.3.3.1}
-\contentsline {section}{\numberline {3.4}ACID}{29}{section.listoffigures.3.4}
-\contentsline {section}{\numberline {3.5}NoSQL}{29}{section.listoffigures.3.5}
-\contentsline {section}{\numberline {3.6}Comparativo entre SGBDS Relacionais e N\IeC {\~a}o Relacionais}{29}{section.listoffigures.3.6}
-\contentsline {chapter}{\numberline {4}SGBDS}{30}{chapter.listoffigures.4}
-\contentsline {section}{\numberline {4.1}Porque Utilizar?}{30}{section.listoffigures.4.1}
-\contentsline {section}{\numberline {4.2}Banco de Dados Relacionais}{30}{section.listoffigures.4.2}
-\contentsline {section}{\numberline {4.3}NoSQL}{30}{section.listoffigures.4.3}
-\contentsline {section}{\numberline {4.4}Comparativo entre SGBDS Relacionais e N\IeC {\~a}o Relacionais}{30}{section.listoffigures.4.4}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}{31}{section.listoffigures.4.4}
+\contentsline {subsection}{\numberline {3.3.1} C \IeC {\textendash } Consist\IeC {\^e}ncia }{29}{subsection.listoffigures.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2} A \IeC {\textendash } Disponibilidade }{29}{subsection.listoffigures.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3} P \IeC {\textendash } Toler\IeC {\^a}ncia ao Particionamento }{30}{subsection.listoffigures.3.3.3}
+\contentsline {section}{\numberline {3.4}NoSQL}{30}{section.listoffigures.3.4}
+\contentsline {section}{\numberline {3.5}Comparativo entre SGBDS Relacionais e N\IeC {\~a}o Relacionais}{30}{section.listoffigures.3.5}
+\contentsline {chapter}{\numberline {4}SGBDS}{31}{chapter.listoffigures.4}
+\contentsline {section}{\numberline {4.1}Porque Utilizar?}{31}{section.listoffigures.4.1}
+\contentsline {section}{\numberline {4.2}Banco de Dados Relacionais}{31}{section.listoffigures.4.2}
+\contentsline {section}{\numberline {4.3}NoSQL}{31}{section.listoffigures.4.3}
+\contentsline {section}{\numberline {4.4}Comparativo entre SGBDS Relacionais e N\IeC {\~a}o Relacionais}{31}{section.listoffigures.4.4}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}{32}{section.listoffigures.4.4}
