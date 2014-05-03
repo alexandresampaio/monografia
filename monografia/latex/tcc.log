@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.3)  3 MAY 2014 12:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.3)  3 MAY 2014 17:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -840,7 +840,7 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count133
 \openout2 = `capa.aux'.
 
-(./capa.tex <figuras/logo.jpg, id=175, 1366.10374pt x 253.94875pt>
+(./capa.tex <figuras/logo.jpg, id=179, 1366.10374pt x 253.94875pt>
 File: figuras/logo.jpg Graphic file (type jpg)
 
 <use figuras/logo.jpg>
@@ -1200,7 +1200,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 162.
 
-<figuras/server_side_mvc.png, id=356, 226.8475pt x 367.3725pt>
+<figuras/server_side_mvc.png, id=361, 226.8475pt x 367.3725pt>
 File: figuras/server_side_mvc.png Graphic file (type png)
 
 <use figuras/server_side_mvc.png>
@@ -1211,14 +1211,14 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 177.
  [17]
-<figuras/hibrid_mode_mvc.png, id=373, 226.8475pt x 431.6125pt>
+<figuras/hibrid_mode_mvc.png, id=378, 226.8475pt x 431.6125pt>
 File: figuras/hibrid_mode_mvc.png Graphic file (type png)
 
 <use figuras/hibrid_mode_mvc.png>
 Package pdftex.def Info: figuras/hibrid_mode_mvc.png used on input line 180.
 (pdftex.def)             Requested size: 226.84694pt x 431.61143pt.
 
-<figuras/client_side_mvc.png, id=374, 224.84pt x 458.71375pt>
+<figuras/client_side_mvc.png, id=379, 224.84pt x 458.71375pt>
 File: figuras/client_side_mvc.png Graphic file (type png)
 
 <use figuras/client_side_mvc.png>
@@ -1239,7 +1239,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 198.
 [18 <./figuras/server_side_mvc.png> <./figuras/hibrid_mode_mvc.png>]
-<figuras/mvc_complete.png, id=382, 465.23813pt x 328.97906pt>
+<figuras/mvc_complete.png, id=387, 465.23813pt x 328.97906pt>
 File: figuras/mvc_complete.png Graphic file (type png)
 
 <use figuras/mvc_complete.png>
@@ -1299,7 +1299,7 @@ Package babel Info: Redefining portuges shorthand "|
  (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-<figuras/rails_app.png, id=420, 768.8725pt x 739.76375pt>
+<figuras/rails_app.png, id=426, 768.8725pt x 739.76375pt>
 File: figuras/rails_app.png Graphic file (type png)
 
 <use figuras/rails_app.png>
@@ -1330,7 +1330,7 @@ Package babel Info: Redefining portuges shorthand "|
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-<figuras/scaffold_generator.png, id=434, 971.88094pt x 445.665pt>
+<figuras/scaffold_generator.png, id=439, 971.88094pt x 445.665pt>
 File: figuras/scaffold_generator.png Graphic file (type png)
 
 <use figuras/scaffold_generator.png>
@@ -1378,7 +1378,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 58.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 58.
- [28] <figuras/CAP_Diagram.jpg, id=474, 642.4pt x 642.4pt>
+ [28] <figuras/CAP_Diagram.jpg, id=479, 642.4pt x 642.4pt>
 File: figuras/CAP_Diagram.jpg Graphic file (type jpg)
 
 <use figuras/CAP_Diagram.jpg>
@@ -1403,21 +1403,28 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 100.
  [30]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 102.
+(babel)             in language append on input line 107.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 104.
+(babel)             in language append on input line 117.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 106.
+(babel)             in language append on input line 117.
+ [31]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 127.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 129.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 131.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 77.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 77.
- [31]
+
+[32]
 \openout2 = `cap4.aux'.
 
-
-(./cap4.tex
+ (./cap4.tex
 Cap\'{\i }tulo 4.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
@@ -1434,7 +1441,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 78.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 78.
- [32
+ [33
 
 
 
@@ -1442,10 +1449,10 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 3.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 118.
+(babel)             in language append on input line 119.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 118.
- [33
+(babel)             in language append on input line 119.
+ [34
 
 
 ])
@@ -1458,7 +1465,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 82.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 82.
-[34]
+[35]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
  (./tcc.aux (./capa.aux) (./rosto.aux) (./aprovacao.aux) (./dedicatoria.aux) (.
 /agradecimentos.aux) (./epigrafe.aux) (./resumo.aux) (./abstract.aux)
@@ -1466,7 +1473,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 Package rerunfilecheck Info: File `tcc.out' has not changed.
-(rerunfilecheck)             Checksum: 9ABA7327B20B395EAA0C212498908E7C;4086.
+(rerunfilecheck)             Checksum: E36417E8D877D877EFDA3610DA5A3E8F;4194.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1474,10 +1481,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  ) 
 Here is how much of TeX's memory you used:
- 10584 strings out of 495004
- 158350 string characters out of 6180663
+ 10606 strings out of 495004
+ 158687 string characters out of 6180663
  325598 words of memory out of 5000000
- 13342 multiletter control sequences out of 15000+600000
+ 13359 multiletter control sequences out of 15000+600000
  62332 words of font info for 94 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  36i,8n,41p,1365b,1596s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1487,10 +1494,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tcc.pdf (35 pages, 553032 bytes).
+Output written on tcc.pdf (36 pages, 558701 bytes).
 PDF statistics:
- 588 PDF objects out of 1000 (max. 8388607)
- 527 compressed objects within 6 object streams
- 152 named destinations out of 1000 (max. 500000)
- 385 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 611 PDF objects out of 1000 (max. 8388607)
+ 549 compressed objects within 6 object streams
+ 157 named destinations out of 1000 (max. 500000)
+ 393 words of extra memory for PDF output out of 10000 (max. 10000000)
 

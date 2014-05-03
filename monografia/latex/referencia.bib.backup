@@ -106,7 +106,23 @@ Salvador."
   address = "www.caelum.com.br/online",
   year = "2014"
 }
-  
+
+@Misc{ ALMEIDA,
+  title = "quando-muitos-dados-passam-a-atrapalhar-replicacao-e-sharding",
+  author = "Adriano Almeida",
+  year = "2010",
+  url = {http://blog.caelum.com.br/quando-muitos-dados-passam-a-atrapalhar-replicacao-e-sharding/},
+	urlaccessdate = {03/05/2014}
+}
+
+@Misc{ SILVEIRA,
+  title = "quando-muitos-dados-passam-a-atrapalhar-replicacao-e-sharding",
+  author = "Guilherme Silveira",
+  year = "2010",
+  url = {http://blog.caelum.com.br/quando-muitos-dados-passam-a-atrapalhar-replicacao-e-sharding/},
+	urlaccessdate = {03/05/2014}
+}
+
 @book{ BAKHARIA,
   title = "Design Ruby on Rails Power: The Comprehensive Guide.",
   author = "Aneesha Bakharia",
@@ -131,6 +147,17 @@ Salvador."
   url = { http://blog.sym-link.com/2009/10/30/nosql_whats_in_a_name.html },
 	urlaccessdate = {02/05/2014}
 }
+
+
+@article{ DEVMEDIA,
+	title = "O que é noSQL?",
+	author = "Alexandre Porcelli",
+	journal = "Java Magazine - ano - VII",
+	number = "86",
+	month = "Janeiro",
+	year = "2011"
+}
+
 
 @Misc{ GADNER-SUBPROCESS,
   title = "Working with python subprocess",
@@ -180,6 +207,9 @@ Salvador."
 	month = "november",
 	year = "1994"
 }
+
+
+
 
 @Misc{ SILVA,
 	author = "Jomar Silva",

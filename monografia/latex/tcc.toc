@@ -33,12 +33,13 @@
 \contentsline {subsection}{\numberline {3.3.2} A \IeC {\textendash } Disponibilidade }{30}{subsection.listoffigures.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3} P \IeC {\textendash } Toler\IeC {\^a}ncia ao Particionamento }{30}{subsection.listoffigures.3.3.3}
 \contentsline {section}{\numberline {3.4}NoSQL}{30}{section.listoffigures.3.4}
-\contentsline {subsection}{\numberline {3.4.1} NoSQL 1: Sistemas CP }{31}{subsection.listoffigures.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2} NoSQL 2: Sistemas AP }{31}{subsection.listoffigures.3.4.2}
-\contentsline {section}{\numberline {3.5}Comparativo entre SGBDS Relacionais e N\IeC {\~a}o Relacionais}{31}{section.listoffigures.3.5}
-\contentsline {chapter}{\numberline {4}SGBDS}{32}{chapter.listoffigures.4}
-\contentsline {section}{\numberline {4.1}Porque Utilizar?}{32}{section.listoffigures.4.1}
-\contentsline {section}{\numberline {4.2}Banco de Dados Relacionais}{32}{section.listoffigures.4.2}
-\contentsline {section}{\numberline {4.3}NoSQL}{32}{section.listoffigures.4.3}
-\contentsline {section}{\numberline {4.4}Comparativo entre SGBDS Relacionais e N\IeC {\~a}o Relacionais}{32}{section.listoffigures.4.4}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}{33}{section.listoffigures.4.4}
+\contentsline {subsection}{\numberline {3.4.1} Escalonamento horizontal }{31}{subsection.listoffigures.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2} NoSQL 1: Sistemas CP }{32}{subsection.listoffigures.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3} NoSQL 2: Sistemas AP }{32}{subsection.listoffigures.3.4.3}
+\contentsline {section}{\numberline {3.5}Comparativo entre SGBDS Relacionais e N\IeC {\~a}o Relacionais}{32}{section.listoffigures.3.5}
+\contentsline {chapter}{\numberline {4}SGBDS}{33}{chapter.listoffigures.4}
+\contentsline {section}{\numberline {4.1}Porque Utilizar?}{33}{section.listoffigures.4.1}
+\contentsline {section}{\numberline {4.2}Banco de Dados Relacionais}{33}{section.listoffigures.4.2}
+\contentsline {section}{\numberline {4.3}NoSQL}{33}{section.listoffigures.4.3}
+\contentsline {section}{\numberline {4.4}Comparativo entre SGBDS Relacionais e N\IeC {\~a}o Relacionais}{33}{section.listoffigures.4.4}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}{34}{section.listoffigures.4.4}

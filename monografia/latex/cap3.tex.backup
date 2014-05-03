@@ -95,8 +95,32 @@ bases de dados que não mais se dispõem do uso de SQL tais como:\textbf{ Mysql,
 além de apresentar soluções ou novas alternativas open-source de armazenamento de dados distribuidos não relacionais. Os NoSQL surgiram como uma solução para a questão de escalonamento, concistência e disponibilidade no
 armazenamento e processamento de grandes volumes de dados na \textbf{WEB 2.0}.
 
-" Ao que tudo indica o termo noSQL foi criado em 1998 por Carlo Strozzi para nomear seu projeto open source, que tinha como objetivo ser uma implementação mais leve de um banco de dados relacional, 
+"Ao que tudo indica o termo noSQL foi criado em 1998 por Carlo Strozzi para nomear seu projeto open source, que tinha como objetivo ser uma implementação mais leve de um banco de dados relacional, 
 porém sua principal característica era não expor a interface SQL."\cite{DEVMEDIA}
+
+A principal característica dos noSQL é o fato de não apresentarem a linguagem SQL, e essa iniciativa de retirar as estruturas impostas pelos SGBDs baseados no modelo relacional de dados, garante que os noSQL em determinadas ocasiões, busquem: acelerar, otimizar e organizar os dados de 
+maneira de objetiva direta e livre de relacionamentos, todavia a diferença mais importante e incessantemente discutida entre as base de dados não relacionais é a da alta escalabilidade necessaria para gerenciar enormes volumes de dados, tornando estes mais flexiveis as caracteristicas 
+\textbf{ACID}, onde os atuais banco de dados relacionais são muito restritos quanto a escalabilidade pois fazem uso de escalonamento vertical ou seja quanto mais dados trafegarem mais espaço é solicitado e com isso mais memória é necessario para manter o servidor conciso na maipulação 
+do volume de dados. A diferença única e exclusivamente se encontra no escalonamento, os noSQL fazem uso do escalonamento horizontal e possuiem maior facilidade de distribuição de dados, ou seja com o aumento do numero de dados, surge-se a necessidade de aumentar o numero de servidores, 
+otimizando o desempenho e performance do armazenamento.
+
+\subsection{ Escalonamento horizontal }
+Como fora mencionado na sessão acima sobre escalonamento horizontal, este tende a ser uma solução mais confiável, apesar de possuir alguns requerimentos como diversas threads/processos distribuidos, ou seja fazendo uma divisão desses dados em varios outros servidores distribuidos, minimizando o volume de dados por servidor, 
+e neste caso menos processamento e gerenciamento de dados e memória são gastos, tornando determinada situação mais simplificada. Neste caso o uso de uma base de dados relacional começa a se tornar inviável, uma vez que com um número de processos distribuidos conectados simultaneamente à um mesmo modelo de dados relacional, 
+causaria uma alta concorrência entre os mesmos, fazendo com que haja um tempo maior de acesso às tabelas envolvidas bem como seus relacionamentos. 
+
+"Quando pensamos na arquitetura de sistemas com grande volume de dados a primeira palavra que vem a mente é escalar. Além de desejar que cada uma das pesquisas em nosso sistema execute o mais rápido possível, precisamos criar meios para que, quando necessário, seja fácil adicionar mais recursos (como memória ou novos servidores) e o sistema consiga tirar proveito deles. Para isso muitas vezes precisamos ir além das diversas otimizações de performance e escalabilidade, como por exemplo a criação de um índice para buscas, o uso de caches e de chamadas assíncronas." \cite{ALMEIDA,SILVEIRA}
+
+Para que seja permitido o escalonamento horizontal, deve existir a ausência de bloqueio, o que torna essa tecnologia mais adequada e capaz de solucionar problemas quanto ao gerenciamento do grande volume de dados que crescem exponencialmente, assim como os dados na WEB 2.0. Existem duas abordagens \textit{\textbf{replicação e particionamento horizontal}} de extrema importância para se conseguir o escalonamento horizontal. Replicação possui uma idéa bastante diversificada por muitos, porem
+ neste caso siguinifica, dividir toda e qualquer parte da base de dados em multiplas partes e as armazenando em mais de um nó na rede. A implementação desta técnica pode muito bem ser criada através de uma clássica estrutura vista em diversos outros sistemas distribuidos
+a estrutura \textbf{master-slave} de processos se comunicando através de troca de mensagens. 
+
+Segundo \cite{SLOMAN}, "Um sistema de processamento distribuído é tal que, vários  processadores e dispositivos de  armazenamento de dados,  comportando processos e/ou bases de  dados, interagem cooperativamente  para alcançar um objetivo comum. Os  processos coordenam suas atividades e  trocam informações por passagem de  mensagens através de uma rede de comunicação".
+
+A aplicação da técnica de escalonamento horizontal, também conhecida como \textbf{Sharding}
+
+
+
 
 
 \subsection{ NoSQL 1: Sistemas CP }
