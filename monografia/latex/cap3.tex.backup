@@ -3,12 +3,12 @@
 Este capitulo procura estabelecer além de uma breve introdução terminológica, um comparativo entre banco de dados relacionais e os NoSQL.
 
 \section{Breve Histórico}
-Atualmente o mundo enfrenta uma quantidade siguinificativa, mediante a demanda de dados trafegados simultaneamente pela rede. Desde o surgimento do modelo
-relacional de armazenamento de dados por \cite{CODD}, este tem sido abrangentemente utilizado ao redor do mundo para diversas finalidades. Esse sistema de 
-gerenciamento de banco dados \textbf{mundialmente} conhecido como SGBDs, tais como Mysql, PostgreSQL, Oracle, SQLServer entre outros foram sendo utilizados ao 
-percurso de muitos anos, sendo estes adotados como padrão por muitas empresas desde comuns até desenvolvedoras de \textbf{software}, atendendo comletamente ao
-propósito de cada uma com suas diferentes situações e aplicações, contudo com o avanço das tecnologias empregadas no ramo do desenvolvimento de sistemsas web 
-no \textit{século XXI}, com o grande aumento da demanda de dados e com o advento do surgimento das redes sociais, grandes portais com número, intermitente de
+Nos dias de hoje, mediante a demanda elevada de dados trafegados simultaneamente pela rede o mundo, passou a enfrentar uma quantia muito alta e acabando por necessitar de meios 
+mais sofisticados de armazenamento e acesso aos dados. Desde o surgimento do modelo relacional de armazenamento de dados por \cite{CODD}, este tem sido 
+abrangentemente utilizado ao redor do mundo para diversas finalidades. Esse sistema de gerenciamento de banco dados \textbf{mundialmente} conhecido como SGBDs, tais como:
+Mysql, PostgreSQL, Oracle, SQLServer entre outros foram sendo utilizados ao percurso de muitos anos, sendo estes adotados como padrão por muitas empresas desde comuns até
+desenvolvedoras de \textbf{software}, atendendo comletamente ao propósito de cada uma com suas diferentes situações e aplicações, contudo com o avanço das tecnologias 
+empregadas no ramo do desenvolvimento de sistemsas web no \textit{século XXI}, com o grande aumento da demanda de dados e com o advento do surgimento das redes sociais, grandes portais com número, intermitente de
 informações a todo momento, sites de compra coletiva entre outros tipos de sistemas, a arquitetura dos \textbf{SGBDs} começou a ser questionada por apresentar 
 certas limitações quanto a escalabilidade e performance. A escalabilidade de um SGBD está relacionada à capacidade de um software crescer de tal forma, rápida
 e intuitiva e eficiente, que possa atender a uma demanda cada vez maior de dados. A performance do software que faz uso de um SGBDs, por sua vez, faz referência
@@ -20,7 +20,7 @@ abrangencia na Web 2.0 e diante dos problemas encontrados, foram desenvolvidas n
 as quais foram todas reunidas sob a nomenclatura \textit{NoSQL (Not Only SQL)}.\cite{CUNHA}.
 
 \section{SGBDs Relacionais}
-Existe uma ampla diferença entre Dados, Informação e Conhecimento.
+Antes de entrar nas carateristicas de uma Base de Dados Relacional, é necessário ter uma noção entre dado, informação e conhecimento. E existe uma ampla diferença entre dados, informação e conhecimento.
 \begin{itemize}
   \item{ \textbf{ Dado: } Qualquer fato, instrução formalizada para uso da comunicação, um código para uma obra-prima de objetos, ou seja é a informação não tratada.
   
@@ -49,10 +49,12 @@ assegurar que os dados contidos nas tabelas se mantenham precisos, validos e cor
 não autorizados leiam e/ou atualizem ou até mesmo realizem exclusões na base de dados, então é objetivo dos mecanismos que zelam pela integridade semântica do BD garantir que somente 
 atualizações permitidas sejam executadas na base de dados.
 
+Uma outra característica em relação à sistemas criados com base de dados está descrita em condição de sua concistência, disponibilidade, e particionamento como menciona o teorema de CAP.
+
 \section{Teorema de CAP}
-A famosa palestra do Drº Erich Brewer professor da Universidade da Califórnia apresentada no simpósio sobre princípios da computação distribuída \textbf{ (Principles of Distributed Computing - PODC) } 
-apresentada em 2000, introduz a afirmativa do teorema e explica que qualquer em sistema distribuído estável é preciso escolher entre consistência forte (C – Consistency), alta disponibilidade (A – availability) e tolerância a particionamento dos dados na rede(P – Network Partition Tolerance)
-Essa afirmação mais tarde no ano de 2002 foi comprovada por \textbf{ Seth Gilbert e Nancy Lynch } se tornando conhecida como teorema de Brewer ou teorema de CAP. \cite{BREWER}.
+Segundo a hipótese da famosa palestra do Drº Erich Brewer, professor da Universidade da Califórnia apresentada no simpósio sobre princípios da computação distribuída \textbf{ (Principles of Distributed Computing - PODC) } 
+em 2000, ele introduz a afirmativa do teorema e explica que em qualquer sistema distribuído statefull é preciso escolher entre uma forte consistência (C – Consistency), alta disponibilidade (A – availability) e tolerância a particionamento dos dados na rede (P – Network Partition Tolerance)
+porem nunca os três de uma só vez. Essa afirmação mais tarde em 2002 foi comprovada por \textbf{ Seth Gilbert e Nancy Lynch } se tornando conhecida como teorema de Brewer ou teorema de CAP. \cite{BREWER}.
 
 \begin{figure}[ht]
     \centering
@@ -65,19 +67,40 @@ Essa afirmação mais tarde no ano de 2002 foi comprovada por \textbf{ Seth Gilb
 \subsection{ C – Consistência }
 É considerada como a característica que transcreve as duas condicionais de um sistema, como o sistema fica consistente após e
 uma operação e se ele fica consistente. Uma base de dados consistênte distribuida é dita como fortemente consistente ou 
-como tendo fraca consistência. Os sistemas com uma forte consistência, implementam as 
-características ACID (Atomicidade, Consistência, Isolamento e Durabilidade), sendo estas 
-implementadas na maior parte das bases de dados relacionais. Na outra extremidade, de fraca 
-consistência, temos as bases de dados BASE (Basic Availability, Soft-State, Eventual 
+como tendo fraca consistência. Os sistemas com uma forte consistência, implementam as características ACID 
+(Atomicidade, Consistência, Isolamento e Durabilidade), sendo estas implementadas na maior parte das bases de dados relacionais. 
+Na outra extremidade, de fraca consistência, temos as bases de dados BASE (Basic Availability, Soft-State, Eventual 
 Consistency).
 
 \subsection{ A – Disponibilidade }
-A disponibilidade que, segundo Browne (2009), deve garantir que um sistema esteja sempre fornecendo acesso e funcionalidades a seus usuários, 
-é uma propriedade indispensável para sistemas de empresas que precisam disponibilizar seus serviços continuamente, por exemplo, empresas como
-a Google ou a Microsoft.
+A disponibilidade que, segundo \cite{BROWNE}, deve garantir que um sistema esteja sempre fornecendo acesso e funcionalidades a seus usuários, 
+é uma das propriedades mais importantes e indispensável para sistemas de empresas, sejam eles baseados em Web ou não mas  que precisam disponibilizar
+seus serviços continuamente, por exemplo, empresas como a Google ou a Microsoft. Entretanto inevitáveis falhas podem ocorrer, e é nesse momento em que 
+alguma contingência (backups automáticos e alguma redundância) deve ocorrer para minimizar o impacto ao usuário.
 
 \subsection{ P – Tolerância ao Particionamento }
+Tolerância ao particionamento significa assegurar que todas as operações sejam completadas, pode siginificar ao mesmo tempo a habilidade de um sistema
+continuar operando, mesmo em situações em que componentes individuais já não estejam mais disponíveis, ou seja onde ocorra uma interrupção parcial de alguns 
+componentes. "Assim, se um sistema disponibilizar essa propriedade, ele ainda será capaz de realizar operações como leitura e escrita mesmo após 
+serem realizados diversos particionamentos na rede".\cite{GILBERT,NANCY}.
 
 \section{NoSQL}
+Muitas organizações que tradicionalmente coletam uma quantidade imensa de dados estruturados em bases de dados relacionais, em vista da demanda de dados incessantes crescendo
+a todo momento, começaram a procurar novas soluções para armazenamento de dados acabando por optarem pelos bando de dados não relacionais, ou bando de dados não-SQL, que agora são 
+frequentemente chamados de banco de dados NoSQL.
+
+O termo NoSQL Database que pode ser entendido como \textbf{Not-Olny-SQL}, foi inicialmente anunciado em 1998, para bases de dados que omitiam a linguagem SQL, um termo genérico re-introduzido por \cite{EVANS} da Rackspace,
+durante um movimento chamado \textbf{\textit{ NoSQL meetup in San Francisco}}, promovido Johan Oskarsson da \textbf{ Last.fm } um site com objetivo de criar uma rádio online agregando uma comunidade virtual com foco em música; o evento foi criado com o intuito de descrever 
+bases de dados que não mais se dispõem do uso de SQL tais como:\textbf{ Mysql, PostgreSQL, Oracle, SQLServer }(...) em suas transações, sejam elas de manipulação ou consulta de dados. O principal foco era discutir o crescimento e surgimento de novas 
+além de apresentar soluções ou novas alternativas open-source de armazenamento de dados distribuidos não relacionais. Os NoSQL surgiram como uma solução para a questão de escalonamento, concistência e disponibilidade no
+armazenamento e processamento de grandes volumes de dados na \textbf{WEB 2.0}.
+
+" Ao que tudo indica o termo noSQL foi criado em 1998 por Carlo Strozzi para nomear seu projeto open source, que tinha como objetivo ser uma implementação mais leve de um banco de dados relacional, 
+porém sua principal característica era não expor a interface SQL."\cite{DEVMEDIA}
+
+
+\subsection{ NoSQL 1: Sistemas CP }
+
+\subsection{ NoSQL 2: Sistemas AP }
 
 \section{Comparativo entre SGBDS Relacionais e Não Relacionais}

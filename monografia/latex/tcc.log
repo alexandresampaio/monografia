@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.2)  22 APR 2014 19:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.3)  3 MAY 2014 12:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tcc.tex
 (./tcc.tex
 LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 3 languages loaded.
+Babel <3.9h> and hyphenation patterns for 3 languages loaded.
 (/usr/share/texmf/tex/latex/abntex/abnt.cls
 (/usr/share/texmf/tex/latex/abntex/cvs-id.def)
 Document Class: abnt 2006/09/09 v1.32 Classe abnt (NBR6024, NBR6027, NBR6028, N
@@ -176,13 +176,13 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/05/16 v3.9f The Babel package
+Package: babel 2013/12/03 3.9h The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/05/16 v3.9f Babel common definitions
+File: babel.def 2013/12/03 3.9h Babel common definitions
 \babel@savecnt=\count100
 \U@D=\dimen113
 )
@@ -269,7 +269,7 @@ Package hyperref Info: Bookmarks ON on input line 4688.
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen115
@@ -667,15 +667,15 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \lst@maxwidth=\dimen138
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2013/07/10 1.5 (Carsten Heinz)
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 \c@lstnumber=\count124
 \lst@skipnumbers=\count125
 \lst@framebox=\box53
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2013/06/27 1.5pre1 listings configuration
+File: listings.cfg 2013/08/26 1.5b listings configuration
 ))
-Package: listings 2013/07/10 1.5 (Carsten Heinz)
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
@@ -686,10 +686,10 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 Package color Info: Driver file: pdftex.def on input line 130.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/06/27 1.5pre1 listings language file
+File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2013/06/27 1.5pre1 listings language file
+File: lstlang2.sty 2013/08/26 1.5b listings language file
 ) (./tcc.aux
 (./capa.aux) (./rosto.aux) (./aprovacao.aux) (./dedicatoria.aux)
 (./agradecimentos.aux) (./epigrafe.aux) (./resumo.aux) (./abstract.aux)
@@ -840,7 +840,7 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count133
 \openout2 = `capa.aux'.
 
-(./capa.tex <figuras/logo.jpg, id=167, 1366.10374pt x 253.94875pt>
+(./capa.tex <figuras/logo.jpg, id=175, 1366.10374pt x 253.94875pt>
 File: figuras/logo.jpg Graphic file (type jpg)
 
 <use figuras/logo.jpg>
@@ -1200,7 +1200,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 162.
 
-<figuras/server_side_mvc.png, id=346, 226.8475pt x 367.3725pt>
+<figuras/server_side_mvc.png, id=356, 226.8475pt x 367.3725pt>
 File: figuras/server_side_mvc.png Graphic file (type png)
 
 <use figuras/server_side_mvc.png>
@@ -1211,14 +1211,14 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 177.
  [17]
-<figuras/hibrid_mode_mvc.png, id=363, 226.8475pt x 431.6125pt>
+<figuras/hibrid_mode_mvc.png, id=373, 226.8475pt x 431.6125pt>
 File: figuras/hibrid_mode_mvc.png Graphic file (type png)
 
 <use figuras/hibrid_mode_mvc.png>
 Package pdftex.def Info: figuras/hibrid_mode_mvc.png used on input line 180.
 (pdftex.def)             Requested size: 226.84694pt x 431.61143pt.
 
-<figuras/client_side_mvc.png, id=364, 224.84pt x 458.71375pt>
+<figuras/client_side_mvc.png, id=374, 224.84pt x 458.71375pt>
 File: figuras/client_side_mvc.png Graphic file (type png)
 
 <use figuras/client_side_mvc.png>
@@ -1239,7 +1239,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 198.
 [18 <./figuras/server_side_mvc.png> <./figuras/hibrid_mode_mvc.png>]
-<figuras/mvc_complete.png, id=372, 465.23813pt x 328.97906pt>
+<figuras/mvc_complete.png, id=382, 465.23813pt x 328.97906pt>
 File: figuras/mvc_complete.png Graphic file (type png)
 
 <use figuras/mvc_complete.png>
@@ -1299,7 +1299,7 @@ Package babel Info: Redefining portuges shorthand "|
  (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-<figuras/rails_app.png, id=410, 768.8725pt x 739.76375pt>
+<figuras/rails_app.png, id=420, 768.8725pt x 739.76375pt>
 File: figuras/rails_app.png Graphic file (type png)
 
 <use figuras/rails_app.png>
@@ -1330,7 +1330,7 @@ Package babel Info: Redefining portuges shorthand "|
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-<figuras/scaffold_generator.png, id=424, 971.88094pt x 445.665pt>
+<figuras/scaffold_generator.png, id=434, 971.88094pt x 445.665pt>
 File: figuras/scaffold_generator.png Graphic file (type png)
 
 <use figuras/scaffold_generator.png>
@@ -1364,47 +1364,56 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 22.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 25.
+(babel)             in language append on input line 24.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 25.
+(babel)             in language append on input line 24.
 [27
 
 
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 52.
+(babel)             in language append on input line 54.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 56.
+(babel)             in language append on input line 58.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 56.
- [28] <figuras/CAP_Diagram.jpg, id=464, 642.4pt x 642.4pt>
+(babel)             in language append on input line 58.
+ [28] <figuras/CAP_Diagram.jpg, id=474, 642.4pt x 642.4pt>
 File: figuras/CAP_Diagram.jpg Graphic file (type jpg)
 
 <use figuras/CAP_Diagram.jpg>
-Package pdftex.def Info: figuras/CAP_Diagram.jpg used on input line 59.
+Package pdftex.def Info: figuras/CAP_Diagram.jpg used on input line 61.
 (pdftex.def)             Requested size: 642.39844pt x 642.39844pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 65.
+(babel)             in language append on input line 67.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 73.
+(babel)             in language append on input line 75.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 78.
+(babel)             in language append on input line 80.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 78.
+(babel)             in language append on input line 80.
  [29 <./figuras/CAP_Diagram.jpg>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 79.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 81.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 83.
+(babel)             in language append on input line 87.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 100.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 100.
+ [30]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 102.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 104.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 106.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 77.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 77.
- [30]
+ [31]
 \openout2 = `cap4.aux'.
 
 
@@ -1425,14 +1434,21 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 78.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 78.
- [31
+ [32
 
 
 
 ] (./tcc.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 3.
-)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 118.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 118.
+ [33
+
+
+])
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -1442,10 +1458,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 82.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 82.
-[32
-
-
-]
+[34]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
  (./tcc.aux (./capa.aux) (./rosto.aux) (./aprovacao.aux) (./dedicatoria.aux) (.
 /agradecimentos.aux) (./epigrafe.aux) (./resumo.aux) (./abstract.aux)
@@ -1453,7 +1466,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 Package rerunfilecheck Info: File `tcc.out' has not changed.
-(rerunfilecheck)             Checksum: 5506F20FE409637334230CF0531C932C;3878.
+(rerunfilecheck)             Checksum: 9ABA7327B20B395EAA0C212498908E7C;4086.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1461,10 +1474,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  ) 
 Here is how much of TeX's memory you used:
- 10542 strings out of 495007
- 157685 string characters out of 6180697
- 325117 words of memory out of 5000000
- 13305 multiletter control sequences out of 15000+600000
+ 10584 strings out of 495004
+ 158350 string characters out of 6180663
+ 325598 words of memory out of 5000000
+ 13342 multiletter control sequences out of 15000+600000
  62332 words of font info for 94 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  36i,8n,41p,1365b,1596s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1474,10 +1487,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tcc.pdf (33 pages, 546709 bytes).
+Output written on tcc.pdf (35 pages, 553032 bytes).
 PDF statistics:
- 552 PDF objects out of 1000 (max. 8388607)
- 494 compressed objects within 5 object streams
- 144 named destinations out of 1000 (max. 500000)
- 369 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 588 PDF objects out of 1000 (max. 8388607)
+ 527 compressed objects within 6 object streams
+ 152 named destinations out of 1000 (max. 500000)
+ 385 words of extra memory for PDF output out of 10000 (max. 10000000)
 

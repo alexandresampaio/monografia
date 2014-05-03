@@ -7,6 +7,47 @@
 	urlaccessdate = {04/03/2014}
 }
 
+@Misc{ BREWER,
+  author = "Eric Brewer",
+  title = "Teorema de CAP",
+  organization = "Principles of Distributed Computing - PODC",
+  year = "2000",
+  url = {http://blog.caelum.com.br/nosql-do-teorema-cap-para-paccl/},
+	urlaccessdate = {19/04/2014}
+}
+
+@article{ GILBERT,
+  title = "Brewer’s conjecture and the feasability of consistent, available, partition-tolerant web services",
+  author = "GILBERT Seth",
+  year = "2002",
+  organization = "Sigact News 33(2), 51-59 f. New York, NY, USA"
+}
+
+@article{ NANCY,
+  title = "Brewer’s conjecture and the feasability of consistent, available, partition-tolerant web services",
+  author = "NANCY Lynch",
+  year = "2002",
+  organization = "Sigact News 33(2), 51-59 f. New York, NY, USA"
+}
+
+@article{ CUNHA,
+  title = "Escalabilidade de Sistemas com Banco de Dados NoSQL: um Estudo de Caso Comparativo com MongoDB e MySQL.",
+  author = "CUNHA, T. M. de A.",
+  year = "2011",
+  journal = "85 f. Trabalho de Conclusão de Curso (Ciência da Computação) – Centro Universitário da Bahia – Estácio,
+Salvador."
+}
+
+@Misc{ BROWNE,
+  author = "Julian Browne",
+  title = "Brewer's CAP Theorem",
+  organization = "julianbrowne.com",
+  year = "2009",
+  url = {http://www.julianbrowne.com/article/viewer/brewers-cap-theorem},
+	urlaccessdate = {22/04/2014}
+}
+
+
 @Misc{ TECTARGET,
   author = "Tectarget",
   title = "object-relational mapping (ORM)",
@@ -23,6 +64,14 @@
   urlaccessdate = {10/04/2014}
 }
 
+@misc{ AKITA,
+  author = "Fábio Akita",
+  title = "Entendendo Melhor sobre Ruby Gems",
+  year = "2009",
+  url = {https://www.akitaonrails.com},
+  urlaccessdate = {10/04/2014}
+}
+
 
 @Misc{ DAVIDHANSSON,
   author = "David Heinemeier Hansson",
@@ -32,19 +81,13 @@
   urlaccessdate = {04/03/2014}
 }
 
-@article{ CUNHA,
-  title = "Escalabilidade de Sistemas com Banco de Dados NoSQL: um Estudo de Caso Comparativo com MongoDB e MySQL.",
-  author = "CUNHA, T. M. de A.",
-  year = "2011",
-  journal = "85 f. Trabalho de Conclusão de Curso (Ciência da Computação) – Centro Universitário da Bahia – Estácio,
-Salvador."
-}
 
 @book{ MCLEAN_WETHERBE,
   title = "Tecnologia da Informação para Gestão: Transformando negócios na economia digital. 3ª ed",
   author = "EPHRAIM MCLEAN",
-  year = "2004",
-  journal = "Porto Alegre: Bookman"
+  publisher = "Bookman Companhia Ed",
+  address = "Porto Alegre",
+  year = "2004"
 }
  
  
@@ -56,6 +99,14 @@ Salvador."
   year = "2014"
 }
 
+@book{ CAELUM,
+  title = "Desenvolvimento Ágil para Web Com Ruby On Rails 4 - RR-71",
+  author = "CAELUM",
+  publisher = "Caelum Cursos Online",
+  address = "www.caelum.com.br/online",
+  year = "2014"
+}
+  
 @book{ BAKHARIA,
   title = "Design Ruby on Rails Power: The Comprehensive Guide.",
   author = "Aneesha Bakharia",
@@ -70,6 +121,15 @@ Salvador."
   publisher = "O'Reilly Media",
   address = "Boston, MA",
   year = "2007"
+}
+
+@Misc{ EVANS,
+  author = "Eric Evans",
+  title = "NoSQL: What's in a name?",
+  organization = "Eric Evans's Weblog",
+  year = "2009",
+  url = { http://blog.sym-link.com/2009/10/30/nosql_whats_in_a_name.html },
+	urlaccessdate = {02/05/2014}
 }
 
 @Misc{ GADNER-SUBPROCESS,

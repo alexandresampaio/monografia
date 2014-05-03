@@ -53,6 +53,15 @@ Dispon{\'\i}vel em:
 \emph{85 f. Trabalho de Conclusão de Curso (Ciência da Computação) –
   Centro Universitário da Bahia – Estácio, Salvador.}, 2011.}
 
+\bibitem[Evans 2009]{EVANS}
+\abntrefinfo{Evans}{EVANS}{2009}
+{EVANS, E. \emph{NoSQL: What's in a name?} 2009.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/blog\-.sym-link\-.com\-/2009\-/10\-/30\-/nosql\underline{\
+  }whats\underline{\ }in\underline{\ }a\underline{\
+  }name\-.html$>$}{http://blog.sym-link.com/2009/10/30/nosql_whats_in_a_name.html}.
+  Acesso em: 02/05/2014.}
+
 \bibitem[Hansson 2006]{DAVIDHANSSON}
 \abntrefinfo{Hansson}{HANSSON}{2006}
 {HANSSON, D.~H. \emph{Criador do Rails}. 2006.
@@ -62,6 +71,12 @@ Dispon{\'\i}vel em:
   http:\-/\-/david\-.heinemeierhansson\-.com\-/about\-.html$>$}{http://eu.dbpedia.org/page/David_Heinemeier_Hansson,
   https://github.com/dhh, http://david.heinemeierhansson.com/about.html}.
   Acesso em: 04/03/2014.}
+
+\bibitem[Lynch 2002]{NANCY}
+\abntrefinfo{Lynch}{LYNCH}{2002}
+{LYNCH, N. Brewer’s conjecture and the feasability of consistent, available,
+  partition-tolerant web services.
+2002.}
 
 \bibitem[Matz 2000]{MATZ}
 \abntrefinfo{Matz}{MATZ}{2000}
@@ -78,10 +93,21 @@ Dispon{\'\i}vel em: $<$https:\-/\-/www\-.ruby-lang\-.org\-/pt\-/about\-/$>$.}
 \abntrefinfo{Orsini}{ORSINI}{2007}
 {ORSINI, R. \emph{Rails Cook Book}. Boston, MA: O'Reilly Media, 2007.}
 
+\bibitem[Porcelli 2011]{DEVMEDIA}
+\abntrefinfo{Porcelli}{PORCELLI}{2011}
+{PORCELLI, A. O que é nosql?
+\emph{Java Magazine - ano - VII}, n.~86, Janeiro 2011.}
+
 \bibitem[Ruby 2014]{PRAGMATICRUBY}
 \abntrefinfo{Ruby}{RUBY}{2014}
 {RUBY, S. \emph{Agile Web Development With Rails 4.} North Carolina, NC: The
   Facets, 2014.}
+
+\bibitem[Seth 2002]{GILBERT}
+\abntrefinfo{Seth}{SETH}{2002}
+{SETH, G. Brewer’s conjecture and the feasability of consistent, available,
+  partition-tolerant web services.
+2002.}
 
 \bibitem[Tectarget 2008]{TECTARGET}
 \abntrefinfo{Tectarget}{TECTARGET}{2008}
